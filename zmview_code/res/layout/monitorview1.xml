@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/ID" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="30.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/NAME" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/STATUS" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/EVENTS" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+    <View android:id="@id/View01" android:background="#ff00ff00" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="8.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,904 @@
+08-29 01:38:17.681: I/dalvikvm-heap(185): Grow heap (frag case) to 11.042MB for 345760-byte allocation
+08-29 01:38:17.691: D/ExchangeService(407): Received deviceId from Email app: androidc259148960
+08-29 01:38:17.691: D/ExchangeService(407): Reconciling accounts...
+08-29 01:38:17.762: D/Eas Debug(407): Logging: 
+08-29 01:38:17.791: D/dalvikvm(185): GC_FOR_ALLOC freed 10K, 6% free 11215K/11847K, paused 88ms
+08-29 01:38:17.841: D/dalvikvm(185): GC_FOR_ALLOC freed 1K, 6% free 11213K/11847K, paused 52ms
+08-29 01:38:17.841: I/dalvikvm-heap(185): Grow heap (frag case) to 11.361MB for 345760-byte allocation
+08-29 01:38:17.891: D/dalvikvm(185): GC_FOR_ALLOC freed <1K, 6% free 11551K/12231K, paused 41ms
+08-29 01:38:17.951: D/dalvikvm(185): GC_FOR_ALLOC freed <1K, 6% free 11552K/12231K, paused 52ms
+08-29 01:38:17.951: I/dalvikvm-heap(185): Grow heap (frag case) to 11.691MB for 345760-byte allocation
+08-29 01:38:18.041: D/dalvikvm(185): GC_FOR_ALLOC freed <1K, 6% free 11889K/12615K, paused 80ms
+08-29 01:38:18.691: D/dalvikvm(229): GC_CONCURRENT freed 213K, 4% free 10209K/10567K, paused 5ms+4ms
+08-29 01:38:20.512: D/ExchangeService(407): !!! EAS ExchangeService, onStartCommand, startingUp = false, running = false
+08-29 01:38:20.572: D/ExchangeService(407): Reconciling accounts...
+08-29 01:38:20.862: D/dalvikvm(185): GC_CONCURRENT freed 219K, 4% free 12278K/12679K, paused 9ms+5ms
+08-29 01:38:21.872: D/dalvikvm(185): GC_FOR_ALLOC freed 420K, 5% free 12476K/12999K, paused 68ms
+08-29 01:38:21.893: I/dalvikvm-heap(185): Grow heap (frag case) to 13.636MB for 1440016-byte allocation
+08-29 01:38:22.102: D/dalvikvm(185): GC_CONCURRENT freed 9K, 4% free 13872K/14407K, paused 5ms+20ms
+08-29 01:38:22.672: D/dalvikvm(185): GC_FOR_ALLOC freed 606K, 6% free 14279K/15111K, paused 57ms
+08-29 01:38:22.682: I/dalvikvm-heap(185): Grow heap (frag case) to 14.907MB for 925072-byte allocation
+08-29 01:38:22.842: D/dalvikvm(185): GC_FOR_ALLOC freed 2K, 6% free 15179K/16071K, paused 76ms
+08-29 01:38:23.162: D/dalvikvm(185): GC_FOR_ALLOC freed 28K, 6% free 15165K/16071K, paused 115ms
+08-29 01:38:23.212: I/dalvikvm-heap(185): Grow heap (frag case) to 16.116MB for 1286224-byte allocation
+08-29 01:38:23.382: D/dalvikvm(185): GC_FOR_ALLOC freed 1K, 6% free 16419K/17351K, paused 76ms
+08-29 01:38:24.791: W/SoundPool(88):   sample 0 not READY
+08-29 01:38:24.814: D/PhoneStatusBar(141): disable: < expand icons alerts ticker system_info BACK HOME recent* CLOCK >
+08-29 01:38:24.972: I/ARMAssembler(35): generated scanline__00000077:03515104_00009001_00000000 [131 ipp] (153 ins) at [0x41c881e8:0x41c8844c] in 8196470 ns
+08-29 01:38:24.982: D/PhoneStatusBar(141): disable: < expand icons alerts ticker system_info back* home* recent clock* >
+08-29 01:38:25.321: I/ActivityManager(88): Displayed com.android.launcher/com.android.launcher2.Launcher: +31s876ms
+08-29 01:39:23.132: W/ThrottleService(88): unable to find stats for iface rmnet0
+08-29 01:40:42.081: D/AndroidRuntime(478): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+08-29 01:40:42.081: D/AndroidRuntime(478): CheckJNI is ON
+08-29 01:40:42.982: D/AndroidRuntime(478): Calling main entry com.android.commands.pm.Pm
+08-29 01:40:42.982: W/dalvikvm(478): JNI WARNING: input is not valid Modified UTF-8: illegal start byte 0xb8
+08-29 01:40:42.982: W/dalvikvm(478):              string: '/data/local/tmp/ZmView_9 - ????.apk'
+08-29 01:40:42.982: W/dalvikvm(478):              in Lcom/android/internal/os/RuntimeInit;.finishInit:()V (NewStringUTF)
+08-29 01:40:42.982: I/dalvikvm(478): "main" prio=5 tid=1 NATIVE
+08-29 01:40:42.982: I/dalvikvm(478):   | group="main" sCount=0 dsCount=0 obj=0x40997460 self=0x127f0
+08-29 01:40:42.982: I/dalvikvm(478):   | sysTid=478 nice=0 sched=0/0 cgrp=default handle=1074082952
+08-29 01:40:42.982: I/dalvikvm(478):   | schedstat=( 960529279 111366250 180 ) utm=74 stm=22 core=0
+08-29 01:40:42.982: I/dalvikvm(478):   at com.android.internal.os.RuntimeInit.finishInit(Native Method)
+08-29 01:40:42.982: I/dalvikvm(478):   at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:238)
+08-29 01:40:42.982: I/dalvikvm(478):   at dalvik.system.NativeStart.main(Native Method)
+08-29 01:40:42.982: E/dalvikvm(478): VM aborting
+08-29 01:40:42.982: A/libc(478): Fatal signal 11 (SIGSEGV) at 0xdeadd00d (code=1)
+08-29 01:40:43.303: I/DEBUG(33): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-29 01:40:43.303: I/DEBUG(33): Build fingerprint: 'generic/sdk/generic:4.0.2/ICS_MR0/229537:eng/test-keys'
+08-29 01:40:43.303: I/DEBUG(33): pid: 478, tid: 478  >>> app_process <<<
+08-29 01:40:43.303: I/DEBUG(33): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr deadd00d
+08-29 01:40:43.303: I/DEBUG(33):  r0 00000000  r1 00097418  r2 00000000  r3 00000000
+08-29 01:40:43.303: I/DEBUG(33):  r4 deadd00d  r5 4086cc58  r6 0000020c  r7 bed7ad44
+08-29 01:40:43.303: I/DEBUG(33):  r8 40849027  r9 408488c3  10 40849033  fp 40849254
+08-29 01:40:43.303: I/DEBUG(33):  ip 00000000  sp bed7a438  lr 40805d63  pc 40805d62  cpsr 60000030
+08-29 01:40:43.303: I/DEBUG(33):  d0  4040000040000000  d1  0000000000000000
+08-29 01:40:43.303: I/DEBUG(33):  d2  0000000000000000  d3  0000000000000000
+08-29 01:40:43.303: I/DEBUG(33):  d4  0000000000000000  d5  41c24829e7000000
+08-29 01:40:43.303: I/DEBUG(33):  d6  4010000000000000  d7  4000000000000000
+08-29 01:40:43.303: I/DEBUG(33):  d8  0000000000000000  d9  0000000000000000
+08-29 01:40:43.303: I/DEBUG(33):  d10 0000000000000000  d11 0000000000000000
+08-29 01:40:43.303: I/DEBUG(33):  d12 0000000000000000  d13 0000000000000000
+08-29 01:40:43.303: I/DEBUG(33):  d14 0000000000000000  d15 0000000000000000
+08-29 01:40:43.303: I/DEBUG(33):  scr 80000010
+08-29 01:40:43.502: I/DEBUG(33):          #00  pc 00050d62  /system/lib/libdvm.so (dvmAbort)
+08-29 01:40:43.502: I/DEBUG(33):          #01  pc 00044962  /system/lib/libdvm.so
+08-29 01:40:43.502: I/DEBUG(33):          #02  pc 000452c4  /system/lib/libdvm.so
+08-29 01:40:43.502: I/DEBUG(33):          #03  pc 000468bc  /system/lib/libdvm.so
+08-29 01:40:43.512: I/DEBUG(33):          #04  pc 00040c10  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime8callMainEPKcP7_jclassiPKS2_)
+08-29 01:40:43.512: I/DEBUG(33):          #05  pc 00008d04  /system/bin/app_process
+08-29 01:40:43.512: I/DEBUG(33):          #06  pc 00040964  /system/lib/libandroid_runtime.so
+08-29 01:40:43.512: I/DEBUG(33):          #07  pc 0001ec70  /system/lib/libdvm.so (dvmPlatformInvoke)
+08-29 01:40:43.512: I/DEBUG(33):          #08  pc 0005925a  /system/lib/libdvm.so (_Z16dvmCallJNIMethodPKjP6JValuePK6MethodP6Thread)
+08-29 01:40:43.512: I/DEBUG(33):          #09  pc 0004cc7c  /system/lib/libdvm.so (_Z21dvmCheckCallJNIMethodPKjP6JValuePK6MethodP6Thread)
+08-29 01:40:43.512: I/DEBUG(33):          #10  pc 00030a8c  /system/lib/libdvm.so
+08-29 01:40:43.512: I/DEBUG(33):          #11  pc 000342ac  /system/lib/libdvm.so (_Z12dvmInterpretP6ThreadPK6MethodP6JValue)
+08-29 01:40:43.512: I/DEBUG(33):          #12  pc 0006cc1c  /system/lib/libdvm.so (_Z14dvmCallMethodVP6ThreadPK6MethodP6ObjectbP6JValueSt9__va_list)
+08-29 01:40:43.512: I/DEBUG(33):          #13  pc 00055226  /system/lib/libdvm.so
+08-29 01:40:43.512: I/DEBUG(33):          #14  pc 00049b5c  /system/lib/libdvm.so
+08-29 01:40:43.512: I/DEBUG(33):          #15  pc 00040b7a  /system/lib/libandroid_runtime.so
+08-29 01:40:43.512: I/DEBUG(33):          #16  pc 000416e2  /system/lib/libandroid_runtime.so (_ZN7android14AndroidRuntime5startEPKcS2_)
+08-29 01:40:43.512: I/DEBUG(33):          #17  pc 00008f0e  /system/bin/app_process
+08-29 01:40:43.512: I/DEBUG(33):          #18  pc 00016700  /system/lib/libc.so (__libc_init)
+08-29 01:40:43.512: I/DEBUG(33): code around pc:
+08-29 01:40:43.512: I/DEBUG(33): 40805d40 34bcf8d3 ec16f7cd 26001e73 2f01f813 
+08-29 01:40:43.512: I/DEBUG(33): 40805d50 42abb152 d0074416 4798e7f8 f7ff4c0a 
+08-29 01:40:43.512: I/DEBUG(33): 40805d60 7026ffa7 ec0cf7cd 2006490c 44794a0c 
+08-29 01:40:43.512: I/DEBUG(33): 40805d70 f7cd447a 2000eace eb84f7cd 58e54b05 
+08-29 01:40:43.512: I/DEBUG(33): 40805d80 2b006c6b e7e9d1e9 deadd00d 00062278 
+08-29 01:40:43.512: I/DEBUG(33): code around lr:
+08-29 01:40:43.522: I/DEBUG(33): 40805d40 34bcf8d3 ec16f7cd 26001e73 2f01f813 
+08-29 01:40:43.522: I/DEBUG(33): 40805d50 42abb152 d0074416 4798e7f8 f7ff4c0a 
+08-29 01:40:43.522: I/DEBUG(33): 40805d60 7026ffa7 ec0cf7cd 2006490c 44794a0c 
+08-29 01:40:43.522: I/DEBUG(33): 40805d70 f7cd447a 2000eace eb84f7cd 58e54b05 
+08-29 01:40:43.522: I/DEBUG(33): 40805d80 2b006c6b e7e9d1e9 deadd00d 00062278 
+08-29 01:40:43.522: I/DEBUG(33): stack:
+08-29 01:40:43.522: I/DEBUG(33):     bed7a3f8  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a3fc  4001df19  /system/lib/libc.so
+08-29 01:40:43.522: I/DEBUG(33):     bed7a400  40047720  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a404  400476b0  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a408  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a40c  4001f121  /system/lib/libc.so
+08-29 01:40:43.522: I/DEBUG(33):     bed7a410  4004755c  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a414  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a418  0000020c  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a41c  bed7ad44  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a420  40849027  /system/lib/libdvm.so
+08-29 01:40:43.522: I/DEBUG(33):     bed7a424  4001df37  /system/lib/libc.so
+08-29 01:40:43.522: I/DEBUG(33):     bed7a428  40867f90  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a42c  bed7a63b  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a430  df0027ad  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a434  00000000  
+08-29 01:40:43.522: I/DEBUG(33): #00 bed7a438  00000018  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a43c  6c756e28  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a440  0000296c  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a444  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a448  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a44c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a450  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a454  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a458  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a45c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a460  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a464  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a468  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a46c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a470  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a474  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a478  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a47c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a480  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a484  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a488  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a48c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a490  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a494  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a498  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a49c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4a0  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4a4  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4a8  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4ac  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4b0  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4b4  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4b8  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4bc  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4c0  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4c4  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4c8  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4cc  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4d0  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4d4  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4d8  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4dc  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4e0  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4e4  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4e8  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4ec  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4f0  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4f4  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4f8  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a4fc  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a500  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a504  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a508  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a50c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a510  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a514  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a518  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a51c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a520  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a524  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a528  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a52c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a530  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a534  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a538  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a53c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a540  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a544  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a548  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a54c  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a550  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a554  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a558  00000000  
+08-29 01:40:43.522: I/DEBUG(33):     bed7a55c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a560  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a564  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a568  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a56c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a570  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a574  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a578  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a57c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a580  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a584  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a588  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a58c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a590  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a594  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a598  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a59c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5a0  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5a4  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5a8  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5ac  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5b0  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5b4  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5b8  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5bc  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5c0  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5c4  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5c8  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5cc  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5d0  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5d4  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5d8  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5dc  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5e0  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5e4  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5e8  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5ec  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5f0  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5f4  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5f8  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a5fc  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a600  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a604  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a608  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a60c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a610  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a614  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a618  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a61c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a620  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a624  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a628  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a62c  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a630  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a634  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a638  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a63c  195fd4eb  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a640  00000000  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a644  40867f90  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a648  408488c3  /system/lib/libdvm.so
+08-29 01:40:43.532: I/DEBUG(33):     bed7a64c  407f9967  /system/lib/libdvm.so
+08-29 01:40:43.532: I/DEBUG(33): #01 bed7a650  bed7a73c  
+08-29 01:40:43.532: I/DEBUG(33):     bed7a654  407fa2c9  /system/lib/libdvm.so
+08-29 01:42:52.151: D/dalvikvm(169): GC_CONCURRENT freed 454K, 6% free 10351K/10951K, paused 24ms+6ms
+08-29 01:43:16.511: D/dalvikvm(185): GC_FOR_ALLOC freed 2746K, 18% free 14694K/17735K, paused 59ms
+08-29 01:43:16.731: D/dalvikvm(185): GC_FOR_ALLOC freed 5K, 11% free 15827K/17735K, paused 74ms
+08-29 01:43:16.741: I/dalvikvm-heap(185): Grow heap (frag case) to 16.646MB for 1163536-byte allocation
+08-29 01:43:16.791: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 11% free 16964K/18887K, paused 52ms
+08-29 01:43:16.871: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 11% free 16964K/18887K, paused 51ms
+08-29 01:43:16.881: I/dalvikvm-heap(185): Grow heap (frag case) to 17.756MB for 1163536-byte allocation
+08-29 01:43:16.942: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 10% free 18100K/20039K, paused 59ms
+08-29 01:43:17.151: D/dalvikvm(185): GC_FOR_ALLOC freed 4K, 10% free 18098K/20039K, paused 60ms
+08-29 01:43:17.161: I/dalvikvm-heap(185): Grow heap (frag case) to 18.901MB for 1203064-byte allocation
+08-29 01:43:17.221: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 10% free 19273K/21255K, paused 65ms
+08-29 01:43:17.361: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 10% free 19273K/21255K, paused 53ms
+08-29 01:43:17.371: I/dalvikvm-heap(185): Grow heap (frag case) to 20.297MB for 1463056-byte allocation
+08-29 01:43:17.441: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 9% free 20702K/22727K, paused 64ms
+08-29 01:43:17.511: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 9% free 20702K/22727K, paused 63ms
+08-29 01:43:17.521: I/dalvikvm-heap(185): Grow heap (frag case) to 21.693MB for 1463056-byte allocation
+08-29 01:43:17.581: D/dalvikvm(185): GC_FOR_ALLOC freed 0K, 9% free 22131K/24199K, paused 64ms
+08-29 01:43:19.671: D/dalvikvm(185): GC_FOR_ALLOC freed 1433K, 13% free 21233K/24199K, paused 62ms
+08-29 01:43:19.901: D/dalvikvm(185): GC_FOR_ALLOC freed 1430K, 13% free 21235K/24199K, paused 63ms
+08-29 01:43:20.581: D/StrictMode(185): StrictMode policy violation; ~duration=211 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=2711 violation=2
+08-29 01:43:20.581: D/StrictMode(185): 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1074)
+08-29 01:43:20.581: D/StrictMode(185): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:94)
+08-29 01:43:20.581: D/StrictMode(185): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+08-29 01:43:20.581: D/StrictMode(185): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+08-29 01:43:20.581: D/StrictMode(185): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.createFileOutputStream(SharedPreferencesImpl.java:523)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:571)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+08-29 01:43:20.581: D/StrictMode(185): 	at com.android.launcher2.Launcher$18.onAnimationEnd(Launcher.java:3180)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.animation.ValueAnimator.endAnimation(ValueAnimator.java:1033)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.animation.ValueAnimator.access$900(ValueAnimator.java:42)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.animation.ValueAnimator$AnimationHandler.handleMessage(ValueAnimator.java:668)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:43:20.581: D/StrictMode(185): 	at android.app.ActivityThread.main(ActivityThread.java:4340)
+08-29 01:43:20.581: D/StrictMode(185): 	at java.lang.reflect.Method.invokeNative(Native Method)
+08-29 01:43:20.581: D/StrictMode(185): 	at java.lang.reflect.Method.invoke(Method.java:511)
+08-29 01:43:20.581: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+08-29 01:43:20.581: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+08-29 01:43:20.581: D/StrictMode(185): 	at dalvik.system.NativeStart.main(Native Method)
+08-29 01:43:20.591: D/StrictMode(185): StrictMode policy violation; ~duration=125 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=2711 violation=1
+08-29 01:43:20.591: D/StrictMode(185): 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1048)
+08-29 01:43:20.591: D/StrictMode(185): 	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:178)
+08-29 01:43:20.591: D/StrictMode(185): 	at libcore.io.IoBridge.write(IoBridge.java:447)
+08-29 01:43:20.591: D/StrictMode(185): 	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+08-29 01:43:20.591: D/StrictMode(185): 	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+08-29 01:43:20.591: D/StrictMode(185): 	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+08-29 01:43:20.591: D/StrictMode(185): 	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+08-29 01:43:20.591: D/StrictMode(185): 	at com.android.internal.util.XmlUtils.writeMapXml(XmlUtils.java:186)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:576)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+08-29 01:43:20.591: D/StrictMode(185): 	at com.android.launcher2.Launcher$18.onAnimationEnd(Launcher.java:3180)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.animation.ValueAnimator.endAnimation(ValueAnimator.java:1033)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.animation.ValueAnimator.access$900(ValueAnimator.java:42)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.animation.ValueAnimator$AnimationHandler.handleMessage(ValueAnimator.java:668)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:43:20.591: D/StrictMode(185): 	at android.app.ActivityThread.main(ActivityThread.java:4340)
+08-29 01:43:20.591: D/StrictMode(185): 	at java.lang.reflect.Method.invokeNative(Native Method)
+08-29 01:43:20.591: D/StrictMode(185): 	at java.lang.reflect.Method.invoke(Method.java:511)
+08-29 01:43:20.591: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+08-29 01:43:20.591: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+08-29 01:43:20.591: D/StrictMode(185): 	at dalvik.system.NativeStart.main(Native Method)
+08-29 01:43:20.601: D/StrictMode(185): StrictMode policy violation; ~duration=80 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=2711 violation=1
+08-29 01:43:20.601: D/StrictMode(185): 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1048)
+08-29 01:43:20.601: D/StrictMode(185): 	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:84)
+08-29 01:43:20.601: D/StrictMode(185): 	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.os.FileUtils.sync(FileUtils.java:111)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:577)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+08-29 01:43:20.601: D/StrictMode(185): 	at com.android.launcher2.Launcher$18.onAnimationEnd(Launcher.java:3180)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.animation.ValueAnimator.endAnimation(ValueAnimator.java:1033)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.animation.ValueAnimator.access$900(ValueAnimator.java:42)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.animation.ValueAnimator$AnimationHandler.handleMessage(ValueAnimator.java:668)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:43:20.601: D/StrictMode(185): 	at android.app.ActivityThread.main(ActivityThread.java:4340)
+08-29 01:43:20.601: D/StrictMode(185): 	at java.lang.reflect.Method.invokeNative(Native Method)
+08-29 01:43:20.601: D/StrictMode(185): 	at java.lang.reflect.Method.invoke(Method.java:511)
+08-29 01:43:20.601: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+08-29 01:43:20.601: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+08-29 01:43:20.601: D/StrictMode(185): 	at dalvik.system.NativeStart.main(Native Method)
+08-29 01:43:20.621: D/StrictMode(185): StrictMode policy violation; ~duration=71 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=2711 violation=2
+08-29 01:43:20.621: D/StrictMode(185): 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1074)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.os.StrictMode.noteDiskRead(StrictMode.java:1817)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.os.FileUtils.getFileStatus(FileUtils.java:82)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.writeToFile(SharedPreferencesImpl.java:581)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$800(SharedPreferencesImpl.java:48)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$2.run(SharedPreferencesImpl.java:491)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.enqueueDiskWrite(SharedPreferencesImpl.java:512)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.app.SharedPreferencesImpl.access$100(SharedPreferencesImpl.java:48)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.app.SharedPreferencesImpl$EditorImpl.commit(SharedPreferencesImpl.java:434)
+08-29 01:43:20.621: D/StrictMode(185): 	at com.android.launcher2.Launcher$18.onAnimationEnd(Launcher.java:3180)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.animation.ValueAnimator.endAnimation(ValueAnimator.java:1033)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.animation.ValueAnimator.access$900(ValueAnimator.java:42)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.animation.ValueAnimator$AnimationHandler.handleMessage(ValueAnimator.java:668)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:43:20.621: D/StrictMode(185): 	at android.app.ActivityThread.main(ActivityThread.java:4340)
+08-29 01:43:20.621: D/StrictMode(185): 	at java.lang.reflect.Method.invokeNative(Native Method)
+08-29 01:43:20.621: D/StrictMode(185): 	at java.lang.reflect.Method.invoke(Method.java:511)
+08-29 01:43:20.621: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:784)
+08-29 01:43:20.621: D/StrictMode(185): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:551)
+08-29 01:43:20.621: D/StrictMode(185): 	at dalvik.system.NativeStart.main(Native Method)
+08-29 01:43:27.851: D/dalvikvm(185): GC_FOR_ALLOC freed 4981K, 27% free 17874K/24199K, paused 59ms
+08-29 01:43:29.552: D/dalvikvm(185): GC_CONCURRENT freed 396K, 20% free 19400K/24199K, paused 10ms+6ms
+08-29 01:43:30.311: D/dalvikvm(185): GC_CONCURRENT freed 4302K, 30% free 17109K/24199K, paused 6ms+10ms
+08-29 01:43:31.251: D/dalvikvm(185): GC_FOR_ALLOC freed 1686K, 29% free 17313K/24199K, paused 66ms
+08-29 01:43:32.091: D/dalvikvm(185): GC_FOR_ALLOC freed 1378K, 27% free 17702K/24199K, paused 97ms
+08-29 01:43:51.581: D/dalvikvm(185): GC_FOR_ALLOC freed 1583K, 27% free 17882K/24199K, paused 70ms
+08-29 01:44:04.142: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.android.apis/.ApiDemos} from pid 185
+08-29 01:44:04.162: D/PermissionCache(35): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (11963 us)
+08-29 01:44:04.162: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21005
+08-29 01:44:04.243: I/ActivityManager(88): Start proc com.example.android.apis for activity com.example.android.apis/.ApiDemos: pid=495 uid=10035 gids={3003, 1015, 1006}
+08-29 01:44:04.342: I/WindowManager(88): createSurface Window{4164f798 Starting com.example.android.apis paused=false}: DRAW NOW PENDING
+08-29 01:44:04.782: D/dalvikvm(88): GC_EXPLICIT freed 601K, 8% free 12568K/13575K, paused 5ms+11ms
+08-29 01:44:04.822: W/NetworkManagementSocketTagger(88): setKernelCountSet(10035, 1) failed with errno -2
+08-29 01:44:05.622: I/ActivityThread(495): Pub com.example.android.apis.app.LoaderThrottle: com.example.android.apis.app.LoaderThrottle$SimpleProvider
+08-29 01:44:05.632: I/ActivityThread(495): Pub com.example.android.apis.content.FileProvider: com.example.android.apis.content.FileProvider
+08-29 01:44:05.632: I/ActivityThread(495): Pub com.example.android.apis.SuggestionProvider: com.example.android.apis.app.SearchSuggestionSampleProvider
+08-29 01:44:06.502: D/dalvikvm(495): GC_CONCURRENT freed 164K, 3% free 10189K/10439K, paused 5ms+6ms
+08-29 01:44:06.882: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 0) failed with errno -2
+08-29 01:44:06.952: D/dalvikvm(495): GC_CONCURRENT freed 570K, 7% free 10117K/10823K, paused 4ms+6ms
+08-29 01:44:07.012: I/WindowManager(88): createSurface Window{41521848 com.example.android.apis/com.example.android.apis.ApiDemos paused=false}: DRAW NOW PENDING
+08-29 01:44:07.142: D/gralloc_goldfish(495): Emulator without GPU emulation detected.
+08-29 01:44:07.201: I/ActivityManager(88): Displayed com.example.android.apis/.ApiDemos: +3s10ms
+08-29 01:44:07.502: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41507920 (uid=10005 pid=185)
+08-29 01:44:11.241: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21010
+08-29 01:44:11.261: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 1) failed with errno -2
+08-29 01:44:11.311: I/WindowManager(88): createSurface Window{41633700 com.android.launcher/com.android.launcher2.Launcher paused=false}: DRAW NOW PENDING
+08-29 01:44:11.541: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@414c1208 (uid=10035 pid=495)
+08-29 01:44:11.541: W/IInputConnectionWrapper(495): showStatusIcon on inactive InputConnection
+08-29 01:44:11.961: W/NetworkManagementSocketTagger(88): setKernelCountSet(10035, 0) failed with errno -2
+08-29 01:44:40.341: D/dalvikvm(185): GC_FOR_ALLOC freed 46K, 21% free 19225K/24199K, paused 67ms
+08-29 01:44:40.682: D/dalvikvm(185): GC_FOR_ALLOC freed 3634K, 28% free 17492K/24199K, paused 63ms
+08-29 01:44:41.211: D/dalvikvm(185): GC_FOR_ALLOC freed 1085K, 27% free 17711K/24199K, paused 59ms
+08-29 01:44:42.051: D/dalvikvm(185): GC_CONCURRENT freed 1633K, 26% free 18115K/24199K, paused 5ms+9ms
+08-29 01:44:42.661: D/dalvikvm(185): GC_CONCURRENT freed 390K, 19% free 19646K/24199K, paused 5ms+11ms
+08-29 01:44:46.391: D/dalvikvm(185): GC_FOR_ALLOC freed 2181K, 24% free 18456K/24199K, paused 69ms
+08-29 01:44:46.831: D/dalvikvm(185): GC_FOR_ALLOC freed 2503K, 29% free 17357K/24199K, paused 66ms
+08-29 01:44:47.302: D/dalvikvm(185): GC_FOR_ALLOC freed 1680K, 28% free 17483K/24199K, paused 56ms
+08-29 01:44:48.001: D/dalvikvm(185): GC_FOR_ALLOC freed 1376K, 27% free 17872K/24199K, paused 58ms
+08-29 01:45:35.911: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.DialtactsActivity} from pid 185
+08-29 01:45:35.991: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21005
+08-29 01:45:36.011: W/NetworkManagementSocketTagger(88): setKernelCountSet(10009, 1) failed with errno -2
+08-29 01:45:36.211: D/dalvikvm(88): GC_FOR_ALLOC freed 687K, 11% free 12105K/13575K, paused 142ms
+08-29 01:45:36.221: I/dalvikvm-heap(88): Grow heap (frag case) to 12.910MB for 1048592-byte allocation
+08-29 01:45:36.271: D/dalvikvm(324): GC_CONCURRENT freed 166K, 3% free 10128K/10439K, paused 4ms+17ms
+08-29 01:45:36.356: D/dalvikvm(88): GC_FOR_ALLOC freed 8K, 11% free 13120K/14663K, paused 108ms
+08-29 01:45:36.431: I/WindowManager(88): createSurface Window{4153ca60 Starting com.android.contacts paused=false}: DRAW NOW PENDING
+08-29 01:45:36.901: D/dalvikvm(88): GC_CONCURRENT freed 13K, 11% free 13127K/14663K, paused 6ms+35ms
+08-29 01:45:37.321: D/dalvikvm(324): GC_FOR_ALLOC freed 8K, 3% free 10185K/10439K, paused 292ms
+08-29 01:45:37.321: I/dalvikvm-heap(324): Grow heap (frag case) to 11.030MB for 1048592-byte allocation
+08-29 01:45:37.401: D/dalvikvm(324): GC_CONCURRENT freed <1K, 3% free 11208K/11527K, paused 3ms+3ms
+08-29 01:45:37.991: D/dalvikvm(324): GC_CONCURRENT freed 117K, 2% free 11626K/11847K, paused 5ms+7ms
+08-29 01:45:38.292: D/dalvikvm(324): GC_CONCURRENT freed 21K, 1% free 12176K/12295K, paused 4ms+7ms
+08-29 01:45:38.361: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 0) failed with errno -2
+08-29 01:45:38.571: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.DialtactsActivity} from pid 185
+08-29 01:45:38.601: I/WindowManager(88): createSurface Window{4162dc90 com.android.contacts/com.android.contacts.activities.DialtactsActivity paused=false}: DRAW NOW PENDING
+08-29 01:45:39.001: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41507920 (uid=10005 pid=185)
+08-29 01:45:39.242: D/dalvikvm(88): GREF has increased to 401
+08-29 01:45:39.471: D/gralloc_goldfish(324): Emulator without GPU emulation detected.
+08-29 01:45:39.501: E/DefaultVoicemailNotifier(324): No voicemails to notify about: clear the notification.
+08-29 01:45:39.671: I/ActivityManager(88): Displayed com.android.contacts/.activities.DialtactsActivity: +3s668ms
+08-29 01:45:40.751: E/DefaultVoicemailNotifier(324): No voicemails to notify about: clear the notification.
+08-29 01:45:40.791: E/DefaultVoicemailNotifier(324): No voicemails to notify about: clear the notification.
+08-29 01:45:40.861: E/DefaultVoicemailNotifier(324): No voicemails to notify about: clear the notification.
+08-29 01:45:41.131: D/dalvikvm(229): GC_CONCURRENT freed 322K, 5% free 10297K/10759K, paused 4ms+13ms
+08-29 01:45:42.191: I/ActivityManager(88): moveTaskToBack: 4
+08-29 01:45:42.191: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21010
+08-29 01:45:42.211: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 1) failed with errno -2
+08-29 01:45:42.241: I/WindowManager(88): createSurface Window{41633700 com.android.launcher/com.android.launcher2.Launcher paused=false}: DRAW NOW PENDING
+08-29 01:45:42.521: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@4152cc70 (uid=10009 pid=324)
+08-29 01:45:42.521: W/IInputConnectionWrapper(324): showStatusIcon on inactive InputConnection
+08-29 01:45:42.891: I/ARMAssembler(35): generated scanline__00000077:03515104_00008001_00000000 [113 ipp] (134 ins) at [0x41c88450:0x41c88668] in 5210748 ns
+08-29 01:45:43.161: W/NetworkManagementSocketTagger(88): setKernelCountSet(10009, 0) failed with errno -2
+08-29 01:45:43.321: E/DefaultVoicemailNotifier(324): No voicemails to notify about: clear the notification.
+08-29 01:45:43.371: D/dalvikvm(324): GC_CONCURRENT freed 353K, 4% free 12570K/13063K, paused 4ms+7ms
+08-29 01:45:43.401: E/StrictMode(324): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+08-29 01:45:43.401: E/StrictMode(324): java.lang.Throwable: Explicit termination method 'close' not called
+08-29 01:45:43.401: E/StrictMode(324): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+08-29 01:45:43.401: E/StrictMode(324): 	at android.content.ContentResolver$CursorWrapperInner.<init>(ContentResolver.java:1581)
+08-29 01:45:43.401: E/StrictMode(324): 	at android.content.ContentResolver.query(ContentResolver.java:320)
+08-29 01:45:43.401: E/StrictMode(324): 	at android.content.AsyncQueryHandler$WorkerHandler.handleMessage(AsyncQueryHandler.java:79)
+08-29 01:45:43.401: E/StrictMode(324): 	at com.android.contacts.calllog.CallLogQueryHandler$CatchingWorkerHandler.handleMessage(CallLogQueryHandler.java:92)
+08-29 01:45:43.401: E/StrictMode(324): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+08-29 01:45:43.401: E/StrictMode(324): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:45:43.401: E/StrictMode(324): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+08-29 01:45:43.401: W/CursorWrapperInner(324): Cursor finalized without prior close()
+08-29 01:45:43.471: E/StrictMode(324): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+08-29 01:45:43.471: E/StrictMode(324): java.lang.Throwable: Explicit termination method 'end' not called
+08-29 01:45:43.471: E/StrictMode(324): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.util.zip.Inflater.<init>(Inflater.java:82)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.util.zip.ZipFile.getInputStream(ZipFile.java:270)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.util.jar.JarFile.getInputStream(JarFile.java:388)
+08-29 01:45:43.471: E/StrictMode(324): 	at libcore.net.url.JarURLConnectionImpl.getInputStream(JarURLConnectionImpl.java:226)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.net.URL.openStream(URL.java:462)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.lang.ClassLoader.getResourceAsStream(ClassLoader.java:436)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.lang.Class.getResourceAsStream(Class.java:1114)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.i18n.phonenumbers.PhoneNumberUtil.loadMetadataForRegionFromFile(PhoneNumberUtil.java:608)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.i18n.phonenumbers.PhoneNumberUtil.getMetadataForRegion(PhoneNumberUtil.java:1661)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.i18n.phonenumbers.PhoneNumberUtil.getCountryCodeForRegion(PhoneNumberUtil.java:1779)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.i18n.phonenumbers.AsYouTypeFormatter.getMetadataForRegion(AsYouTypeFormatter.java:116)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.i18n.phonenumbers.AsYouTypeFormatter.<init>(AsYouTypeFormatter.java:109)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.i18n.phonenumbers.PhoneNumberUtil.getAsYouTypeFormatter(PhoneNumberUtil.java:1998)
+08-29 01:45:43.471: E/StrictMode(324): 	at android.telephony.PhoneNumberFormattingTextWatcher.<init>(PhoneNumberFormattingTextWatcher.java:97)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.contacts.util.PhoneNumberFormatter$TextWatcherLoadAsyncTask.doInBackground(PhoneNumberFormatter.java:44)
+08-29 01:45:43.471: E/StrictMode(324): 	at com.android.contacts.util.PhoneNumberFormatter$TextWatcherLoadAsyncTask.doInBackground(PhoneNumberFormatter.java:32)
+08-29 01:45:43.471: E/StrictMode(324): 	at android.os.AsyncTask$2.call(AsyncTask.java:264)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+08-29 01:45:43.471: E/StrictMode(324): 	at java.lang.Thread.run(Thread.java:856)
+08-29 01:46:00.602: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.calendar/.AllInOneActivity} from pid 185
+08-29 01:46:00.662: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21010
+08-29 01:46:00.692: W/NetworkManagementSocketTagger(88): setKernelCountSet(10010, 1) failed with errno -2
+08-29 01:46:00.732: I/WindowManager(88): createSurface Window{415d7e88 Starting com.android.calendar paused=false}: DRAW NOW PENDING
+08-29 01:46:02.242: D/AccountManagerService(88): bind attempt failed for Session: expectLaunch true, connected false, stats (0/0/0), lifetime 0.001, addAccount, accountType com.google, requiredFeatures null
+08-29 01:46:02.322: I/WindowManager(88): createSurface Window{41604a88 com.android.calendar/com.android.calendar.AllInOneActivity paused=false}: DRAW NOW PENDING
+08-29 01:46:02.591: D/dalvikvm(263): GC_CONCURRENT freed 161K, 3% free 10291K/10567K, paused 4ms+5ms
+08-29 01:46:02.732: D/gralloc_goldfish(263): Emulator without GPU emulation detected.
+08-29 01:46:02.822: I/ActivityManager(88): Displayed com.android.calendar/.AllInOneActivity: +2s136ms
+08-29 01:46:03.143: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 0) failed with errno -2
+08-29 01:46:03.162: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41507920 (uid=10005 pid=185)
+08-29 01:46:05.221: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21015
+08-29 01:46:05.251: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 1) failed with errno -2
+08-29 01:46:05.301: I/WindowManager(88): createSurface Window{41633700 com.android.launcher/com.android.launcher2.Launcher paused=false}: DRAW NOW PENDING
+08-29 01:46:05.381: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41619970 (uid=10010 pid=263)
+08-29 01:46:06.071: W/NetworkManagementSocketTagger(88): setKernelCountSet(10010, 0) failed with errno -2
+08-29 01:46:18.661: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity} from pid 185
+08-29 01:46:18.731: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21010
+08-29 01:46:18.741: I/WindowManager(88): createSurface Window{414f9608 Starting com.android.browser paused=false}: DRAW NOW PENDING
+08-29 01:46:18.811: I/ActivityManager(88): Start proc com.android.browser for activity com.android.browser/.BrowserActivity: pid=528 uid=10026 gids={3003, 1015}
+08-29 01:46:18.981: W/NetworkManagementSocketTagger(88): setKernelCountSet(10026, 1) failed with errno -2
+08-29 01:46:19.761: I/ActivityThread(528): Pub com.android.browser;browser: com.android.browser.provider.BrowserProvider2
+08-29 01:46:19.781: I/ActivityThread(528): Pub com.android.browser.home: com.android.browser.homepages.HomeProvider
+08-29 01:46:19.781: I/ActivityThread(528): Pub com.android.browser.snapshots: com.android.browser.provider.SnapshotProvider
+08-29 01:46:20.001: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.001: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.231: D/dalvikvm(528): GC_CONCURRENT freed 207K, 4% free 10104K/10439K, paused 11ms+5ms
+08-29 01:46:20.321: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 0) failed with errno -2
+08-29 01:46:20.582: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.611: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.631: E/libEGL(528): call to OpenGL ES API with no current context (logged once per thread)
+08-29 01:46:20.631: D/ShaderProgram(528): couldn't load the vertex shader!
+08-29 01:46:20.631: E/libEGL(528): call to OpenGL ES API with no current context (logged once per thread)
+08-29 01:46:20.631: D/ShaderProgram(528): couldn't load the vertex shader!
+08-29 01:46:20.631: E/libEGL(528): call to OpenGL ES API with no current context (logged once per thread)
+08-29 01:46:20.631: D/ShaderProgram(528): couldn't load the vertex shader!
+08-29 01:46:20.631: E/libEGL(528): call to OpenGL ES API with no current context (logged once per thread)
+08-29 01:46:20.631: D/ShaderProgram(528): couldn't load the vertex shader!
+08-29 01:46:20.631: E/libEGL(528): call to OpenGL ES API with no current context (logged once per thread)
+08-29 01:46:20.631: D/ShaderProgram(528): couldn't load the vertex shader!
+08-29 01:46:20.651: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.671: D/TransferQueue(528): Now we set the upload to GpuUpload
+08-29 01:46:20.692: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.731: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.801: D/dalvikvm(528): GC_CONCURRENT freed 241K, 4% free 10424K/10759K, paused 5ms+21ms
+08-29 01:46:20.822: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.822: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.861: D/WebViewTimersControl(528): onBrowserActivityResume
+08-29 01:46:20.861: D/WebViewTimersControl(528): Resuming webview timers, view=com.android.browser.BrowserWebView@41343028
+08-29 01:46:20.871: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.891: W/BaseUi(528): mMainView is already attached to wrapper in attachTabToContentView!
+08-29 01:46:20.891: W/BaseUi(528): mContainer is already attached to content in attachTabToContentView!
+08-29 01:46:20.901: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:20.941: V/NFC(528): this device does not have NFC support
+08-29 01:46:20.971: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:21.061: D/dalvikvm(528): GC_CONCURRENT freed 339K, 5% free 10615K/11079K, paused 6ms+15ms
+08-29 01:46:21.071: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:21.081: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:21.151: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:21.171: E/ActivityThread(528): Failed to find provider info for com.google.settings
+08-29 01:46:21.231: D/TransferQueue(528): Now we set the upload to GpuUpload
+08-29 01:46:21.231: D/TransferQueue(528): Now we set the upload to GpuUpload
+08-29 01:46:21.391: I/WindowManager(88): createSurface Window{415e3d58 com.android.browser/com.android.browser.BrowserActivity paused=false}: DRAW NOW PENDING
+08-29 01:46:21.522: I/SqliteDatabaseCpp(528): sqlite returned: error code = 1, msg = no such table: IconDatabaseInfo, db=/data/data/com.android.browser/databases/webview.db
+08-29 01:46:21.581: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41507920 (uid=10005 pid=185)
+08-29 01:46:21.641: D/gralloc_goldfish(528): Emulator without GPU emulation detected.
+08-29 01:46:21.731: I/ActivityManager(88): Displayed com.android.browser/.BrowserActivity: +2s968ms
+08-29 01:46:22.173: D/dalvikvm(528): GC_CONCURRENT freed 506K, 6% free 10553K/11207K, paused 8ms+5ms
+08-29 01:46:22.181: I/SqliteDatabaseCpp(528): sqlite returned: error code = 1, msg = no such table: CacheGroups, db=/data/data/com.android.browser/databases/webview.db
+08-29 01:46:22.181: I/SqliteDatabaseCpp(528): sqlite returned: error code = 1, msg = no such table: Caches, db=/data/data/com.android.browser/databases/webview.db
+08-29 01:46:22.181: I/SqliteDatabaseCpp(528): sqlite returned: error code = 1, msg = no such table: Origins, db=/data/data/com.android.browser/databases/webview.db
+08-29 01:46:22.181: I/SqliteDatabaseCpp(528): sqlite returned: error code = 1, msg = no such table: DeletedCacheResources, db=/data/data/com.android.browser/databases/webview.db
+08-29 01:46:22.701: D/dalvikvm(528): GC_FOR_ALLOC freed 29K, 5% free 10723K/11207K, paused 61ms
+08-29 01:46:22.701: I/dalvikvm-heap(528): Grow heap (frag case) to 11.181MB for 656656-byte allocation
+08-29 01:46:22.851: D/dalvikvm(528): GC_CONCURRENT freed 3K, 5% free 11361K/11911K, paused 21ms+3ms
+08-29 01:46:22.901: W/Tab(528): Failed to save back/forward list for http://www.google.com/webhp?client=android-google&source=android-home
+08-29 01:46:40.161: I/ActivityManager(88): moveTaskToBack: 6
+08-29 01:46:40.161: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21015
+08-29 01:46:40.201: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 1) failed with errno -2
+08-29 01:46:40.221: I/WindowManager(88): createSurface Window{41633700 com.android.launcher/com.android.launcher2.Launcher paused=false}: DRAW NOW PENDING
+08-29 01:46:40.511: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@415e3840 (uid=10026 pid=528)
+08-29 01:46:40.911: W/Tab(528): Failed to save back/forward list for http://www.google.com/webhp?client=android-google&source=android-home
+08-29 01:46:41.021: W/NetworkManagementSocketTagger(88): setKernelCountSet(10026, 0) failed with errno -2
+08-29 01:46:50.161: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.widgetpreview/.WidgetPreviewActivity} from pid 185
+08-29 01:46:50.161: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21015
+08-29 01:46:50.251: I/ActivityManager(88): Start proc com.android.widgetpreview for activity com.android.widgetpreview/.WidgetPreviewActivity: pid=562 uid=10036 gids={1015}
+08-29 01:46:50.331: I/WindowManager(88): createSurface Window{41652bc0 Starting com.android.widgetpreview paused=false}: DRAW NOW PENDING
+08-29 01:46:50.521: I/dalvikvm(562): Turning on JNI app bug workarounds for target SDK version 11...
+08-29 01:46:50.581: W/NetworkManagementSocketTagger(88): setKernelCountSet(10036, 1) failed with errno -2
+08-29 01:46:50.911: I/ARMAssembler(35): generated scanline__00000077:03515104_00009002_00000000 [127 ipp] (149 ins) at [0x41c88670:0x41c888c4] in 943378 ns
+08-29 01:46:51.381: I/ActivityManager(88): START {act=android.appwidget.action.APPWIDGET_PICK cmp=com.android.settings/.AppWidgetPickActivity (has extras)} from pid 562
+08-29 01:46:51.534: W/NetworkManagementSocketTagger(88): setKernelCountSet(1000, 1) failed with errno -2
+08-29 01:46:51.631: I/WindowManager(88): createSurface Window{41676108 com.android.widgetpreview/com.android.widgetpreview.WidgetPreviewActivity paused=false}: DRAW NOW PENDING
+08-29 01:46:51.742: D/gralloc_goldfish(562): Emulator without GPU emulation detected.
+08-29 01:46:51.821: D/dalvikvm(210): GC_CONCURRENT freed 157K, 3% free 10153K/10439K, paused 5ms+23ms
+08-29 01:46:51.882: I/ActivityManager(88): Displayed com.android.widgetpreview/.WidgetPreviewActivity: +1s670ms
+08-29 01:46:52.111: I/AppWidgetPickActivity(210): EXTRA_CUSTOM_INFO not present.
+08-29 01:46:52.282: D/dalvikvm(210): GC_FOR_ALLOC freed 72K, 3% free 10363K/10631K, paused 34ms
+08-29 01:46:52.401: I/WindowManager(88): createSurface Window{4160d188 com.android.settings/com.android.settings.AppWidgetPickActivity paused=false}: DRAW NOW PENDING
+08-29 01:46:52.551: D/gralloc_goldfish(210): Emulator without GPU emulation detected.
+08-29 01:46:52.641: I/ActivityManager(88): Displayed com.android.settings/.AppWidgetPickActivity: +1s114ms
+08-29 01:46:52.921: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 0) failed with errno -2
+08-29 01:46:55.262: D/dalvikvm(210): GC_FOR_ALLOC freed 11K, 3% free 10713K/11015K, paused 39ms
+08-29 01:46:55.312: D/dalvikvm(210): GC_FOR_ALLOC freed <1K, 3% free 10875K/11207K, paused 43ms
+08-29 01:46:55.372: D/dalvikvm(210): GC_FOR_ALLOC freed 0K, 2% free 11202K/11399K, paused 43ms
+08-29 01:46:55.412: D/dalvikvm(210): GC_FOR_ALLOC freed <1K, 3% free 11528K/11783K, paused 37ms
+08-29 01:46:57.472: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21025
+08-29 01:46:57.582: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21020
+08-29 01:46:57.612: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41507920 (uid=10005 pid=185)
+08-29 01:46:57.642: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 1) failed with errno -2
+08-29 01:46:57.762: I/WindowManager(88): createSurface Window{41633700 com.android.launcher/com.android.launcher2.Launcher paused=false}: DRAW NOW PENDING
+08-29 01:46:58.252: W/NetworkManagementSocketTagger(88): setKernelCountSet(1000, 0) failed with errno -2
+08-29 01:46:58.722: W/NetworkManagementSocketTagger(88): setKernelCountSet(10036, 0) failed with errno -2
+08-29 01:47:46.332: D/AndroidRuntime(578): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+08-29 01:47:46.332: D/AndroidRuntime(578): CheckJNI is ON
+08-29 01:47:47.211: D/AndroidRuntime(578): Calling main entry com.android.commands.pm.Pm
+08-29 01:47:47.251: I/ActivityManager(88): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=588 uid=10025 gids={1015, 2001}
+08-29 01:47:47.551: W/ActivityManager(88): No content provider found for permission revoke: file:///data/local/tmp/ZmView_9.apk
+08-29 01:47:47.641: W/ActivityManager(88): No content provider found for permission revoke: file:///data/local/tmp/ZmView_9.apk
+08-29 01:47:47.971: D/dalvikvm(88): GC_CONCURRENT freed 1657K, 17% free 12171K/14663K, paused 6ms+37ms
+08-29 01:47:48.591: D/dalvikvm(88): GC_CONCURRENT freed 343K, 16% free 12368K/14663K, paused 8ms+24ms
+08-29 01:47:48.861: I/dalvikvm(88): Jit: resizing JitTable from 4096 to 8192
+08-29 01:47:49.332: D/dalvikvm(88): GC_CONCURRENT freed 287K, 15% free 12592K/14663K, paused 5ms+7ms
+08-29 01:47:49.992: D/dalvikvm(88): GC_CONCURRENT freed 461K, 14% free 12709K/14663K, paused 19ms+8ms
+08-29 01:47:50.562: D/dalvikvm(88): GC_CONCURRENT freed 584K, 14% free 12728K/14663K, paused 34ms+11ms
+08-29 01:47:51.412: D/dalvikvm(88): GC_CONCURRENT freed 617K, 14% free 12747K/14663K, paused 31ms+11ms
+08-29 01:47:51.832: D/dalvikvm(88): GC_CONCURRENT freed 665K, 14% free 12737K/14663K, paused 30ms+9ms
+08-29 01:47:52.182: D/dalvikvm(88): GC_CONCURRENT freed 668K, 14% free 12733K/14663K, paused 5ms+9ms
+08-29 01:47:52.582: D/dalvikvm(88): GC_CONCURRENT freed 613K, 14% free 12736K/14663K, paused 5ms+8ms
+08-29 01:47:52.982: D/dalvikvm(88): GC_CONCURRENT freed 623K, 14% free 12741K/14663K, paused 6ms+9ms
+08-29 01:47:53.372: I/PackageManager(88): Running dexopt on: com.html5clouds.zmview
+08-29 01:47:56.111: D/dalvikvm(603): DexOpt: load 497ms, verify+opt 1693ms
+08-29 01:47:56.162: I/ActivityManager(88): Force stopping package com.html5clouds.zmview uid=10040
+08-29 01:47:56.393: D/PackageManager(88): New package installed in /data/app/com.html5clouds.zmview-1.apk
+08-29 01:47:56.692: D/dalvikvm(88): GC_CONCURRENT freed 567K, 13% free 12775K/14663K, paused 7ms+19ms
+08-29 01:47:56.972: D/PackageManager(88): generateServicesMap(android.accounts.AccountAuthenticator): 2 services unchanged
+08-29 01:47:57.001: I/ActivityManager(88): Start proc com.svox.pico for broadcast com.svox.pico/.VoiceDataInstallerReceiver: pid=604 uid=10024 gids={1015}
+08-29 01:47:57.035: D/PackageManager(88): generateServicesMap(android.content.SyncAdapter): 4 services unchanged
+08-29 01:47:57.282: D/BackupManagerService(88): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.html5clouds.zmview flg=0x10000010 (has extras) }
+08-29 01:47:57.282: V/BackupManagerService(88): addPackageParticipantsLocked: com.html5clouds.zmview
+08-29 01:47:57.442: I/ActivityThread(604): Pub com.svox.pico.providers.SettingsProvider: com.svox.pico.providers.SettingsProvider
+08-29 01:47:57.741: D/dalvikvm(185): GC_CONCURRENT freed 3743K, 34% free 16095K/24199K, paused 4ms+24ms
+08-29 01:47:57.911: W/RecognitionManagerService(88): no available voice recognition services found
+08-29 01:47:58.091: D/StrictMode(88): StrictMode policy violation; ~duration=171 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=151 violation=2
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1074)
+08-29 01:47:58.091: D/StrictMode(88): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:94)
+08-29 01:47:58.091: D/StrictMode(88): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+08-29 01:47:58.091: D/StrictMode(88): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:88)
+08-29 01:47:58.091: D/StrictMode(88): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:73)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.internal.os.AtomicFile.startWrite(AtomicFile.java:59)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.AppWidgetService.saveStateLocked(AppWidgetService.java:1181)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.AppWidgetService$2.onReceive(AppWidgetService.java:1452)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:728)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Handler.handleCallback(Handler.java:605)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.ServerThread.run(SystemServer.java:744)
+08-29 01:47:58.091: D/StrictMode(88): StrictMode policy violation; ~duration=154 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=151 violation=1
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1048)
+08-29 01:47:58.091: D/StrictMode(88): 	at libcore.io.BlockGuardOs.write(BlockGuardOs.java:178)
+08-29 01:47:58.091: D/StrictMode(88): 	at libcore.io.IoBridge.write(IoBridge.java:447)
+08-29 01:47:58.091: D/StrictMode(88): 	at java.io.FileOutputStream.write(FileOutputStream.java:187)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.internal.util.FastXmlSerializer.flushBytes(FastXmlSerializer.java:212)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.internal.util.FastXmlSerializer.flush(FastXmlSerializer.java:233)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.internal.util.FastXmlSerializer.endDocument(FastXmlSerializer.java:183)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.AppWidgetService.writeStateToFileLocked(AppWidgetService.java:1240)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.AppWidgetService.saveStateLocked(AppWidgetService.java:1182)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.AppWidgetService$2.onReceive(AppWidgetService.java:1452)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:728)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Handler.handleCallback(Handler.java:605)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.ServerThread.run(SystemServer.java:744)
+08-29 01:47:58.091: D/StrictMode(88): StrictMode policy violation; ~duration=148 ms: android.os.StrictMode$StrictModeDiskWriteViolation: policy=151 violation=1
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1048)
+08-29 01:47:58.091: D/StrictMode(88): 	at libcore.io.BlockGuardOs.fsync(BlockGuardOs.java:84)
+08-29 01:47:58.091: D/StrictMode(88): 	at java.io.FileDescriptor.sync(FileDescriptor.java:71)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.FileUtils.sync(FileUtils.java:111)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.internal.os.AtomicFile.finishWrite(AtomicFile.java:80)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.AppWidgetService.saveStateLocked(AppWidgetService.java:1183)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.AppWidgetService$2.onReceive(AppWidgetService.java:1452)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:728)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Handler.handleCallback(Handler.java:605)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+08-29 01:47:58.091: D/StrictMode(88): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:47:58.091: D/StrictMode(88): 	at com.android.server.ServerThread.run(SystemServer.java:744)
+08-29 01:47:58.132: I/ActivityManager(88): Start proc com.android.quicksearchbox for broadcast com.android.quicksearchbox/.CorporaUpdateReceiver: pid=617 uid=10014 gids={3003}
+08-29 01:47:58.311: D/dalvikvm(36): GC_EXPLICIT freed 37K, 4% free 9848K/10179K, paused 3ms+5ms
+08-29 01:47:58.621: D/dalvikvm(36): GC_EXPLICIT freed <1K, 4% free 9848K/10179K, paused 4ms+31ms
+08-29 01:47:58.721: I/ActivityThread(617): Pub com.android.quicksearchbox.google: com.android.quicksearchbox.google.GoogleSuggestionProvider
+08-29 01:47:58.861: I/ActivityThread(617): Pub com.android.quicksearchbox.shortcuts: com.android.quicksearchbox.ShortcutsProvider
+08-29 01:47:58.881: D/dalvikvm(36): GC_EXPLICIT freed <1K, 4% free 9848K/10179K, paused 3ms+5ms
+08-29 01:47:58.961: I/AccountTypeManager(324): Loaded meta-data for 1 account types, 0 accounts in 26ms(wall) 8ms(cpu)
+08-29 01:47:59.241: D/dalvikvm(185): GC_FOR_ALLOC freed 431K, 28% free 17493K/24199K, paused 73ms
+08-29 01:47:59.941: D/dalvikvm(185): GC_FOR_ALLOC freed 2622K, 34% free 16133K/24199K, paused 78ms
+08-29 01:48:00.361: D/dalvikvm(88): GC_EXPLICIT freed 1181K, 18% free 12097K/14663K, paused 27ms+32ms
+08-29 01:48:00.361: D/AndroidRuntime(578): Shutting down VM
+08-29 01:48:00.381: D/dalvikvm(578): GC_CONCURRENT freed 100K, 78% free 454K/2048K, paused 0ms+1ms
+08-29 01:48:00.381: D/dalvikvm(578): Debugger has detached; object registry had 1 entries
+08-29 01:48:00.391: I/AndroidRuntime(578): NOTE: attach of thread 'Binder Thread #3' failed
+08-29 01:48:00.581: D/dalvikvm(185): GC_FOR_ALLOC freed 369K, 28% free 17493K/24199K, paused 61ms
+08-29 01:48:07.507: D/dalvikvm(185): GREF has increased to 201
+08-29 01:48:23.222: D/dalvikvm(185): GC_FOR_ALLOC freed 1284K, 28% free 17655K/24199K, paused 67ms
+08-29 01:49:14.302: D/dalvikvm(185): GC_FOR_ALLOC freed 107K, 23% free 18796K/24199K, paused 62ms
+08-29 01:49:14.634: D/dalvikvm(185): GC_FOR_ALLOC freed 3188K, 28% free 17511K/24199K, paused 62ms
+08-29 01:49:15.211: D/dalvikvm(185): GC_FOR_ALLOC freed 1076K, 27% free 17739K/24199K, paused 59ms
+08-29 01:49:16.052: D/dalvikvm(185): GC_CONCURRENT freed 1637K, 26% free 18123K/24199K, paused 5ms+18ms
+08-29 01:49:16.772: D/dalvikvm(185): GC_CONCURRENT freed 388K, 19% free 19679K/24199K, paused 9ms+8ms
+08-29 01:49:17.833: D/dalvikvm(185): GC_FOR_ALLOC freed 2181K, 24% free 18488K/24199K, paused 67ms
+08-29 01:49:18.322: D/dalvikvm(185): GC_FOR_ALLOC freed 2508K, 29% free 17387K/24199K, paused 77ms
+08-29 01:49:18.982: D/dalvikvm(185): GC_FOR_ALLOC freed 1687K, 28% free 17498K/24199K, paused 71ms
+08-29 01:49:20.113: D/dalvikvm(185): GC_FOR_ALLOC freed 1136K, 28% free 17655K/24199K, paused 54ms
+08-29 01:49:20.132: I/dalvikvm(185): Jit: resizing JitTable from 4096 to 8192
+08-29 01:49:23.152: W/ThrottleService(88): unable to find stats for iface rmnet0
+08-29 01:49:49.623: D/dalvikvm(185): GC_FOR_ALLOC freed 404K, 22% free 18970K/24199K, paused 54ms
+08-29 01:49:50.762: D/dalvikvm(185): GC_CONCURRENT freed 1650K, 21% free 19302K/24199K, paused 5ms+9ms
+08-29 01:49:54.531: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.html5clouds.zmview/.ZmViewActivity bnds=[0,98][120,248]} from pid 185
+08-29 01:49:54.531: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21015
+08-29 01:49:54.612: I/ActivityManager(88): Start proc com.html5clouds.zmview for activity com.html5clouds.zmview/.ZmViewActivity: pid=639 uid=10040 gids={3003}
+08-29 01:49:54.711: I/WindowManager(88): createSurface Window{41605c50 Starting com.html5clouds.zmview paused=false}: DRAW NOW PENDING
+08-29 01:49:54.911: W/NetworkManagementSocketTagger(88): setKernelCountSet(10040, 1) failed with errno -2
+08-29 01:49:55.901: I/ActivityManager(88): START {cmp=com.html5clouds.zmview/.Settings} from pid 639
+08-29 01:49:55.921: I/System.out(639): ZmView noi continuam fara settings
+08-29 01:49:56.311: I/WindowManager(88): createSurface Window{41611908 com.html5clouds.zmview/com.html5clouds.zmview.Settings paused=false}: DRAW NOW PENDING
+08-29 01:49:56.361: D/dalvikvm(639): GC_CONCURRENT freed 210K, 3% free 10136K/10439K, paused 26ms+13ms
+08-29 01:49:56.561: D/gralloc_goldfish(639): Emulator without GPU emulation detected.
+08-29 01:49:56.641: I/ActivityManager(88): Displayed com.html5clouds.zmview/.Settings: +720ms (total +2s74ms)
+08-29 01:49:56.731: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 0) failed with errno -2
+08-29 01:50:12.271: D/dalvikvm(169): GC_CONCURRENT freed 404K, 6% free 10331K/10951K, paused 6ms+5ms
+08-29 01:50:22.901: E/Tab(528): onReceivedError -8 http://www.google.com/webhp?client=android-google&source=android-home The connection to the server timed out.
+08-29 01:50:22.901: D/WebViewTimersControl(528): onBrowserActivityResume
+08-29 01:50:22.901: D/WebViewTimersControl(528): Resuming webview timers, view=com.android.browser.BrowserWebView@41343028
+08-29 01:50:22.991: D/WebViewTimersControl(528): onBrowserActivityPause
+08-29 01:50:22.991: D/WebViewTimersControl(528): Pausing webview timers, view=com.android.browser.BrowserWebView@41343028
+08-29 01:52:21.271: A/NetworkStats(88): problem reading network stats
+08-29 01:52:21.271: A/NetworkStats(88): java.lang.IllegalStateException: problem parsing line: null
+08-29 01:52:21.271: A/NetworkStats(88): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:313)
+08-29 01:52:21.271: A/NetworkStats(88): 	at com.android.server.NetworkManagementService.getNetworkStatsUidDetail(NetworkManagementService.java:1271)
+08-29 01:52:21.271: A/NetworkStats(88): 	at com.android.server.net.NetworkStatsService.performPollLocked(NetworkStatsService.java:810)
+08-29 01:52:21.271: A/NetworkStats(88): 	at com.android.server.net.NetworkStatsService.performPoll(NetworkStatsService.java:771)
+08-29 01:52:21.271: A/NetworkStats(88): 	at com.android.server.net.NetworkStatsService.access$100(NetworkStatsService.java:128)
+08-29 01:52:21.271: A/NetworkStats(88): 	at com.android.server.net.NetworkStatsService$3.onReceive(NetworkStatsService.java:610)
+08-29 01:52:21.271: A/NetworkStats(88): 	at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:728)
+08-29 01:52:21.271: A/NetworkStats(88): 	at android.os.Handler.handleCallback(Handler.java:605)
+08-29 01:52:21.271: A/NetworkStats(88): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+08-29 01:52:21.271: A/NetworkStats(88): 	at android.os.Looper.loop(Looper.java:137)
+08-29 01:52:21.271: A/NetworkStats(88): 	at android.os.HandlerThread.run(HandlerThread.java:60)
+08-29 01:52:21.271: A/NetworkStats(88): Caused by: java.io.FileNotFoundException: /proc/net/xt_qtaguid/stats: open failed: ENOENT (No such file or directory)
+08-29 01:52:21.271: A/NetworkStats(88): 	at libcore.io.IoBridge.open(IoBridge.java:406)
+08-29 01:52:21.271: A/NetworkStats(88): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+08-29 01:52:21.271: A/NetworkStats(88): 	at java.io.FileReader.<init>(FileReader.java:42)
+08-29 01:52:21.271: A/NetworkStats(88): 	at com.android.internal.net.NetworkStatsFactory.readNetworkStatsDetail(NetworkStatsFactory.java:272)
+08-29 01:52:21.271: A/NetworkStats(88): 	... 10 more
+08-29 01:52:21.271: A/NetworkStats(88): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+08-29 01:52:21.271: A/NetworkStats(88): 	at libcore.io.Posix.open(Native Method)
+08-29 01:52:21.271: A/NetworkStats(88): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:98)
+08-29 01:52:21.271: A/NetworkStats(88): 	at libcore.io.IoBridge.open(IoBridge.java:390)
+08-29 01:52:21.271: A/NetworkStats(88): 	... 13 more
+08-29 01:52:53.782: I/WindowManager(88): createSurface Window{4161a518 com.html5clouds.zmview/com.html5clouds.zmview.Settings paused=false}: DRAW NOW PENDING
+08-29 01:52:54.582: D/dalvikvm(88): GC_CONCURRENT freed 367K, 17% free 12176K/14663K, paused 9ms+24ms
+08-29 01:52:57.492: I/WindowManager(88): createSurface Window{41657c80 PopupWindow:4137c168 paused=false}: DRAW NOW PENDING
+08-29 01:52:57.571: I/WindowManager(88): createSurface Window{414f9060 PopupWindow:4137c5f8 paused=false}: DRAW NOW PENDING
+08-29 01:52:57.661: I/WindowManager(88): createSurface Window{4153ca60 PopupWindow:413b47c0 paused=false}: DRAW NOW PENDING
+08-29 01:52:58.922: I/WindowManager(88): createSurface Window{415433e8 PopupWindow:413cf5a8 paused=false}: DRAW NOW PENDING
+08-29 01:52:59.853: I/WindowManager(88): createSurface Window{4152ac48 PopupWindow:413cf5a8 paused=false}: DRAW NOW PENDING
+08-29 01:53:10.042: D/dalvikvm(639): GC_CONCURRENT freed 181K, 4% free 10364K/10695K, paused 5ms+6ms
+08-29 01:53:23.041: D/dalvikvm(88): GC_EXPLICIT freed 129K, 18% free 12128K/14663K, paused 7ms+13ms
+08-29 01:53:23.041: I/WindowManager(88): createSurface Window{41591d08 com.html5clouds.zmview/com.html5clouds.zmview.Settings paused=false}: DRAW NOW PENDING
+08-29 01:53:23.881: D/dalvikvm(141): GC_FOR_ALLOC freed 5585K, 35% free 10622K/16327K, paused 61ms
+08-29 01:53:24.321: D/dalvikvm(141): GC_CONCURRENT freed 256K, 35% free 10769K/16327K, paused 5ms+7ms
+08-29 01:53:24.601: I/WindowManager(88): createSurface Window{415f6f08 PopupWindow:413e1df8 paused=false}: DRAW NOW PENDING
+08-29 01:53:29.941: D/dalvikvm(141): GC_CONCURRENT freed 564K, 35% free 10644K/16327K, paused 9ms+6ms
+08-29 01:53:30.771: I/WindowManager(88): createSurface Window{41683810 com.html5clouds.zmview/com.html5clouds.zmview.Settings paused=false}: DRAW NOW PENDING
+08-29 01:53:32.301: I/WindowManager(88): createSurface Window{4160d790 PopupWindow:41400fc8 paused=false}: DRAW NOW PENDING
+08-29 01:53:35.063: W/TextLayoutCache(639): computeValuesWithHarfbuzz -- need to force to single run
+08-29 01:53:36.522: D/dalvikvm(141): GC_CONCURRENT freed 373K, 35% free 10769K/16327K, paused 4ms+7ms
+08-29 01:53:39.692: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21025
+08-29 01:53:39.721: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 1) failed with errno -2
+08-29 01:53:39.771: I/WindowManager(88): createSurface Window{41633700 com.android.launcher/com.android.launcher2.Launcher paused=false}: DRAW NOW PENDING
+08-29 01:53:39.872: W/InputManagerService(88): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41688118 (uid=10040 pid=639)
+08-29 01:53:40.541: I/ActivityManager(88): No longer want com.android.mms (pid 364): hidden #16
+08-29 01:53:40.551: W/NetworkManagementSocketTagger(88): setKernelCountSet(10040, 0) failed with errno -2
+08-29 01:53:40.571: D/CountryDetectorService(88): No listener is left
+08-29 01:53:56.523: I/jdwp(169): Ignoring second debugger -- accepting and dropping
+08-29 01:53:56.723: I/jdwp(141): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.058: I/jdwp(229): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.131: I/jdwp(617): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.204: I/jdwp(588): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.306: I/jdwp(346): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.323: I/jdwp(407): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.397: I/jdwp(289): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.471: I/jdwp(324): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.541: I/jdwp(495): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.611: I/jdwp(185): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.681: I/jdwp(155): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.751: I/jdwp(263): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.823: I/jdwp(528): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.895: I/jdwp(562): Ignoring second debugger -- accepting and dropping
+08-29 01:53:57.966: I/jdwp(296): Ignoring second debugger -- accepting and dropping
+08-29 01:53:58.037: I/jdwp(639): Ignoring second debugger -- accepting and dropping
+08-29 01:53:58.108: I/jdwp(88): Ignoring second debugger -- accepting and dropping
+08-29 01:53:58.177: I/jdwp(390): Ignoring second debugger -- accepting and dropping
+08-29 01:53:58.257: I/jdwp(604): Ignoring second debugger -- accepting and dropping
+08-29 01:53:58.331: I/jdwp(210): Ignoring second debugger -- accepting and dropping
+08-29 01:54:24.491: D/dalvikvm(528): GC_CONCURRENT freed 222K, 4% free 11550K/11911K, paused 5ms+8ms
+08-29 01:55:46.372: I/ActivityManager(88): START {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.html5clouds.zmview/.ZmViewActivity bnds=[0,98][120,248]} from pid 185
+08-29 01:55:46.402: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21020
+08-29 01:55:46.511: W/NetworkManagementSocketTagger(88): setKernelCountSet(10040, 1) failed with errno -2
+08-29 01:55:46.601: I/WindowManager(88): createSurface Window{415f6ba0 Starting com.html5clouds.zmview paused=false}: DRAW NOW PENDING
+08-29 01:55:46.701: I/ActivityManager(88): START {cmp=com.html5clouds.zmview/.Settings} from pid 639
+08-29 01:55:46.992: I/System.out(639): ZmView noi continuam fara settings
+08-29 01:55:48.151: D/dalvikvm(639): GC_CONCURRENT freed 276K, 4% free 10572K/10951K, paused 6ms+8ms
+08-29 01:55:48.161: I/WindowManager(88): createSurface Window{41658970 com.html5clouds.zmview/com.html5clouds.zmview.Settings paused=false}: DRAW NOW PENDING
+08-29 01:55:48.551: I/ActivityManager(88): Displayed com.html5clouds.zmview/.Settings: +1s559ms (total +2s88ms)
+08-29 01:55:48.851: W/NetworkManagementSocketTagger(88): setKernelCountSet(10005, 0) failed with errno -2
+08-29 01:55:52.002: I/ActivityManager(88): START {cmp=com.html5clouds.zmview/.ZmViewActivity} from pid 639
+08-29 01:55:52.011: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21025
+08-29 01:55:52.041: W/ActivityManager(88): Duplicate finish request for ActivityRecord{414c0b78 com.html5clouds.zmview/.Settings}
+08-29 01:55:52.872: D/dalvikvm(639): GC_CONCURRENT freed 317K, 4% free 10804K/11207K, paused 5ms+26ms
+08-29 01:55:53.181: I/makemachine(639): onPreExecute()
+08-29 01:55:53.181: I/Ads(639): To get test ads on this device, call adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+08-29 01:55:53.361: I/Ads(639): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_getSdkConstants();AFMA_buildAdURL({"preqs":0,"session_id":"2153053308058235629","u_sd":1.5,"seq_num":"1","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":0,"u_audio":4});</script></head><body></body></html>
+08-29 01:55:53.391: I/WindowManager(88): createSurface Window{41532bf8 com.html5clouds.zmview/com.html5clouds.zmview.ZmViewActivity paused=false}: DRAW NOW PENDING
+08-29 01:55:53.811: I/ARMAssembler(35): generated scanline__00000077:03010104_00008001_00000000 [ 89 ipp] (110 ins) at [0x41c888c8:0x41c88a80] in 1846936 ns
+08-29 01:55:54.021: I/ActivityManager(88): Displayed com.html5clouds.zmview/.ZmViewActivity: +1s951ms
+08-29 01:55:57.502: E/ActivityThread(639): Failed to find provider info for com.google.android.gms.ads.adinfo
+08-29 01:55:57.502: E/webkit(639): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+08-29 01:55:59.392: I/Ads(639): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=0&session_id=2153053308058235629&u_sd=1.5&seq_num=1&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=0&u_audio=4&aims=f&aimr=nogms&aimt=653&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLG2WPRbVU6K8bpqHb84OkkjCwGRncYsmhjou0HnheX5hdVQPZhl0-cE00EfsE5xPtOozyWpxY0Cn5BxBRrc-xMfyHSWdwW8fqeTi8WIi1BZ_lIKqDqwhx-bfhbfhLvLoilAQhDCbmg3-pIIXaITDKTRrEaM3o_TSG4j6Z1LBZ6-HQAoXAY7y6U5cHJ0DpBUauF7vUdkO1TqfL2OxNssbnrmZ_tkvqjHtHfO8q1DJmnKyaklYG_pS3tP90GLmjswhs1dAZqQjGhrUlkpnlgXswIyliQd-6xvLvH-&et=994&jsv=116&urll=862" type: "gwhirl" afmaNotifyDt: "null">
+08-29 01:55:59.572: W/Ads(639): No AdResponse found, <message: /log>
+08-29 01:56:00.552: D/dalvikvm(639): GC_CONCURRENT freed 330K, 4% free 11047K/11463K, paused 6ms+13ms
+08-29 01:56:00.583: D/webviewglue(639): nativeDestroy view: 0x324870
+08-29 01:56:01.012: D/webviewglue(639): nativeDestroy view: 0x323d00
+08-29 01:56:01.022: I/Ads(639): onReceiveAd()
+08-29 01:56:30.326: I/Ads(639): Refreshing ad.
+08-29 01:56:30.432: I/Ads(639): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":1,"session_id":"2153053308058235629","u_sd":1.5,"seq_num":"2","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":7293,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":37213,"u_audio":4,"prl":7826});</script></head><body></body></html>
+08-29 01:56:30.912: E/ActivityThread(639): Failed to find provider info for com.google.android.gms.ads.adinfo
+08-29 01:56:30.912: E/webkit(639): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+08-29 01:56:31.661: I/Ads(639): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=1&session_id=2153053308058235629&u_sd=1.5&seq_num=2&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=7293&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=37213&u_audio=4&prl=7826&aims=f&aimr=nogms&aimt=120&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLGNtve3NZeu404zfr9gSdi8EeB7EFRFhr3CJFm9Wze0i3hPhCP-5ZyZpaaAurqEMYyJCoFOw07nG8anZ-WYfAIeCyx-es69S5NGgkcHZQyGviLVZHH4a1mNaBpj9DIoTb2L17Q2MRbjiVn8tC6QlB1ViLg767_LZJ8CrrY56aPVWgAXzsGyS3v-Q5TuiWFwYX5gcnFK3zix8YLmI5HR4JCa7c0B464XkDZ_JJSli4Wlt2A_nPfvrbLkGsSvCveHjyoadlIY_5PPpe8yo73956L_5ne50HOt0lyV&et=433&jsv=116&urll=885" type: "gwhirl" afmaNotifyDt: "null">
+08-29 01:56:32.132: I/System.out(639): ZmView : we selected server 0
+08-29 01:56:32.641: D/dalvikvm(639): GC_CONCURRENT freed 459K, 6% free 11050K/11655K, paused 7ms+8ms
+08-29 01:56:41.161: D/webviewglue(639): nativeDestroy view: 0x39fb18
+08-29 01:56:41.183: I/Ads(639): onReceiveAd()
+08-29 01:56:41.382: D/dalvikvm(639): GC_FOR_ALLOC freed 306K, 7% free 10913K/11655K, paused 57ms
+08-29 01:56:42.861: D/dalvikvm(639): GC_CONCURRENT freed 109K, 4% free 11282K/11655K, paused 6ms+14ms
+08-29 01:56:47.401: D/dalvikvm(639): GC_CONCURRENT freed 365K, 5% free 11334K/11911K, paused 6ms+12ms
+08-29 01:56:53.292: D/dalvikvm(639): GC_CONCURRENT freed 219K, 4% free 11552K/11911K, paused 4ms+8ms
+08-29 01:57:00.412: I/Ads(639): Refreshing ad.
+08-29 01:57:00.671: I/Ads(639): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":2,"session_id":"2153053308058235629","u_sd":1.5,"seq_num":"3","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":2077,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":67381,"u_audio":4,"prl":10771});</script></head><body></body></html>
+08-29 01:57:01.901: E/ActivityThread(639): Failed to find provider info for com.google.android.gms.ads.adinfo
+08-29 01:57:01.901: E/webkit(639): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+08-29 01:57:03.601: D/dalvikvm(639): GC_CONCURRENT freed 280K, 4% free 11746K/12167K, paused 5ms+10ms
+08-29 01:57:03.871: I/Ads(639): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=2&session_id=2153053308058235629&u_sd=1.5&seq_num=3&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=2077&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=67381&u_audio=4&prl=10771&aims=f&aimr=nogms&aimt=219&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLF7Q3FWLXE6rQI5R41OTRlffu586FnaXb5RYq_Mw-AsIUtm22cefXHsDMPc4z_NN6108oGGZQJ3gAsfM2UjoiRdxqNZMLbzeiTI-iaK-fnw_GxG5eYYore3MgbvjhIY3VjCo9hi_e9bgT6hWTjQ1Wy0tQnhS7dQok4-xO0_Yz9HXQAwzThCexZKu5KhdUnzBRkv0m6DqDXgjIRaAdctBqf9gZA_jDiSBJHB7_Cwz8GsrEug7J5BJphDSMxFCrQI1EFf9biy_4t7adPXxIPz9q3tI3MmdfT8UOZq&et=1092&jsv=116&urll=887" type: "gwhirl" afmaNotifyDt: "null">
+08-29 01:57:08.031: D/webviewglue(639): nativeDestroy view: 0x39bc58
+08-29 01:57:08.051: I/Ads(639): onReceiveAd()
+08-29 01:57:08.851: D/dalvikvm(639): GC_CONCURRENT freed 397K, 5% free 11888K/12423K, paused 43ms+8ms
+08-29 01:57:16.262: D/dalvikvm(88): GC_CONCURRENT freed 404K, 17% free 12171K/14663K, paused 7ms+77ms
+08-29 01:57:19.511: D/dalvikvm(639): GC_CONCURRENT freed 410K, 5% free 12060K/12615K, paused 7ms+18ms
+08-29 01:57:21.003: I/WindowManager(88): createSurface Window{414f9060 com.html5clouds.zmview/com.html5clouds.zmview.ZmViewActivity paused=false}: DRAW NOW PENDING
+08-29 01:57:21.292: W/InputManagerService(88): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@415b8e18
+08-29 01:57:30.545: I/Ads(639): Refreshing ad.
+08-29 01:57:30.661: I/Ads(639): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":3,"session_id":"2153053308058235629","u_sd":1.5,"seq_num":"4","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":4161,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":97432,"u_audio":4,"prl":7465});</script></head><body></body></html>
+08-29 01:57:31.151: E/ActivityThread(639): Failed to find provider info for com.google.android.gms.ads.adinfo
+08-29 01:57:31.151: E/webkit(639): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+08-29 01:57:31.941: I/Ads(639): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=3&session_id=2153053308058235629&u_sd=1.5&seq_num=4&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=4161&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=97432&u_audio=4&prl=7465&aims=f&aimr=nogms&aimt=96&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLGyVXhPO6mMXAh1Hh8IXXmLQcMRZToMhdK5-zzOS_2OYWS_MFD8s3oWpVNc6LKledlUq-QJ7DLTfsXpHJjF7YD-XHRE2LOEF0hf83Ru_QBJGa1DmY8enmac8v5S7CH37Cach8KeGwWEtJZOCuqcsrQGy2IxPTtRwOZbpD_7zSxtZQCVrm0rzmVG4_RUsDd81WdMRBGpZSQc5hkvZHbAMTon3VIZYk_wlnCNVo8Cz0wlwO2P3v68eJsw7zUnsE7IyxITzMggTChJ1J4p4e8yVOsNIWqkrzgfnYX0&et=408&jsv=116&urll=884" type: "gwhirl" afmaNotifyDt: "null">
+08-29 01:57:33.081: D/webviewglue(639): nativeDestroy view: 0x3f5d58
+08-29 01:57:33.091: I/Ads(639): onReceiveAd()
+08-29 01:57:33.231: D/dalvikvm(639): GC_FOR_ALLOC freed 988K, 10% free 11581K/12807K, paused 75ms
+08-29 01:57:34.261: I/WindowManager(88): createSurface Window{41511020 PopupWindow:41576dd8 paused=false}: DRAW NOW PENDING
+08-29 01:57:36.481: I/ActivityManager(88): START {cmp=com.html5clouds.zmview/.LiveMonitor (has extras)} from pid 639
+08-29 01:57:36.491: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21030
+08-29 01:57:36.831: D/dalvikvm(639): GC_CONCURRENT freed 183K, 7% free 11957K/12807K, paused 19ms+7ms
+08-29 01:57:36.971: D/dalvikvm(639): GC_FOR_ALLOC freed 67K, 7% free 12038K/12807K, paused 68ms
+08-29 01:57:36.982: D/LiveMonitor(639): 1. Sending http request
+08-29 01:57:37.172: I/Ads(639): To get test ads on this device, call adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+08-29 01:57:37.191: I/makemachine(639): onPreExecute()
+08-29 01:57:37.251: I/Ads(639): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":4,"session_id":"2153053308058235629","u_sd":1.5,"seq_num":"5","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":103980,"u_audio":4});</script></head><body></body></html>
+08-29 01:57:37.312: I/WindowManager(88): createSurface Window{4153ca60 com.html5clouds.zmview/com.html5clouds.zmview.LiveMonitor paused=false}: DRAW NOW PENDING
+08-29 01:57:37.401: I/WindowManager(88): createSurface Window{4157a950 SurfaceView paused=false}: DRAW NOW PENDING
+08-29 01:57:37.961: I/ActivityManager(88): Displayed com.html5clouds.zmview/.LiveMonitor: +1s448ms
+08-29 01:57:38.332: D/dalvikvm(169): GC_CONCURRENT freed 385K, 6% free 10330K/10951K, paused 8ms+24ms
+08-29 01:57:38.581: D/dalvikvm(639): GC_FOR_ALLOC freed 129K, 6% free 12140K/12871K, paused 137ms
+08-29 01:57:38.681: E/ActivityThread(639): Failed to find provider info for com.google.android.gms.ads.adinfo
+08-29 01:57:38.681: E/webkit(639): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+08-29 01:57:39.311: D/LiveMonitor(639): 1. Sending http request
+08-29 01:57:40.381: I/Ads(639): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=4&session_id=2153053308058235629&u_sd=1.5&seq_num=5&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=103980&u_audio=4&aims=f&aimr=nogms&aimt=183&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLEi8geHmbYWkl_YWgOtR8GlWSo9BUqxyBvDnJHPIvyDBUh-W4SEUYcZ64CVhY6jbAYJFnz1OWA_DxeAMQE6NL_OOJ0nLIkXWCdmbQdXMQ8r7inePPVkX3Isg_hItmxHXSsw_DVmXCmsgplqeqAJwguQP_aaXNMh_BVUgXBsUkZKOgBCEPdFjw94OH1KpraS97aqdBb8Q7glo9ISN9XcUw7otc0JaoB0Tph0dezTD6kcZ6hLihAabXiDZRtKomNrfCC-vk-1MyPaCppWO2BTAuwOyGdibIPxLw_M&et=962&jsv=116&urll=867" type: "gwhirl" afmaNotifyDt: "null">
+08-29 01:57:41.921: D/webviewglue(639): nativeDestroy view: 0x377d90
+08-29 01:57:41.931: I/Ads(639): onReceiveAd()
+08-29 01:57:42.141: D/dalvikvm(639): GC_FOR_ALLOC freed 326K, 6% free 12283K/12999K, paused 75ms
+08-29 01:57:42.151: D/LiveMonitor(639): 2. Request finished, status = 200
+08-29 01:57:42.251: D/LiveMonitor(639): 2. Request finished, status = 200
+08-29 01:57:42.421: D/dalvikvm(639): GC_FOR_ALLOC freed 46K, 6% free 12515K/13191K, paused 81ms
+08-29 01:57:42.601: D/dalvikvm(639): GC_FOR_ALLOC freed 5K, 5% free 12842K/13511K, paused 79ms
+08-29 01:57:43.071: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12842K/13831K, paused 140ms
+08-29 01:57:43.402: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12842K/13831K, paused 68ms
+08-29 01:57:43.702: D/dalvikvm(639): GC_FOR_ALLOC freed 362K, 8% free 12834K/13831K, paused 75ms
+08-29 01:57:44.222: D/dalvikvm(639): GC_FOR_ALLOC freed 418K, 8% free 12769K/13831K, paused 81ms
+08-29 01:57:44.482: D/dalvikvm(639): GC_FOR_ALLOC freed 353K, 8% free 12768K/13831K, paused 74ms
+08-29 01:57:44.691: D/dalvikvm(639): GC_FOR_ALLOC freed 353K, 8% free 12768K/13831K, paused 67ms
+08-29 01:57:44.882: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12770K/13831K, paused 74ms
+08-29 01:57:45.081: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 79ms
+08-29 01:57:45.221: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 70ms
+08-29 01:57:45.361: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 66ms
+08-29 01:57:45.502: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 68ms
+08-29 01:57:45.661: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 86ms
+08-29 01:57:45.811: D/dalvikvm(639): GC_FOR_ALLOC freed 353K, 8% free 12771K/13831K, paused 68ms
+08-29 01:57:45.941: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 66ms
+08-29 01:57:46.101: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 90ms
+08-29 01:57:46.252: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 83ms
+08-29 01:57:46.401: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 69ms
+08-29 01:57:46.531: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 62ms
+08-29 01:57:46.671: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 73ms
+08-29 01:57:46.831: D/dalvikvm(639): GC_FOR_ALLOC freed 353K, 8% free 12771K/13831K, paused 82ms
+08-29 01:57:47.032: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 94ms
+08-29 01:57:47.311: D/dalvikvm(639): GC_FOR_ALLOC freed 352K, 8% free 12771K/13831K, paused 79ms
+08-29 01:57:47.592: D/dalvikvm(639): GC_FOR_ALLOC freed 352K, 8% free 12771K/13831K, paused 97ms
+08-29 01:57:47.961: D/dalvikvm(639): GC_FOR_ALLOC freed 355K, 8% free 12771K/13831K, paused 81ms
+08-29 01:57:48.121: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 71ms
+08-29 01:57:48.272: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 80ms
+08-29 01:57:48.422: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 76ms
+08-29 01:57:48.571: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 77ms
+08-29 01:57:48.721: D/dalvikvm(639): GC_FOR_ALLOC freed 351K, 8% free 12771K/13831K, paused 74ms
+08-29 01:57:48.891: D/dalvikvm(639): GC_FOR_ALLOC freed 353K, 8% free 12771K/13831K, paused 81ms
+08-29 01:57:48.911: W/WindowManager(88): Failure taking screenshot for (180x300) to layer 21040
+08-29 01:57:49.071: I/makemachine(639): onPreExecute()
+08-29 01:57:49.132: I/WindowManager(88): createSurface Window{41532bf8 com.html5clouds.zmview/com.html5clouds.zmview.ZmViewActivity paused=false}: DRAW NOW PENDING
+08-29 01:57:49.341: I/WindowManager(88): createSurface Window{41511020 PopupWindow:41576dd8 paused=false}: DRAW NOW PENDING
+08-29 01:57:49.942: I/ARMAssembler(35): generated scanline__00000077:03515104_00009004_00000000 [122 ipp] (142 ins) at [0x41c88a88:0x41c88cc0] in 1628948 ns
+08-29 01:58:00.671: I/Ads(639): Refreshing ad.
+08-29 01:58:00.821: I/Ads(639): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":5,"session_id":"2153053308058235629","u_sd":1.5,"seq_num":"6","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":2180,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":127574,"u_audio":4,"prl":2462});</script></head><body></body></html>
+08-29 01:58:01.231: E/ActivityThread(639): Failed to find provider info for com.google.android.gms.ads.adinfo
+08-29 01:58:01.231: E/webkit(639): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+08-29 01:58:01.941: I/Ads(639): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=5&session_id=2153053308058235629&u_sd=1.5&seq_num=6&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=2180&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=127574&u_audio=4&prl=2462&aims=f&aimr=nogms&aimt=178&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLEO6rqVvGlRrNdqK6bAUaViJb-fDDMWtUNBy6BJdTPsL9EGIabsS1-fGf6x35tmAb3i3mK94zGwtuohlrIs0qo7L4fuHyqHFlo1GAV86zlZINpWwnRKtKfgjXNhuVpjF1_nzTLXzIw0WO5jeyzj3uLB1BTEmTabobdTJGh53Q5JjgAFv-UngfAjeL0nLa9jhP4VQoa8_8GOQya32RMB02Xsg6ml2w7H6IVB4MS0tkNW_R-WzfE2FaehDDQEKPaZXDrGxz3-kxw5GcQyf3elWtJI464Nuxr_QpbX&et=339&jsv=116&urll=886" type: "gwhirl" afmaNotifyDt: "null">

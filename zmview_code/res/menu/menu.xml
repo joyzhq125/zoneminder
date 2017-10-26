@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_refresh" android:id="@id/mRefresh" android:title="Refresh" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@android:drawable/ic_menu_add" android:id="@id/mSettings" android:title="New Server" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@android:drawable/ic_menu_myplaces" android:id="@id/mPro" android:title="Go Pro" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@android:drawable/ic_menu_view" android:id="@id/mAbout" android:title="About" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@id/mexit" android:title="Exit" android:showAsAction="ifRoom|withText" android:windowActionBarOverlay="true" />
+</menu>

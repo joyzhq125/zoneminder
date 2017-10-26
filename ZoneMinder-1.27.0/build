@@ -1,0 +1,2 @@
+./configure --with-webdir=/var/www/zm --with-cgidir=/usr/lib/cgi-bin --with-ffmpeg=/usr/local ZM_DB_HOST=localhost ZM_DB_NAME=zm ZM_DB_USER=zmuser ZM_DB_PASS=zmpass --enable-debug=yes --with-webgroup=www-data --with-webuser=www-data
+

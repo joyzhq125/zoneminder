@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">-->  
+    <ImageButton android:id="@id/btnprev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:src="@drawable/ic_menu_back" android:text="" android:layout_alignParentLeft="true" />
+    <Spinner android:entries="@array/pages" android:id="@id/spinner2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/ppage" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/btnnext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:src="@drawable/ic_menu_forward" android:text="" android:layout_alignParentRight="true" />
+    <TableLayout android:gravity="center_horizontal" android:id="@id/table01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/btnnext">
+        <View android:background="#ff00a0b0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TableRow android:gravity="center_horizontal" android:paddingTop="6.0dip" android:paddingBottom="6.0dip">
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/EventID" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="ID" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/EventTime" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="Time" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/EventDur" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="Dur." android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/EventFrames" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="Frames" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/Event_Score" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="Score" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+        </TableRow>
+        <View android:background="#ff00a0b0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </TableLayout>
+    <!-- 
+    <com.google.ads.AdView android:layout_gravity="center_horizontal" android:id="@id/adView" android:background="#ff000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="8895357a04684bb8" ads:loadAdOnCreate="false" ads:primaryTextColor="#FFFFFF" ads:refreshInterval="30" ads:secondaryTextColor="#CCCCCC" />
+     -->
+    <ListView android:id="@id/listView2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/adView" android:layout_below="@id/table01" />
+</RelativeLayout>

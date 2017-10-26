@@ -1,0 +1,2262 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0044)http://www.apkbus.com/android-57452-1-1.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<TITLE>#Testin杯#基于android的远程视频监控系统（已开放源码，希望多多支持） - Android实例教程 -  Android开发论坛 - 
+安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户</TITLE> <!-- 请置于所有广告位代码之前 --> 
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/m.js" type="text/javascript"></SCRIPT>
+<LINK href="http://www.apkbus.com/android-57452-1-1.html" rel="canonical"> 
+<META name="keywords" content="#Testin杯#基于android的远程视频监控系统（已开放源码，希望多多支持）"> 
+<META name="description" content=" #Testin杯#基于android的远程视频监控系统（已开放源码，希望多多支持） ,Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17239"> 
+<META name="author" content="Discuz! Team and Comsenz UI Team"> 
+<META name="copyright" content="2001-2013 Comsenz Inc."> 
+<META name="MSSmartTagsPreventParsing" content="True"> 
+<META http-equiv="MSThemeCompatible" content="Yes"> <LINK href="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/style_22_common.css" 
+rel="stylesheet" type="text/css"><LINK href="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/style_22_forum_viewthread.css" 
+rel="stylesheet" type="text/css">
+<SCRIPT type="text/javascript">var STYLEID = '22', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'X3v', charset = 'utf-8', discuz_uid = '0', cookiepre = '0U6M_baf0_', cookiedomain = '.apkbus.com', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'newthread', creditnotice = '4|下载豆|', defaultstyle = '', REPORTURL = 'aHR0cDovL3d3dy5hcGtidXMuY29tL2FuZHJvaWQtNTc0NTItMS0xLmh0bWw=', SITEURL = 'http://www.apkbus.com/', JSPATH = 'data/cache/', DYNAMICURL = '';</SCRIPT>
+ 
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/common.js" type="text/javascript"></SCRIPT>
+ 
+<META name="application-name" content="Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户"> 
+<META name="msapplication-tooltip" content="Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户"> 
+<META name="msapplication-task" content="name=移动开发者门户;action-uri=http://www.apkbus.com/portal.php;icon-uri=http://www.apkbus.com/static/image/common/portal.ico">
+<META name="msapplication-task" content="name=安卓巴士论坛;action-uri=http://www.apkbus.com/forum.php;icon-uri=http://www.apkbus.com/static/image/common/bbs.ico"> 
+<META name="msapplication-task" content="name=巴士站;action-uri=http://www.apkbus.com/group.php;icon-uri=http://www.apkbus.com/static/image/common/group.ico">
+<META name="msapplication-task" content="name=安卓小家;action-uri=http://www.apkbus.com/home.php;icon-uri=http://www.apkbus.com/static/image/common/home.ico"><LINK 
+title="Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户" href="http://www.apkbus.com/archiver/" 
+rel="archives"> <LINK id="css_widthauto" href="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/style_22_widthauto.css" 
+rel="stylesheet" type="text/css"> 
+<SCRIPT type="text/javascript">HTMLNODE.className += ' widthauto'</SCRIPT>
+ 
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/forum.js" type="text/javascript"></SCRIPT>
+ </HEAD> 
+<BODY class="pg_viewthread" id="nv_forum" onkeydown="if(event.keyCode==27) return false;">
+<DIV id="append_parent"></DIV>
+<DIV id="ajaxwaitid"></DIV>
+<DIV class="cl" id="toptb">
+<DIV class="wp">
+<DIV class="z"><A onclick="addFavorite(this.href, 'Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户');return false;" 
+href="http://www.apkbus.com/">收藏本站</A><A href="http://dev.apkbus.com/" target="_blank">Android开发</A><A 
+href="http://www.mob.com/" target="_blank">移动开发SDK</A><A href="http://api.apkbus.com/" 
+target="_blank">Android中文文档</A><A href="http://www.apkbus.com/design/" target="_blank">Android 
+design</A><A title="ios开发" style="color: red; font-weight: bold;" href="http://code4app.com/" 
+target="_blank">ios开发</A>
+<SCRIPT type="text/javascript">var _speedMark = new Date();</SCRIPT>
+</DIV>
+<DIV class="y"><A title="开启辅助访问" class="switchblind" id="switchblind" onclick="toggleBlind(this)" 
+href="javascript:;">开启辅助访问</A> <A href="http://www.apkbus.com/portal.php?mod=portalcp&amp;ac=article">投稿</A><A 
+title="切换到窄版" class="switchwidth" id="switchwidth" onclick="widthauto(this)" 
+href="javascript:;">切换到窄版</A> </DIV></DIV></DIV>
+<DIV class="p_pop blk" id="qmenu_menu" style="display: none;">
+<DIV class="ptm pbw hm">请 <A class="xi2" onclick="lsSubmit()" href="javascript:;"><STRONG>登录</STRONG></A> 
+后使用快捷导航<BR>没有帐号？<A class="xi2 xw1" href="http://www.apkbus.com/member.php?mod=register">注册</A> 
+</DIV>
+<DIV class="btda" id="fjump_menu"></DIV></DIV>
+<DIV id="hd">
+<DIV class="wp">
+<DIV class="hdc cl">
+<H2><A title="Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户" href="http://www.apkbus.com/"><IMG 
+alt="Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/logo.png" 
+border="0"></A></H2>
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/logging.js" type="text/javascript"></SCRIPT>
+ 
+<FORM id="lsform" onsubmit="pwmd5('ls_password');return lsSubmit();" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;infloat=yes&amp;lssubmit=yes" 
+method="post" autocomplete="off">
+<DIV class="fastlg cl"><SPAN id="return_ls" style="display: none;"></SPAN> 
+<DIV class="y pns">
+<TABLE cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD><LABEL for="ls_username">帐号</LABEL></TD>
+    <TD><INPUT name="username" tabindex="901" class="px vm xg1" id="ls_username" onfocus="if(this.value == '用户名/Email'){this.value = '';this.className = 'px vm';}" onblur="if(this.value == ''){this.value = '用户名/Email';this.className = 'px vm xg1';}" type="text" value="用户名/Email"></TD>
+    <TD class="fastlg_l"><LABEL for="ls_cookietime"><INPUT name="cookietime" 
+      tabindex="903" class="pc" id="ls_cookietime" type="checkbox" value="2592000">自动登录</LABEL></TD>
+    <TD>&nbsp;<A onclick="showWindow('login', 'member.php?mod=logging&amp;action=login&amp;viewlostpw=1')" 
+      href="javascript:;">找回密码</A></TD></TR>
+  <TR>
+    <TD><LABEL for="ls_password">密码</LABEL></TD>
+    <TD><INPUT name="password" tabindex="902" class="px vm" id="ls_password" type="password" autocomplete="off"></TD>
+    <TD class="fastlg_l"><BUTTON tabindex="904" class="pn vm" style="width: 75px;" 
+      type="submit"><EM>登录</EM></BUTTON></TD>
+    <TD>&nbsp;<A class="xi2 xw1" href="http://www.apkbus.com/member.php?mod=register">注册</A></TD></TR></TBODY></TABLE><INPUT name="quickforward" type="hidden" value="yes"> 
+<INPUT name="handlekey" type="hidden" value="ls"> </DIV>
+<DIV class="fastlg_fm y" style="padding-right: 10px; margin-right: 10px;">
+<P><A href="http://www.apkbus.com/connect.php?mod=login&amp;op=init&amp;referer=forum.php%3Fmod%3Dviewthread%26tid%3D57452%26extra%3Dpage%253D1%26page%3D1&amp;statfrom=login_simple"><IMG 
+class="vm" alt="QQ登录" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/qq_login.gif"></A></P>
+<P class="hm xg1" style="padding-top: 2px;">只需一步，快速开始</P></DIV></DIV></FORM>
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/md5.js" type="text/javascript" reload="1"></SCRIPT>
+ </DIV><IMG style="margin-top: -3px; margin-left: 737px; position: absolute; z-index: 1001;" 
+src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/11.gif"> 
+<DIV id="nv"><A id="qmenu" onmouseover="delayShow(this, function () {showMenu({'ctrlid':'qmenu','pos':'34!','ctrlclass':'a','duration':2});showForummenu(43);})" 
+href="javascript:;">快捷导航</A> 
+<UL>
+  <LI id="mn_portal"><A title="Portal" hidefocus="true" href="http://www.apkbus.com/portal.php">移动开发者门户<SPAN>Portal</SPAN></A></LI>
+  <LI class="a" id="mn_forum"><A title="BBS" hidefocus="true" href="http://www.apkbus.com/forum.php">安卓巴士论坛<SPAN>BBS</SPAN></A></LI>
+  <LI id="mn_N3435"><A hidefocus="true" href="http://www.apkbus.com/Android-253-1.html" 
+  target="_blank">招聘</A></LI>
+  <LI id="mn_N1f06" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><A 
+  style="color: orange;" hidefocus="true" href="http://luo.apkbus.com/" target="_blank">视频教程</A></LI>
+  <LI id="mn_Ne30e"><A title="Auction" style="color: orange;" hidefocus="true" 
+  href="http://www.apkbus.com/plugin.php?id=auction">商城<SPAN>Auction</SPAN></A></LI>
+  <LI id="mn_N5b93" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"><A 
+  hidefocus="true" href="http://www.apkbus.com/plugin.php?id=dsu_paulsign:sign" 
+  target="_blank">签到</A></LI>
+  <LI id="mn_Nc624"><A style="color: yellow;" hidefocus="true" href="http://salon.apkbus.com/" 
+  target="_blank">沙龙</A></LI>
+  <LI id="mn_N8175"><A hidefocus="true" href="http://book.apkbus.com/" target="_blank">图书</A></LI>
+  <LI id="mn_N737b"><A hidefocus="true" href="http://d.apkbus.com/" target="_blank">源码</A></LI>
+  <LI id="mn_N64fa"><A hidefocus="true" href="http://www.apkbus.com/android-91265-1-1.html" 
+  target="_blank">获取下载豆</A></LI>
+  <LI id="mn_N62a2"><A style="color: red;" hidefocus="true" href="http://www.apkbus.com/zhoukan/68/" 
+  target="_blank">周刊</A></LI>
+  <LI id="mn_forum_11"><A title="Collection" hidefocus="true" href="http://www.apkbus.com/forum.php?mod=collection">淘帖<SPAN>Collection</SPAN></A></LI>
+  <LI id="mn_N5149"><A title="快来抒发您的心情吧！" hidefocus="true" href="http://www.apkbus.com/plugin.php?id=moodwall">心情墙<SPAN>快来抒发您的心情吧！</SPAN></A></LI></UL></DIV>
+<UL class="p_pop h_pop" id="plugin_menu" style="display: none;">
+  <LI><A id="mn_plink_sign" href="http://www.apkbus.com/plugin.php?id=dsu_paulsign:sign">每日签到</A></LI> 
+ </UL>
+<DIV class="p_pop h_pop" id="mn_userapp_menu" style="display: none;"></DIV>
+<UL class="p_pop h_pop" id="mn_N1f06_menu" style="display: none;">
+  <LI><A hidefocus="true" href="http://www.apkbus.com/qianfeng/" 
+  target="_blank">千锋网Android 开发视频教程合集</A></LI>
+  <LI><A hidefocus="true" href="http://www.apkbus.com/unity/" 
+  target="_blank">Unity 视频开发教程</A></LI>
+  <LI><A hidefocus="true" href="http://luo.apkbus.com/" 
+  target="_blank">老罗Android开发视频教程</A></LI>
+  <LI><A hidefocus="true" href="http://www.apkbus.com/ios/" 
+  target="_blank">iphone开发视频教程</A></LI>
+  <LI><A hidefocus="true" href="http://mars.apkbus.com/" target="_blank">Mars 
+  Android开发视频教程</A></LI>
+  <LI><A hidefocus="true" href="http://www.apkbus.com/heima/" 
+  target="_blank">黑马Android开发视频教程125集</A></LI></UL>
+<UL class="p_pop h_pop" id="mn_N5b93_menu" style="display: none;">
+  <LI><A hidefocus="true" href="http://www.apkbus.com/plugin.php?id=dsu_paulsign:sign">签到</A></LI>
+  <LI><A hidefocus="true" 
+  href="http://www.apkbus.com/android-167357-1-1.html">送30下载豆</A></LI></UL>
+<DIV class="cl" id="mu"></DIV>
+<DIV class="scbar_narrow cl" id="scbar">
+<FORM id="scbar_form" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" 
+method="post" target="_blank" autocomplete="off"><INPUT name="mod" id="scbar_mod" type="hidden" value="search"> 
+<INPUT name="formhash" type="hidden" value="90827a45"> 
+<INPUT name="srchtype" type="hidden" value="title"> <INPUT name="srhfid" type="hidden" value="43"> 
+<INPUT name="srhlocality" type="hidden" value="forum::viewthread"> 
+<TABLE cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD class="scbar_icon_td"></TD>
+    <TD 
+class="scbar_txt_td"><INPUT name="srchtxt" id="scbar_txt" type="text" value="请输入搜索内容" autocomplete="off" speech="" x-webkit-speech=""></TD>
+    <TD class="scbar_type_td"><A class="xg1" id="scbar_type" hidefocus="true" 
+      onclick="showMenu(this.id)" href="javascript:;">搜索</A></TD>
+    <TD class="scbar_btn_td"><BUTTON name="searchsubmit" class="pn pnc" id="scbar_btn" 
+      type="submit" value="true" sc="1"><STRONG 
+    class="xi2">搜索</STRONG></BUTTON></TD>
+    <TD class="scbar_hot_td">
+      <DIV id="scbar_hot"><STRONG class="xw1">热搜: </STRONG> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E4%BA%8C%E7%BB%B4%E7%A0%81&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">二维码</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E8%81%8A%E5%A4%A9&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">聊天</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%89%AB%E6%8F%8F&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">二维码扫描</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E4%BC%A0%E6%84%9F%E5%99%A8&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">传感器</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E6%B8%B8%E6%88%8F&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">游戏</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E5%AE%9A%E4%BD%8D&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">定位</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E6%89%8B%E5%8A%BF%E7%BB%98%E5%9B%BE&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">手势绘图</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E5%B0%8F%E9%A1%B9%E7%9B%AE&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">小项目</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E7%9B%B8%E6%A1%86&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">相框</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E7%BB%98%E5%9B%BE&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">绘图</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E6%B6%82%E9%B8%A6&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">涂鸦</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E6%8B%A8%E6%89%93%E7%94%B5%E8%AF%9D&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">拨打电话</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E8%AE%B0%E4%BA%8B%E6%9C%AC&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">记事本</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E5%AE%9A%E6%97%B6%E5%99%A8&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">定时器</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E9%80%9A%E8%AF%9D%E8%AE%B0%E5%BD%95&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">通话记录</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E7%9F%AD%E4%BF%A1%E7%BE%A4%E5%8F%91&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">短信群发</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=listview&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">listview</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">音乐播放器</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E9%A1%B9%E7%9B%AE%E4%BE%8B%E5%AD%90&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">项目例子</A> <A class="xi2" href="http://www.apkbus.com/search.php?mod=forum&amp;srchtxt=%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE&amp;formhash=90827a45&amp;searchsubmit=true&amp;source=hotsearch" 
+      target="_blank" sc="1">百度地图</A> </DIV></TD></TR></TBODY></TABLE></FORM></DIV>
+<UL class="p_pop" id="scbar_type_menu" style="display: none;">
+  <LI><A href="javascript:;" rel="curforum" fid="43">本版</A></LI>
+  <LI><A href="javascript:;" rel="article">文章</A></LI>
+  <LI><A class="curtype" href="javascript:;" rel="forum">帖子</A></LI>
+  <LI><A href="javascript:;" rel="group">巴士站</A></LI>
+  <LI><A href="javascript:;" rel="user">用户</A></LI></UL>
+<SCRIPT type="text/javascript">
+initSearchmenu('scbar', '');
+</SCRIPT>
+ </DIV></DIV>
+<DIV class="wp" id="wp">
+<SCRIPT type="text/javascript">var fid = parseInt('43'), tid = parseInt('57452');</SCRIPT>
+ 
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/forum_moderate.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/forum_viewthread.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">zoomstatus = parseInt(1);var imagemaxwidth = '800';var aimgcount = new Array();</SCRIPT>
+ 
+<STYLE id="diy_style" type="text/css"></STYLE>
+ <!--[diy=diynavtop]-->
+<DIV class="area" id="diynavtop"></DIV><!--[/diy]--> 
+<DIV class="bm cl" id="pt">
+<DIV class="z"><A title="首页" class="nvhm" 
+href="http://www.apkbus.com/">Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 
+移动互联网门户</A><EM>»</EM><A href="http://www.apkbus.com/forum.php">安卓巴士论坛</A> 
+<EM>›</EM> <A href="http://www.apkbus.com/forum.php?gid=1">Android开发资料共享区</A> 
+<EM>›</EM> <A href="http://www.apkbus.com/Android-43-1.html">Android实例教程</A> 
+<EM>›</EM> <A 
+href="http://www.apkbus.com/android-57452-1-1.html">#Testin杯#基于android的远程视频监控系统（已开放源码 
+...</A> </DIV></DIV>
+<STYLE id="diy_style" type="text/css"></STYLE>
+ 
+<DIV class="wp"><!--[diy=diy1]-->
+<DIV class="area" id="diy1"></DIV><!--[/diy]--> </DIV>
+<DIV class="wp cl" id="ct">
+<DIV class="pgs mbm cl pbm bbs" id="pgt">
+<DIV class="pgt">
+<DIV class="pg"><STRONG>1</STRONG><A href="http://www.apkbus.com/android-57452-2-1.html">2</A><A 
+href="http://www.apkbus.com/android-57452-3-1.html">3</A><A href="http://www.apkbus.com/android-57452-4-1.html">4</A><A 
+href="http://www.apkbus.com/android-57452-5-1.html">5</A><A href="http://www.apkbus.com/android-57452-6-1.html">6</A><A 
+href="http://www.apkbus.com/android-57452-7-1.html">7</A><A href="http://www.apkbus.com/android-57452-8-1.html">8</A><A 
+href="http://www.apkbus.com/android-57452-9-1.html">9</A><A href="http://www.apkbus.com/android-57452-10-1.html">10</A><A 
+class="last" href="http://www.apkbus.com/android-57452-150-1.html">... 
+150</A><LABEL><INPUT name="custompage" title="输入页码，按回车快速跳转" class="px" onkeydown="if(event.keyCode==13) {window.location='forum.php?mod=viewthread&amp;tid=57452&amp;extra=page%3D1&amp;page='+this.value;; doane(event);}" type="text" size="2" value="1"><SPAN 
+title="共 150 页"> / 150 页</SPAN></LABEL><A class="nxt" href="http://www.apkbus.com/android-57452-2-1.html">下一页</A></DIV></DIV><SPAN 
+class="y pgb"><A href="http://www.apkbus.com/Android-43-1.html">返回列表</A></SPAN> 
+<A title="发新帖" id="newspecial" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu({'ctrlid':this.id})" 
+onclick="showWindow('newthread', 'forum.php?mod=post&amp;action=newthread&amp;fid=43')" 
+href="javascript:;"><IMG alt="发新帖" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/pn_post.png"></A></DIV>
+<DIV class="xi2 pbm" id="modmenu"><A href="http://www.apkbus.com/portal.php?mod=portalcp&amp;ac=article&amp;from_idtype=tid&amp;from_id=57452">生成文章</A><SPAN 
+class="pipe">|</SPAN></DIV>
+<DIV class="pl bm" id="postlist">
+<TABLE cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD class="pls ptn pbn">
+      <DIV class="hm ptn"><SPAN class="xg1">查看:</SPAN> <SPAN 
+      class="xi1">56339</SPAN><SPAN class="pipe">|</SPAN><SPAN 
+      class="xg1">回复:</SPAN> <SPAN class="xi1">1496</SPAN> </DIV></TD>
+    <TD class="plc ptm pbn vwthd">
+      <DIV class="y"><A title="打印" href="http://www.apkbus.com/forum.php?mod=viewthread&amp;action=printable&amp;tid=57452" 
+      target="_blank"><IMG class="vm" alt="打印" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/print.png"></A> 
+      <A title="上一主题" href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=nextoldset&amp;tid=57452"><IMG 
+      class="vm" alt="上一主题" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/thread-prev.png"></A> 
+      <A title="下一主题" href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=nextnewset&amp;tid=57452"><IMG 
+      class="vm" alt="下一主题" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/thread-next.png"></A> 
+      </DIV> 
+      <H1 class="ts"><SPAN 
+      id="thread_subject">#Testin杯#基于android的远程视频监控系统（已开放源码，希望多多支持）</SPAN> </H1> 
+      <SPAN class="xg1">&nbsp;<IMG title="评价指数 7" alt="" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/recommend_1.gif">
+      &nbsp; <IMG title="热度: 1308" alt="" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/hot_3.gif"> 
+      <A onclick="return copyThreadUrl(this, 'Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户')" 
+      href="http://www.apkbus.com/android-57452-1-1.html">[复制链接]</A> </SPAN> 
+  </TD></TR></TBODY></TABLE>
+<TABLE class="ad" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE>
+<DIV id="post_284702">
+<DIV id="threadstamp"><IMG title="原创" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/007.gif"></DIV>
+<TABLE class="plhin" id="pid284702" cellspacing="0" cellpadding="0" summary="pid284702">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284702"><A name="newpost"></A> 
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank">wanghai</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284702" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284702_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank">wanghai</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382&amp;do=profile" 
+        target="_blank">885</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/82_avatar_middle.jpg"></A></DIV></DIV>
+      <P>该用户从未签到</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi">
+      <DIV class="y" id="fj"><LABEL class="z">电梯直达</LABEL> <INPUT title="跳转到指定楼层" class="px p_fre z" onkeydown="if(event.keyCode==13) {window.location=$('fj_btn').href;return false;}" onkeyup="$('fj_btn').href='forum.php?mod=redirect&amp;ptid=57452&amp;authorid=0&amp;postno='+this.value" type="text" size="2"> 
+      <A title="跳转到指定楼层" class="z" id="fj_btn" href="javascript:;"><IMG class="vm" 
+      alt="跳转到指定楼层" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/fj_btn.png"></A> 
+      </DIV><STRONG><A id="postnum284702" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/android-57452-1-1.html">楼主</A> </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284702" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_member.gif"> 
+      <EM id="authorposton284702">发表于 2012-7-3 19:11:29</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=82382" 
+      rel="nofollow">只看该作者</A> <SPAN class="none"><IMG class="vm" alt="回帖奖励" 
+      src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/arw_r.gif"></SPAN> 
+      <SPAN class="pipe show">|</SPAN><A class="show" href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;extra=page%3D1&amp;ordertype=1">倒序浏览</A> 
+      <SPAN class="pipe show">|</SPAN><A class="show" onclick="readmode($('thread_subject').innerHTML, 284702);" 
+      href="javascript:;">阅读模式</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+<STYLE type="text/css">.pcb{margin-right:0}</STYLE>
+
+      <DIV class="pcb">  
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284702">
+            <DIV class="attach_nopermission attach_tips">
+            <DIV>
+            <H3><STRONG>马上注册，结交更多好友，享用更多功能，让你轻松玩转社区。 </STRONG></H3>
+            <P>您需要 <A onclick="showWindow('login', this.href);return false;" 
+            href="http://www.apkbus.com/member.php?mod=logging&amp;action=login">登录</A> 
+            才可以下载或查看，没有帐号？<A title="注册帐号" href="http://www.apkbus.com/member.php?mod=register">注册</A> 
+            <A href="http://www.apkbus.com/connect.php?mod=login&amp;op=init&amp;referer=forum.php%3Fmod%3Dviewthread%26tid%3D57452%26extra%3Dpage%253D1%26page%3D1&amp;statfrom=login" 
+            target="_top" rel="nofollow"><IMG class="vm" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/qq_login.gif"></A> 
+            </P></DIV><SPAN class="atips_close" onclick="this.parentNode.style.display='none'">x</SPAN> 
+            </DIV>
+<SCRIPT type="text/javascript">replyreload += ',' + 284702;</SCRIPT>
+            <I class="pstatus"> 本帖最后由 wanghai 于 2012-7-4 22:38 编辑 
+            </I><BR><BR><FONT color="#ff0000"><A href="http://www.apkbus.com/android-57260-1-1.html" 
+            target="_blank">本文参与：Testin—<FONT face="宋体">安卓巴士</FONT><FONT face="Tahoma">Android</FONT><FONT 
+            face="宋体">开发原创教程大赛</FONT></A></FONT><BR>
+            基本过程是android作为socket客户端将采集到的每一帧图像数据发送出去，PC作为服务器接收并显示每一帧图像实现远程监控。图片如下（后来PC端加了个拍照功能）。。。<BR><ignore_js_op><IMG 
+            width="593" class="zoom" id="aimg_27863" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" 
+            onclick="zoom(this, this.src, 0, 0, 0)" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/none.gif" 
+            inpost="1" file="data/attachment/forum/201207/03/193057u1ro1q9xsv514w65.jpg" 
+            zoomfile="data/attachment/forum/201207/03/193057u1ro1q9xsv514w65.jpg" 
+            aid="27863"> 
+            <DIV class="tip tip_4 aimg_tip" id="aimg_27863_menu" style="display: none; position: absolute;" 
+            disautofocus="true">
+            <DIV class="xs0">
+            <P><STRONG>捕获.JPG</STRONG> <EM class="xg1">(97.69 KB, 下载次数: 
+            202)</EM></P>
+            <P><A href="http://www.apkbus.com/forum.php?mod=attachment&amp;aid=Mjc4NjN8NzMyNzAxNGJ8MTQwOTIxMzg2NHwwfDU3NDUy&amp;nothumb=yes" 
+            target="_blank">下载附件</A> &nbsp;<A id="savephoto_27863" onclick="showWindow(this.id, this.getAttribute('url'), 'get', 0);" 
+            href="javascript:;" url="home.php?mod=spacecp&amp;ac=album&amp;op=saveforumphoto&amp;aid=27863&amp;handlekey=savephoto_27863">保存到相册</A> 
+            </P>
+            <P class="xg1 y">2012-7-3 19:30 上传</P></DIV>
+            <DIV class="tip_horn"></DIV></DIV></ignore_js_op> <BR>
+            （PS。刚学android和java不久很多东西还不懂，高手若是知道哪些地方可以继续优化的话还请多多指点下啊）<BR>
+            此贴是这个系统的介绍，没有基础的朋友可以参考下面教程（会陆续补充完整，让大家都学会如何实现整个功能）：<BR>（1）<A href="http://www.apkbus.com/android-57624-1-1.html" 
+            target="_blank">#Testin杯#基于android的远程视频监控系统——学习第一步实现Camera预览</A><BR><BR><BR>
+            系统代码如下：<BR>一、android手机客户端<BR>
+            （1）AndroidManifest.xml文件。添加camera和socket权限，并设置了程序开始执行的activity
+            <DIV class="blockcode">
+            <DIV id="code_vZe">
+            <OL>
+              <LI>&lt;?xml version="1.0" encoding="utf-8"?&gt;<BR>
+              <LI>&lt;manifest 
+              xmlns:android="http://schemas.android.com/apk/res/android"<BR>
+              <LI>&nbsp; &nbsp; package="org.wanghai.CameraTest"<BR>
+              <LI>&nbsp; &nbsp; android:versionCode="1"<BR>
+              <LI>&nbsp; &nbsp; android:versionName="1.0" &gt;<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp; &lt;uses-sdk android:minSdkVersion="15" 
+/&gt;<BR>
+              <LI>&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp; &lt;!-- 授予程序使用摄像头的权限 --&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;uses-permission 
+              android:name="android.permission.CAMERA" /&gt; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;uses-feature 
+              android:name="android.hardware.camera" /&gt; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;uses-feature 
+              android:name="android.hardware.camera.autofocus" /&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;uses-permission 
+              android:name="android.permission.INTERNET"/&gt;<BR>
+              <LI>&nbsp; &nbsp; &lt;uses-permission 
+              android:name="android.permission.KILL_BACKGROUND_PROCESSES"/&gt;<BR>
+              <LI>&nbsp; &nbsp; &lt;uses-permission 
+              android:name="android.permission.RESTART_PACKAGES"/&gt;<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp; &lt;application<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:icon="@drawable/ic_launcher"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:label="@string/app_name" &gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;activity<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;android:name=".GetIP"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;android:screenOrientation="landscape"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;android:label="@string/app_name" &gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&lt;intent-filter&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; &lt;action android:name="android.intent.action.MAIN" 
+              /&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; &lt;category 
+              android:name="android.intent.category.LAUNCHER" /&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&lt;/intent-filter&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/activity&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;activity<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;android:name=".CameraTest"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;android:screenOrientation="landscape"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;android:label="@string/app_name" &gt;<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&lt;/activity&gt;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp; &lt;/application&gt;<BR>
+              <LI><BR>
+              <LI>&lt;/manifest&gt;</LI></OL></DIV><EM onclick="copycode($('code_vZe'));">复制代码</EM></DIV>（2）main.xml 
+            设置surfaceview用于摄像头采集图像的预览
+            <DIV class="blockcode">
+            <DIV id="code_mPm">
+            <OL>
+              <LI>&lt;?xml version="1.0" encoding="utf-8"?&gt;<BR>
+              <LI>&lt;LinearLayout 
+              xmlns:android="http://schemas.android.com/apk/res/android"<BR>
+              <LI>&nbsp; &nbsp; android:layout_width="fill_parent"<BR>
+              <LI>&nbsp; &nbsp; android:layout_height="fill_parent"<BR>
+              <LI>&nbsp; &nbsp; android:orientation="vertical" &gt;<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp;&lt;SurfaceView<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:id="@+id/sView"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_width="fill_parent" <BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_height="fill_parent"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:scaleType="fitCenter"/&gt;<BR>
+              <LI><BR>
+              <LI>&lt;/LinearLayout&gt;</LI></OL></DIV><EM onclick="copycode($('code_mPm'));">复制代码</EM></DIV>（3）login.xml 
+            登录界面，用于输入服务器IP
+            <DIV class="blockcode">
+            <DIV id="code_la4">
+            <OL>
+              <LI>&lt;?xml version="1.0" encoding="utf-8"?&gt;<BR>
+              <LI>&lt;TableLayout 
+              xmlns:android="http://schemas.android.com/apk/res/android"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:id="@+id/loginForm"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:orientation="vertical"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_width="fill_parent"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_height="fill_parent"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&gt;<BR>
+              <LI><BR>
+              <LI>&lt;TableRow&gt;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;<BR>
+              <LI>&lt;TextView<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_width="fill_parent"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_height="wrap_content"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;android:text="IP:"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:textSize="10pt"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;/&gt;<BR>
+              <LI>&lt;!-- 输入用户名的文本框 --&gt;<BR>
+              <LI>&lt;EditText<BR>
+              <LI>&nbsp; &nbsp; android:id="@+id/ipedittext"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_width="fill_parent"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:layout_height="wrap_content"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:digits="0123456789."<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:hint="请填写服务器IP"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;android:selectAllOnFocus="true"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;/&gt;<BR>
+              <LI>&lt;/TableRow&gt;<BR>
+              <LI><BR>
+              <LI>&lt;/TableLayout&gt;</LI></OL></DIV><EM onclick="copycode($('code_la4'));">复制代码</EM></DIV>（4）GetIP.java 
+            获得服务器IP后，通过Intent启动CameraTest的activity，ip信息通过Bundle传递
+            <DIV class="blockcode">
+            <DIV id="code_aRo">
+            <OL>
+              <LI>public class GetIP extends Activity {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;String ipname = 
+null;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;@Override<BR>
+              <LI>&nbsp; &nbsp; public void onCreate(Bundle savedInstanceState) 
+              {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;super.onCreate(savedInstanceState);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 设置全屏<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;requestWindowFeature(Window.FEATURE_NO_TITLE);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;setContentView(R.layout.main);&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;final Builder builder = new 
+              AlertDialog.Builder(this);&nbsp; 
+              &nbsp;//定义一个AlertDialog.Builder对象&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; builder.setTitle("登录服务器对话框");&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 设置对话框的标题<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; //装载/res/layout/login.xml界面布局<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; TableLayout loginForm = 
+              (TableLayout)getLayoutInflater().inflate( R.layout.login, 
+              null);&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; final EditText iptext = 
+              (EditText)loginForm.findViewById(R.id.ipedittext);&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; builder.setView(loginForm);&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// 设置对话框显示的View对象<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; // 为对话框设置一个“登录”按钮<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; builder.setPositiveButton("登录"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// 为按钮设置监听器<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;, new 
+              OnClickListener() {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;@Override<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;public void onClick(DialogInterface dialog, int 
+              which) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; //此处可执行登录处理<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; ipname = 
+              iptext.getText().toString().trim();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Bundle data = new 
+              Bundle();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              data.putString("ipname",ipname);&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Intent intent = new 
+              Intent(GetIP.this,CameraTest.class);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              intent.putExtras(data);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              startActivity(intent);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;});<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; // 为对话框设置一个“取消”按钮<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; builder.setNegativeButton("取消"<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;,&nbsp;&nbsp;new 
+              OnClickListener()<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;{<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;@Override<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;public void onClick(DialogInterface dialog, int 
+              which)<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;{<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; //取消登录，不做任何事情。<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; System.exit(1);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;});<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; //创建、并显示对话框<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; builder.create().show();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>}</LI></OL></DIV><EM 
+            onclick="copycode($('code_aRo'));">复制代码</EM></DIV>（5）CameraTest.java 
+            程序主体。设置PreviewCallback后，每当一帧图像数据采集完成后将调用PreviewCallback的onPreviewFrame函数。在这里我们将YUV格式数据转为jpg，再启用线程将数据通过socket发送出去。
+            <DIV class="blockcode">
+            <DIV id="code_TI2">
+            <OL>
+              <LI>public class CameraTest extends Activity {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SurfaceView sView;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;SurfaceHolder 
+              surfaceHolder;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;int screenWidth, 
+              screenHeight;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Camera camera;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;// 定义系统所用的照相机&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;boolean isPreview = 
+              false;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;//是否在浏览中<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;private String 
+              ipname;<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;@SuppressWarnings("deprecation")<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;@Override<BR>
+              <LI>&nbsp; &nbsp; public void onCreate(Bundle savedInstanceState) 
+              {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;super.onCreate(savedInstanceState);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 设置全屏<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              requestWindowFeature(Window.FEATURE_NO_TITLE);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;setContentView(R.layout.main);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 获取IP地址<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Intent intent = 
+              getIntent();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Bundle data = 
+              intent.getExtras();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ipname = 
+              data.getString("ipname");<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; screenWidth = 640;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; screenHeight = 480;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; sView = (SurfaceView) findViewById(R.id.sView);&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;// 获取界面中SurfaceView组件&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; surfaceHolder = sView.getHolder();&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // 
+              获得SurfaceView的SurfaceHolder<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; // 为surfaceHolder添加一个回调监听器<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; surfaceHolder.addCallback(new Callback() {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;@Override<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;public void 
+              surfaceChanged(SurfaceHolder holder, int format, int width,int 
+              height) {&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;@Override<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;public void 
+              surfaceCreated(SurfaceHolder holder) {&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;initCamera();&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 打开摄像头<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;@Override<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;public void 
+              surfaceDestroyed(SurfaceHolder holder) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;// 如果camera不为null ,释放摄像头<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;if (camera != null) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; if (isPreview)<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;camera.stopPreview();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+camera.release();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; camera = null;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              System.exit(0);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; });<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; // 设置该SurfaceView自己不维护缓冲&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; 
+              surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; <BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI>&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp; private void initCamera() {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;if 
+              (!isPreview) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;camera = 
+              Camera.open();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; }<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; if (camera != null &amp;&amp; !isPreview) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;try{<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;Camera.Parameters parameters = 
+              camera.getParameters();&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;parameters.setPreviewSize(screenWidth, 
+              screenHeight);&nbsp; &nbsp; // 设置预览照片的大小&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;parameters.setPreviewFpsRange(20,30);&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;// 每秒显示20~30帧&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;parameters.setPictureFormat(ImageFormat.NV21);&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 设置图片格式&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;parameters.setPictureSize(screenWidth, 
+              screenHeight);&nbsp; &nbsp; // 设置照片的大小<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;//camera.setParameters(parameters);&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp; // android2.3.3以后不需要此行代码<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;camera.setPreviewDisplay(surfaceHolder);&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;// 通过SurfaceView显示取景画面&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;camera.setPreviewCallback(new StreamIt(ipname));&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// 设置回调的类&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;camera.startPreview();&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;// 开始预览&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;camera.autoFocus(null);&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // 
+              自动对焦<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;} catch (Exception e) 
+              {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;e.printStackTrace();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;isPreview = true;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; }<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI>&nbsp; &nbsp; <BR>
+              <LI>}<BR>
+              <LI><BR>
+              <LI>class StreamIt implements Camera.PreviewCallback {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;private String 
+              ipname;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;public StreamIt(String 
+              ipname){<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; this.ipname = ipname;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp; @Override<BR>
+              <LI>&nbsp; &nbsp; public void onPreviewFrame(byte[] data, Camera 
+              camera) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Size size = 
+              camera.getParameters().getPreviewSize();&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;try{ <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; //调用image.compressToJpeg（）将YUV格式图像数据data转为jpg格式<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;YuvImage 
+              image = new YuvImage(data, ImageFormat.NV21, size.width, 
+              size.height, null);&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;if(image!=null){<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;ByteArrayOutputStream outstream = 
+              new ByteArrayOutputStream();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; image.compressToJpeg(new Rect(0, 0, size.width, 
+              size.height), 80, outstream); <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; outstream.flush();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; //启用线程将图像数据发送出去<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; Thread th = new MyThread(outstream,ipname);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; th.start();&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;}&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}catch(Exception 
+              ex){&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;Log.e("Sys","Error:"+ex.getMessage());&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI>}<BR>
+              <LI>&nbsp; &nbsp; <BR>
+              <LI>class MyThread extends Thread{&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;private byte 
+              byteBuffer[] = new byte[1024];<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;private OutputStream 
+              outsocket;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;private 
+              ByteArrayOutputStream myoutputstream;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;private String 
+              ipname;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;public 
+              MyThread(ByteArrayOutputStream myoutputstream,String ipname){<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; this.myoutputstream = myoutputstream;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; this.ipname = ipname;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;try {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;myoutputstream.close();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; } catch (IOException e) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;e.printStackTrace();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; }<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp; public void run() {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;try{<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; //将图像数据通过Socket发送出去<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Socket 
+              tempSocket = new Socket(ipname, 6000);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;outsocket 
+              = tempSocket.getOutputStream();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;ByteArrayInputStream inputstream = new 
+              ByteArrayInputStream(myoutputstream.toByteArray());<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;int 
+              amount;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;while 
+              ((amount = inputstream.read(byteBuffer)) != -1) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; outsocket.write(byteBuffer, 0, amount);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;myoutputstream.flush();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;myoutputstream.close();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;tempSocket.close();&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;} catch (IOException e) 
+              {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;e.printStackTrace();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI><BR>
+              <LI>}</LI></OL></DIV><EM 
+            onclick="copycode($('code_TI2'));">复制代码</EM></DIV>二、PC服务器端<BR>ImageServer.java 
+            用于显示图像，并且可以拍照
+            <DIV class="blockcode">
+            <DIV id="code_vv0">
+            <OL>
+              <LI>public class ImageServer {&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp; public static ServerSocket ss = null;<BR>
+              <LI>&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp; public static void main(String args[]) throws 
+              IOException{&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;ss = new 
+              ServerSocket(6000);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;final ImageFrame frame = 
+              new ImageFrame(ss);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;frame.setVisible(true);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;while(true){<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; frame.panel.getimage();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;frame.repaint();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp; <BR>
+              <LI>}<BR>
+              <LI><BR>
+              <LI>/** <BR>
+              <LI>&nbsp; &nbsp; A frame with an image panel<BR>
+              <LI>*/<BR>
+              <LI>@SuppressWarnings("serial")<BR>
+              <LI>class ImageFrame extends JFrame{<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;public ImagePanel 
+              panel;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;public JButton jb;<BR>
+              <LI>&nbsp; &nbsp;<BR>
+              <LI>&nbsp; &nbsp; public ImageFrame(ServerSocket ss){<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;// get screen dimensions&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;Toolkit kit = Toolkit.getDefaultToolkit();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Dimension screenSize = 
+              kit.getScreenSize();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;int screenHeight = 
+              screenSize.height;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;int screenWidth = 
+              screenSize.width;<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// center frame in 
+              screen<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;setTitle("ImageTest");<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;setLocation((screenWidth 
+              - DEFAULT_WIDTH) / 2, (screenHeight - DEFAULT_HEIGHT) / 2);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;setSize(DEFAULT_WIDTH, 
+              DEFAULT_HEIGHT);<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// add panel to 
+frame<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;this.getContentPane().setLayout(null);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;panel = new 
+              ImagePanel(ss);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;panel.setSize(640,480);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;panel.setLocation(0, 
+              0);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;add(panel);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;jb = new 
+              JButton("拍照");<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;jb.setBounds(0,480,640,50);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;add(jb);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;saveimage saveaction = 
+              new saveimage(ss);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;jb.addActionListener(saveaction);<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp; public static final int DEFAULT_WIDTH = 640;<BR>
+              <LI>&nbsp; &nbsp; public static final int DEFAULT_HEIGHT = 
+              560;&nbsp;&nbsp;<BR>
+              <LI>}<BR>
+              <LI><BR>
+              <LI>/**<BR>
+              <LI>&nbsp; &nbsp;A panel that displays a tiled image<BR>
+              <LI>*/<BR>
+              <LI>@SuppressWarnings("serial")<BR>
+              <LI>class ImagePanel extends JPanel {&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp; private ServerSocket ss;<BR>
+              <LI>&nbsp; &nbsp; private Image image;<BR>
+              <LI>&nbsp; &nbsp; private InputStream ins;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<BR>
+              <LI>&nbsp; &nbsp; public ImagePanel(ServerSocket ss) 
+              {&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;this.ss = 
+              ss;<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI>&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp; public void getimage() throws IOException{<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Socket s = 
+              this.ss.accept();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;System.out.println("连接成功!");<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;this.ins = 
+              s.getInputStream();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; this.image = ImageIO.read(ins);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; this.ins.close();<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI>&nbsp; &nbsp;<BR>
+              <LI>&nbsp; &nbsp; public void paintComponent(Graphics 
+              g){&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;super.paintComponent(g);&nbsp; &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;if (image == null) 
+              return;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;g.drawImage(image, 0, 0, 
+              null);<BR>
+              <LI>&nbsp; &nbsp; }<BR>
+              <LI><BR>
+              <LI>}<BR>
+              <LI><BR>
+              <LI>class saveimage implements ActionListener {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;RandomAccessFile inFile 
+              = null;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;byte byteBuffer[] = new 
+              byte[1024];<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;InputStream ins;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;private ServerSocket 
+              ss;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;public 
+              saveimage(ServerSocket ss){<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; this.ss = ss;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;public void 
+              actionPerformed(ActionEvent event){<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;try {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Socket s = 
+              ss.accept();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;ins = 
+              s.getInputStream();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;// 文件选择器以当前的目录打开<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; JFileChooser jfc = new JFileChooser(".");<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; jfc.showSaveDialog(new javax.swing.JFrame());<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; // 获取当前的选择文件引用<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; File savedFile = jfc.getSelectedFile();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; <BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; // 已经选择了文件<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; if (savedFile != null) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;// 读取文件的数据，可以每次以快的方式读取数据<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;try {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; inFile = new 
+              RandomAccessFile(savedFile, "rw");<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;} catch (FileNotFoundException e) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 
+              e.printStackTrace();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; }<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;int 
+              amount;<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;while 
+              ((amount = ins.read(byteBuffer)) != -1) {<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; inFile.write(byteBuffer, 0, amount);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;}<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;inFile.close();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;ins.close();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;s.close();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;javax.swing.JOptionPane.showMessageDialog(new 
+              javax.swing.JFrame(),<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;"已接保存成功", "提示!", 
+              javax.swing.JOptionPane.PLAIN_MESSAGE);<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; } catch (IOException e) {<BR>
+              <LI><BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp;e.printStackTrace();<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+              &nbsp; }<BR>
+              <LI>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;}<BR>
+              <LI>}<BR>
+              <LI></LI></OL></DIV><EM 
+            onclick="copycode($('code_vv0'));">复制代码</EM></DIV>开放源码如下（android我使用的是4.03的SDK，其它版本请自行更改。2.3.3版本以下的请注意initCamera()里被注释掉的哪一行）<BR>
+            <DIV class="locked">游客，如果您要查看本帖隐藏内容请<A onclick="showWindow('reply', this.href)" 
+            href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452">回复</A></DIV><BR><BR>Testin 
+            ID：<A href="mailto:m15271812941@163.com" 
+            target="_blank">m15271812941@163.com</A>。刚刚把这个程序的apk上传测试了下，只能在android4.04系统的手机上运行成功哦。测试的各个参数蛮丰富的，机型也多，手上手机不多的在上面测试下确实挺实用。下面是测试成功时的启动画面<BR><ignore_js_op><IMG 
+            width="316" class="zoom" id="aimg_27897" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" 
+            onclick="zoom(this, this.src, 0, 0, 0)" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/none.gif" 
+            inpost="1" file="data/attachment/forum/201207/04/092326pj1cj7bj6bj71zzg.jpg" 
+            zoomfile="data/attachment/forum/201207/04/092326pj1cj7bj6bj71zzg.jpg" 
+            aid="27897"> 
+            <DIV class="tip tip_4 aimg_tip" id="aimg_27897_menu" style="display: none; position: absolute;" 
+            disautofocus="true">
+            <DIV class="xs0">
+            <P><STRONG>捕获.JPG</STRONG> <EM class="xg1">(37.84 KB, 下载次数: 
+            139)</EM></P>
+            <P><A href="http://www.apkbus.com/forum.php?mod=attachment&amp;aid=Mjc4OTd8ZTBjOTg2MjF8MTQwOTIxMzg2NHwwfDU3NDUy&amp;nothumb=yes" 
+            target="_blank">下载附件</A> &nbsp;<A id="savephoto_27897" onclick="showWindow(this.id, this.getAttribute('url'), 'get', 0);" 
+            href="javascript:;" url="home.php?mod=spacecp&amp;ac=album&amp;op=saveforumphoto&amp;aid=27897&amp;handlekey=savephoto_27897">保存到相册</A> 
+            </P>
+            <P class="xg1 y">2012-7-4 09:23 上传</P></DIV>
+            <DIV class="tip_horn"></DIV></DIV></ignore_js_op> 
+      <BR></TD></TR></TBODY></TABLE>
+      <DIV class="modact"><A title="帖子模式" onclick="showWindow('viewthreadmod', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=misc&amp;action=viewthreadmod&amp;tid=57452">本主题由 
+      chino 于 2014-2-20 15:57 删除回复</A></DIV></DIV>
+      <DIV class="cm" id="comment_284702">
+      <H3 class="psth xs1"><SPAN class="icon_ring vm"></SPAN>点评</H3>
+      <DIV class="pstl xs1 cl">
+      <DIV class="psta vm"><A href="http://www.apkbus.com/home.php?mod=space&amp;uid=179739" 
+      c="1"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/39_avatar_small.jpg"></A> 
+      <A class="xi2 xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=179739">疾风Hua</A> 
+      </DIV>
+      <DIV class="psti">新手来学习，谢谢分享&nbsp;<SPAN class="xg1">发表于 2013-3-4 
+      23:41</SPAN> </DIV></DIV></DIV>
+      <H3 class="psth xs1"><SPAN class="icon_ring vm"></SPAN>评分</H3>
+      <DL class="rate" id="ratelog_284702">
+        <DT><STRONG><A title="已有2人评分, 查看全部评分" onclick="showWindow('viewratings', this.href)" 
+        href="http://www.apkbus.com/forum.php?mod=misc&amp;action=viewratings&amp;tid=57452&amp;pid=284702">2</A></STRONG> 
+        <P><A onclick="showWindow('viewratings', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=viewratings&amp;tid=57452&amp;pid=284702">查看全部评分</A></P></DT>
+        <DD>
+        <DIV id="post_rate_284702"></DIV>
+        <UL class="cl">
+          <LI>
+          <P class="mtn mbn" id="rate_284702_206220" onmouseover="showTip(this)" 
+          tip="<strong></strong>&nbsp;<em class='xi1'>下载豆 + 1 </em>&#10;"><A 
+          class="avt" href="http://www.apkbus.com/home.php?mod=space&amp;uid=206220" 
+          target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/20_avatar_small.jpg"></A></P>
+          <P><A href="http://www.apkbus.com/home.php?mod=space&amp;uid=206220" 
+          target="_blank">xiaye13579</A></P></LI>
+          <LI>
+          <P class="mtn mbn" id="rate_284702_38948" onmouseover="showTip(this)" 
+          tip="<strong></strong>&nbsp;<em class='xi1'>下载豆 + 5 </em>&#10;"><A 
+          class="avt" href="http://www.apkbus.com/home.php?mod=space&amp;uid=38948" 
+          target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/48_avatar_small.jpg"></A></P>
+          <P><A href="http://www.apkbus.com/home.php?mod=space&amp;uid=38948" 
+          target="_blank">jnhoodlum</A></P></LI></UL></DD></DL>
+<SCRIPT type="text/javascript">var auc_list_tmp = $('auc_list_tmp');if(auc_list_tmp !== null){document.write(auc_list_tmp.innerHTML);auc_list_tmp.innerHTML='';}
+function lalala(){
+	ajaxget('plugin.php?id=auction:involve&operation=view&tid=57452&page=1', 'list_ajax');
+	$('list_ajax').style.display = 'block';
+}
+if($('list_ajax')){setTimeout('lalala()', 1000);}
+</SCRIPT>
+      </DIV></DIV>
+      <DIV class="cm">
+      <H3 class="psth xs1"><SPAN class="icon_ring vm"></SPAN>本帖被以下淘专辑推荐:</H3>
+      <UL class="mbw xl xl2 cl">
+        <LI>· <A title="作品" class="xi2 xw1" href="http://www.apkbus.com/forum.php?mod=collection&amp;action=view&amp;ctid=20" 
+        target="_blank">作品</A><SPAN class="pipe">|</SPAN><SPAN class="xg1">主题: 
+        44, 订阅: 2</SPAN></LI>
+        <LI>· <A title="专家" class="xi2 xw1" href="http://www.apkbus.com/forum.php?mod=collection&amp;action=view&amp;ctid=144" 
+        target="_blank">专家</A><SPAN class="pipe">|</SPAN><SPAN class="xg1">主题: 
+        153, 订阅: 1</SPAN></LI>
+        <LI>· <A title="Testin—安卓巴士" class="xi2 xw1" href="http://www.apkbus.com/forum.php?mod=collection&amp;action=view&amp;ctid=170" 
+        target="_blank">Testin—安卓巴士</A><SPAN class="pipe">|</SPAN><SPAN class="xg1">主题: 
+        9, 订阅: 0</SPAN></LI>
+        <LI>· <A title="视频" class="xi2 xw1" href="http://www.apkbus.com/forum.php?mod=collection&amp;action=view&amp;ctid=385" 
+        target="_blank">视频</A><SPAN class="pipe">|</SPAN><SPAN class="xg1">主题: 
+        1, 订阅: 0</SPAN></LI></UL></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm">
+      <DIV class="mtw mbm hm cl" id="p_btn">
+      <DIV class="tshare cl"><B>分享到:&nbsp;</B> <A title="QQ好友和群" id="k_share_to_qq" 
+      href="http://www.apkbus.com/home.php?mod=spacecp&amp;ac=plugin&amp;id=qqconnect:spacecp&amp;pluginop=share&amp;sh_type=4&amp;thread_id=57452" 
+      target="_blank"><I><IMG alt="QQ好友和群" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/qq_share.png">QQ好友和群</I></A> 
+      <A title="QQ空间" id="k_qqshare" onclick="postToQzone();" href="javascript:void(0);"><I><IMG 
+      alt="QQ空间" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/qzone.gif">QQ空间</I></A> 
+      <A title="腾讯微博" id="k_weiboshare" onclick="postToWb();" href="javascript:void(0)"><I><IMG 
+      alt="腾讯微博" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/weibo.png">腾讯微博</I></A> 
+      <A title="腾讯朋友" id="k_pengyoushare" onclick="postToPengyou();" href="javascript:void(0);"><I><IMG 
+      alt="腾讯朋友" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/pengyou.png">腾讯朋友</I></A> 
+<SCRIPT type="text/javascript">
+function postToWb(){
+var _t = encodeURI(document.title);
+var _url = encodeURIComponent(document.location);
+var _appkey = encodeURI("801077780 ");
+var _pic = "http%3A%2F%2Fwww.apkbus.com%2Fforum.php%3Fmod%3Dimage%26aid%3D27863%26size%3D400x400%26key%3D34bf28e132f046e5%26nocache%3Dyes%26type%3Dfixnone|http%3A%2F%2Fwww.apkbus.com%2Fforum.php%3Fmod%3Dimage%26aid%3D27897%26size%3D400x400%26key%3D68515dc66ea050da%26nocache%3Dyes%26type%3Dfixnone";
+var _site = encodeURIComponent("Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户");
+var _from = 'discuz';
+var _u = 'http://v.t.qq.com/share/share.php?url='+_url+'&appkey='+_appkey+'&site='+_site+'&pic='+_pic+'&title='+_t+'&from='+_from;
+window.open( _u,'', 'width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no' );
+}
+function postToPengyou(){
+var _url = encodeURIComponent(document.location.href);
+var _site = encodeURIComponent("Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户");
+var _title = encodeURIComponent("#Testin杯#基于android的远程视频监控系统（已开放源码，希望多多支持）");
+var _pics = "http%3A%2F%2Fwww.apkbus.com%2Fforum.php%3Fmod%3Dimage%26aid%3D27863%26size%3D400x400%26key%3D34bf28e132f046e5%26nocache%3Dyes%26type%3Dfixnone|http%3A%2F%2Fwww.apkbus.com%2Fforum.php%3Fmod%3Dimage%26aid%3D27897%26size%3D400x400%26key%3D68515dc66ea050da%26nocache%3Dyes%26type%3Dfixnone";
+var _from = 'discuz';
+var _u = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?to=pengyou&url='+_url+'&site='+_site+'&title='+_title+'&pics='+_pics+'&from='+_from;
+window.open(_u);
+}
+</SCRIPT>
+      	 </DIV><A title="收藏本帖" id="k_favorite" onmouseover="this.title = $('favoritenumber').innerHTML + ' 人收藏'" 
+      onclick="showWindow(this.id, this.href, 'get', 0);" href="http://www.apkbus.com/home.php?mod=spacecp&amp;ac=favorite&amp;type=thread&amp;id=57452&amp;formhash=90827a45"><I><IMG 
+      alt="收藏" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/fav.gif">收藏<SPAN 
+      id="favoritenumber">86</SPAN></I></A> <A title="分享推精华" class="sharep" 
+      onclick="showWindow('sharethread', this.href, 'get', 0);" href="http://www.apkbus.com/home.php?mod=spacecp&amp;ac=share&amp;type=thread&amp;id=57452"><I><IMG 
+      alt="分享" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/oshr.png">分享<SPAN 
+      id="sharenumber">4</SPAN></I></A> <A title="淘好帖进专辑" id="k_collect" 
+      onmouseover="this.title = $('collectionnumber').innerHTML + ' 人淘帖'" 
+      onclick="showWindow(this.id, this.href);return false;" href="http://www.apkbus.com/forum.php?mod=collection&amp;action=edit&amp;op=addthread&amp;tid=57452"><I><IMG 
+      alt="分享" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/collection.png">淘帖<SPAN 
+      id="collectionnumber">4</SPAN></I></A> <A title="顶一下" id="recommend_add" 
+      onmouseover="this.title = $('recommendv_add').innerHTML + ' 人支持'" onclick="showWindow('login', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=misc&amp;action=recommend&amp;do=add&amp;tid=57452&amp;hash=90827a45"><I><IMG 
+      alt="支持" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/rec_add.gif">支持<SPAN 
+      id="recommendv_add">8</SPAN></I></A> <A title="踩一下" id="recommend_subtract" 
+      onmouseover="this.title = $('recommendv_subtract').innerHTML + ' 人反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=recommend&amp;do=subtract&amp;tid=57452&amp;hash=90827a45"><I><IMG 
+      alt="反对" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/rec_subtract.gif">反对<SPAN 
+      id="recommendv_subtract">1</SPAN></I></A> </DIV>
+      <DIV class="a_pb"><A href="http://www.apkbus.com/android-166052-1-1.html" 
+      target="_blank"><SPAN style='color: rgb(68, 68, 68); font-family: "Microsoft Yahei", Hei, Tahoma, SimHei, sans-serif; font-size: 16px; font-weight: bold; white-space: normal; background-color: rgb(255, 255, 255);'>带新人很郁闷也很内疚</SPAN></A></DIV></TD></TR>
+  <TR id="_postposition284702"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;reppost=284702&amp;extra=page%3D1&amp;page=1">回复</A> 
+      </EM> 
+      <P><A class="showmenu" id="mgc_post_284702" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284702', 'misc.php?mod=report&amp;rtype=post&amp;rid=284702&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284702_menu" 
+        style="display: none;"><LI><A id="a_namepost_284702" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284702:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284702')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE>
+<SCRIPT type="text/javascript" reload="1">
+aimgcount[284702] = ['27863','27897'];
+attachimggroup(284702);
+var aimgfid = 0;
+</SCRIPT>
+ </DIV>
+<DIV id="post_284707">
+<TABLE class="plhin" id="pid284707" cellspacing="0" cellpadding="0" summary="pid284707">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284707">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank">wanghai</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284707" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284707_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank">wanghai</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382&amp;do=profile" 
+        target="_blank">885</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/82_avatar_middle.jpg"></A></DIV></DIV>
+      <P>该用户从未签到</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284707" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284707">
+      沙发</A> </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284707" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/ico_lz.png"> 
+      &nbsp;楼主<SPAN class="pipe">|</SPAN> <EM id="authorposton284707">发表于 
+      2012-7-3 19:26:09</EM> <SPAN class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=82382" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284707">
+            自己顶一下。第一次发帖，表示有点小倒霉，中间挂了几次。。。。<IMG alt="" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/Skateboard.gif" 
+            border="0" smilieid="99"></TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284707"></DIV>
+      <DIV id="post_rate_div_284707"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm">
+      <DIV class="a_pb"><A href="http://www.apkbus.com/android-163820-1-1.html" 
+      target="_blank"><SPAN style='color: rgb(68, 68, 68); font-family: "Microsoft Yahei", Hei, Tahoma, SimHei, sans-serif; font-size: 16px; font-weight: bold; white-space: normal; background-color: rgb(255, 255, 255);'>感觉被公司老板骗了 
+      你有过类似的经历么？</SPAN></A></DIV></TD></TR>
+  <TR id="_postposition284707"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284707&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284707').innerHTML ? $('review_support_284707').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284707&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284707"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284707').innerHTML ? $('review_against_284707').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284707&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284707"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284707" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284707', 'misc.php?mod=report&amp;rtype=post&amp;rid=284707&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284707_menu" 
+        style="display: none;"><LI><A id="a_namepost_284707" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284707:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284707')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="post_284718">
+<TABLE class="plhin" id="pid284718" cellspacing="0" cellpadding="0" summary="pid284718">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284718">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" style="color: rgb(255, 0, 0);" href="http://www.apkbus.com/home.php?mod=space&amp;uid=1" 
+      target="_blank">chino</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284718" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284718_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" style="color: rgb(255, 0, 0);" href="http://www.apkbus.com/home.php?mod=space&amp;uid=1" 
+      target="_blank">chino</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=1&amp;do=profile" 
+        target="_blank">110941</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=1&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=1" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/01_avatar_middle.jpg"></A></DIV></DIV>
+      <DIV class="qdsmile">
+      <LI>
+      <CENTER>TA的每日心情</CENTER>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TH><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/kx.gif">
+          <TH><FONT size="5">开心</FONT><BR>2014-3-4 
+      13:21</TR></TBODY></TABLE></LI></DIV>
+      <P>签到天数: 23 天</P>
+      <P>连续签到: 1 天</P>
+      <P>[LV.4]偶尔看看III</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284718" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284718">板凳</A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284718" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_admin.gif"> 
+      <EM id="authorposton284718">发表于 2012-7-3 19:53:58</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=1" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284718">{:soso_e179:} 
+            不错哈！！希望可以开放源码哦！！！！</TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284718"></DIV>
+      <DIV id="post_rate_div_284718"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284718"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284718&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284718').innerHTML ? $('review_support_284718').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284718&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284718"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284718').innerHTML ? $('review_against_284718').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284718&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284718"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284718" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284718', 'misc.php?mod=report&amp;rtype=post&amp;rid=284718&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284718_menu" 
+        style="display: none;"><LI><A id="a_namepost_284718" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284718:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284718')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="post_284746">
+<TABLE class="plhin" id="pid284746" cellspacing="0" cellpadding="0" summary="pid284746">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284746">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33086" 
+      target="_blank">等待爱情的傻瓜</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284746" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284746_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33086" 
+      target="_blank">等待爱情的傻瓜</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33086&amp;do=profile" 
+        target="_blank">2209</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33086&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33086" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/86_avatar_middle.jpg"></A></DIV></DIV>
+      <DIV class="qdsmile">
+      <LI>
+      <CENTER>TA的每日心情</CENTER>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TH><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/shuai.gif">
+          <TH><FONT size="5">衰</FONT><BR>2014-2-6 
+      14:40</TR></TBODY></TABLE></LI></DIV>
+      <P>签到天数: 4 天</P>
+      <P>连续签到: 1 天</P>
+      <P>[LV.2]偶尔看看I</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284746" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284746">地板</A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284746" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_member.gif"> 
+      <EM id="authorposton284746">发表于 2012-7-3 20:44:16</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=33086" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284746">
+      好牛逼呀，发源码吧</TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284746"></DIV>
+      <DIV id="post_rate_div_284746"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284746"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284746&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284746').innerHTML ? $('review_support_284746').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284746&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284746"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284746').innerHTML ? $('review_against_284746').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284746&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284746"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284746" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284746', 'misc.php?mod=report&amp;rtype=post&amp;rid=284746&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284746_menu" 
+        style="display: none;"><LI><A id="a_namepost_284746" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284746:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284746')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="post_284779">
+<TABLE class="plhin" id="pid284779" cellspacing="0" cellpadding="0" summary="pid284779">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284779">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank">wanghai</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284779" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284779_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank">wanghai</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382&amp;do=profile" 
+        target="_blank">885</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=82382" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/82_avatar_middle.jpg"></A></DIV></DIV>
+      <P>该用户从未签到</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284779" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284779"><EM>5</EM><SUP>#</SUP></A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284779" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/ico_lz.png">
+      &nbsp; 楼主<SPAN class="pipe">|</SPAN> <EM id="authorposton284779">发表于 
+      2012-7-3 21:15:42</EM> <SPAN class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=82382" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284779">
+            <DIV class="quote">
+            <BLOCKQUOTE><FONT size="2"><FONT color="#999999">等待爱情的傻瓜 发表于 
+              2012-7-3 20:44</FONT> <A href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;pid=284746&amp;ptid=57452" 
+              target="_blank"><IMG class="zoom" id="aimg_VPYPx" onmouseover="img_onmouseoverfunc(this)" 
+              onclick="zoom(this, this.src, 0, 0, 0)" alt="" border="0" file="static/image/common/back.gif" 
+              lazyloadthumb="1"></A></FONT><BR>好牛逼呀，发源码吧</BLOCKQUOTE></DIV><BR>
+            源码已发，谢谢支持</TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284779"></DIV>
+      <DIV id="post_rate_div_284779"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284779"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284779&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284779').innerHTML ? $('review_support_284779').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284779&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284779"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284779').innerHTML ? $('review_against_284779').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284779&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284779"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284779" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284779', 'misc.php?mod=report&amp;rtype=post&amp;rid=284779&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284779_menu" 
+        style="display: none;"><LI><A id="a_namepost_284779" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284779:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284779')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE>
+<SCRIPT type="text/javascript" reload="1">
+aimgcount[284779] = ['VPYPx'];
+attachimggroup(284779);
+var aimgfid = 0;
+</SCRIPT>
+ </DIV>
+<DIV id="post_284827">
+<TABLE class="plhin" id="pid284827" cellspacing="0" cellpadding="0" summary="pid284827">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284827">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=25318" 
+      target="_blank">独奏曲</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284827" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284827_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=25318" 
+      target="_blank">独奏曲</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=25318&amp;do=profile" 
+        target="_blank">1105</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=25318&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=25318" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/18_avatar_middle.jpg"></A></DIV></DIV>
+      <DIV class="qdsmile">
+      <LI>
+      <CENTER>TA的每日心情</CENTER>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TH><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/kx.gif">
+          <TH><FONT size="5">开心</FONT><BR>2013-12-13 
+      09:29</TR></TBODY></TABLE></LI></DIV>
+      <P>签到天数: 2 天</P>
+      <P>连续签到: 1 天</P>
+      <P>[LV.1]初来乍到</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284827" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284827"><EM>6</EM><SUP>#</SUP></A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284827" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_member.gif"> 
+      <EM id="authorposton284827">发表于 2012-7-3 22:43:44</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=25318" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" 
+        id="postmessage_284827">dddddddddddddddd</TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284827"></DIV>
+      <DIV id="post_rate_div_284827"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284827"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284827&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284827').innerHTML ? $('review_support_284827').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284827&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284827"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284827').innerHTML ? $('review_against_284827').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284827&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284827"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284827" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284827', 'misc.php?mod=report&amp;rtype=post&amp;rid=284827&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284827_menu" 
+        style="display: none;"><LI><A id="a_namepost_284827" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284827:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284827')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="post_284877">
+<TABLE class="plhin" id="pid284877" cellspacing="0" cellpadding="0" summary="pid284877">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284877">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=26058" 
+      target="_blank">Y射线</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284877" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284877_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=26058" 
+      target="_blank">Y射线</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=26058&amp;do=profile" 
+        target="_blank">183</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=26058&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=26058" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/58_avatar_middle.jpg"></A></DIV></DIV>
+      <P>该用户从未签到</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284877" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284877"><EM>7</EM><SUP>#</SUP></A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284877" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_member.gif"> 
+      <EM id="authorposton284877">发表于 2012-7-4 00:13:33</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=26058" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284877">厉害 我都对安卓 
+      兴趣又提升了</TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284877"></DIV>
+      <DIV id="post_rate_div_284877"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284877"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284877&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284877').innerHTML ? $('review_support_284877').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284877&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284877"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284877').innerHTML ? $('review_against_284877').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284877&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284877"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284877" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284877', 'misc.php?mod=report&amp;rtype=post&amp;rid=284877&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284877_menu" 
+        style="display: none;"><LI><A id="a_namepost_284877" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284877:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284877')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="post_284938">
+<TABLE class="plhin" id="pid284938" cellspacing="0" cellpadding="0" summary="pid284938">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284938">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=30271" 
+      target="_blank">笨灏灏</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284938" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284938_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=30271" 
+      target="_blank">笨灏灏</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=30271&amp;do=profile" 
+        target="_blank">671</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=30271&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=30271" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/noavatar_middle.gif"></A></DIV></DIV>
+      <P>该用户从未签到</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284938" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284938"><EM>8</EM><SUP>#</SUP></A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284938" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_member.gif"> 
+      <EM id="authorposton284938">发表于 2012-7-4 08:48:16</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=30271" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284938">
+      支持原创</TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284938"></DIV>
+      <DIV id="post_rate_div_284938"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284938"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284938&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284938').innerHTML ? $('review_support_284938').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284938&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284938"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284938').innerHTML ? $('review_against_284938').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284938&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284938"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284938" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284938', 'misc.php?mod=report&amp;rtype=post&amp;rid=284938&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284938_menu" 
+        style="display: none;"><LI><A id="a_namepost_284938" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284938:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284938')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="post_284996">
+<TABLE class="plhin" id="pid284996" cellspacing="0" cellpadding="0" summary="pid284996">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284996">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33096" 
+      target="_blank">繁华de孤单</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284996" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284996_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33096" 
+      target="_blank">繁华de孤单</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33096&amp;do=profile" 
+        target="_blank">401</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33096&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=33096" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/96_avatar_middle.jpg"></A></DIV></DIV>
+      <DIV class="qdsmile">
+      <LI>
+      <CENTER>TA的每日心情</CENTER>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TH><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/kx.gif">
+          <TH><FONT size="5">开心</FONT><BR>2013-6-3 
+      15:20</TR></TBODY></TABLE></LI></DIV>
+      <P>签到天数: 7 天</P>
+      <P>连续签到: 1 天</P>
+      <P>[LV.3]偶尔看看II</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284996" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284996"><EM>9</EM><SUP>#</SUP></A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284996" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_member.gif"> 
+      <EM id="authorposton284996">发表于 2012-7-4 09:45:53</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=33096" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284996">
+      很强大，支持</TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284996"></DIV>
+      <DIV id="post_rate_div_284996"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284996"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284996&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284996').innerHTML ? $('review_support_284996').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284996&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284996"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284996').innerHTML ? $('review_against_284996').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284996&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284996"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284996" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284996', 'misc.php?mod=report&amp;rtype=post&amp;rid=284996&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284996_menu" 
+        style="display: none;"><LI><A id="a_namepost_284996" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284996:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284996')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="post_284997">
+<TABLE class="plhin" id="pid284997" cellspacing="0" cellpadding="0" summary="pid284997">
+  <TBODY>
+  <TR>
+    <TD class="pls" rowspan="2">
+      <DIV class="pls favatar" id="favatar284997">
+      <DIV class="pi">
+      <DIV class="authi"><A class="xw1" href="http://www.apkbus.com/home.php?mod=space&amp;uid=44716" 
+      target="_blank">xianhello</A> </DIV></DIV>
+      <DIV class="p_pop blk bui card_gender_" id="userinfo284997" style="margin-top: -11px; display: none;">
+      <DIV class="m z">
+      <DIV id="userinfo284997_ma"></DIV></DIV>
+      <DIV class="i y">
+      <DIV><STRONG><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=44716" 
+      target="_blank">xianhello</A></STRONG> <EM>当前离线</EM> </DIV>
+      <DL class="cl">
+        <DT>积分</DT>
+        <DD><A class="xi2" href="http://www.apkbus.com/home.php?mod=space&amp;uid=44716&amp;do=profile" 
+        target="_blank">465</A></DD></DL>
+      <DIV class="imicn"><A title="查看详细资料" href="http://www.apkbus.com/home.php?mod=space&amp;uid=44716&amp;do=profile" 
+      target="_blank"><IMG alt="查看详细资料" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/userinfo.gif"></A> 
+      </DIV>
+      <DIV id="avatarfeed"><SPAN id="threadsortswait"></SPAN></DIV></DIV></DIV>
+      <DIV>
+      <DIV class="avatar"><A class="avtm" href="http://www.apkbus.com/home.php?mod=space&amp;uid=44716" 
+      target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/16_avatar_middle.jpg"></A></DIV></DIV>
+      <P>该用户从未签到</P></DIV></TD>
+    <TD class="plc">
+      <DIV class="pi"><STRONG><A id="postnum284997" onclick="setCopy(this.href, '帖子地址复制成功');return false;" 
+      href="http://www.apkbus.com/forum.php?mod=redirect&amp;goto=findpost&amp;ptid=57452&amp;pid=284997"><EM>10</EM><SUP>#</SUP></A> 
+      </STRONG> 
+      <DIV class="pti">
+      <DIV class="pdbt"></DIV>
+      <DIV class="authi"><IMG class="authicn vm" id="authicon284997" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/online_member.gif"> 
+      <EM id="authorposton284997">发表于 2012-7-4 09:46:09</EM> <SPAN 
+      class="pipe">|</SPAN> <A href="http://www.apkbus.com/forum.php?mod=viewthread&amp;tid=57452&amp;page=1&amp;authorid=44716" 
+      rel="nofollow">只看该作者</A> </DIV></DIV></DIV>
+      <DIV class="pct">
+      <DIV class="pcb">
+      <DIV class="t_fsz">
+      <TABLE cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD class="t_f" id="postmessage_284997">
+        好，顶顶顶！！！！！！！！！！<BR></TD></TR></TBODY></TABLE></DIV>
+      <DIV class="cm" id="comment_284997"></DIV>
+      <DIV id="post_rate_div_284997"></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="plc plm"></TD></TR>
+  <TR id="_postposition284997"></TR>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc" style="overflow: visible;">
+      <DIV class="po hin">
+      <DIV class="pob cl"><EM><A class="fastre" onclick="showWindow('reply', this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;repquote=284997&amp;extra=page%3D1&amp;page=1">回复</A> 
+      <A class="replyadd" onmouseover="this.title = ($('review_support_284997').innerHTML ? $('review_support_284997').innerHTML : 0) + ' 人 支持'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=support&amp;tid=57452&amp;pid=284997&amp;hash=90827a45">支持 
+      <SPAN id="review_support_284997"></SPAN></A> <A class="replysubtract" 
+      onmouseover="this.title = ($('review_against_284997').innerHTML ? $('review_against_284997').innerHTML : 0) + ' 人 反对'" 
+      onclick="showWindow('login', this.href)" href="http://www.apkbus.com/forum.php?mod=misc&amp;action=postreview&amp;do=against&amp;tid=57452&amp;pid=284997&amp;hash=90827a45">反对 
+      <SPAN id="review_against_284997"></SPAN></A> </EM> 
+      <P><A class="showmenu" id="mgc_post_284997" onmouseover="showMenu(this.id)" 
+      href="javascript:;">使用道具</A> <A onclick="showWindow('miscreport284997', 'misc.php?mod=report&amp;rtype=post&amp;rid=284997&amp;tid=57452&amp;fid=43', 'get', -1);return false;" 
+      href="javascript:;">举报</A> </P>
+      <UL class="p_pop mgcmn" id="mgc_post_284997_menu" 
+        style="display: none;"><LI><A id="a_namepost_284997" onclick="showWindow(this.id, this.href)" 
+        href="http://www.apkbus.com/home.php?mod=magic&amp;mid=namepost&amp;idtype=pid&amp;id=284997:57452"><IMG 
+        src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/namepost.small.gif">显身卡</A>
+        <LI> </LI></UL>
+<SCRIPT type="text/javascript" reload="1">checkmgcmn('post_284997')</SCRIPT>
+       </DIV></DIV></TD></TR>
+  <TR class="ad">
+    <TD class="pls"></TD>
+    <TD class="plc"></TD></TR></TBODY></TABLE></DIV>
+<DIV class="pl" id="postlistreply">
+<DIV class="viewthread_table" id="post_new" 
+style="display: none;"></DIV></DIV></DIV>
+<DIV class="xi2 mbm pbm bbs">
+<SCRIPT type="text/javascript">
+$('modmenu').lastChild.style.visibility = 'hidden';
+document.write($('modmenu').innerHTML);
+</SCRIPT>
+ </DIV>
+<FORM name="modactions" id="modactions" method="post" 
+autocomplete="off"><INPUT name="formhash" type="hidden" value="90827a45"> 
+<INPUT name="optgroup" type="hidden"> <INPUT name="operation" type="hidden"> 
+<INPUT name="listextra" type="hidden" value="page%3D1"> <INPUT name="page" type="hidden" value="1"> 
+</FORM>
+<DIV class="pgbtn"><A class="bm_h" hidefocus="true" href="http://www.apkbus.com/android-57452-2-1.html">下一页 
+»</A></DIV>
+<DIV class="pgs mtm mbm cl">
+<DIV class="pg"><STRONG>1</STRONG><A href="http://www.apkbus.com/android-57452-2-1.html">2</A><A 
+href="http://www.apkbus.com/android-57452-3-1.html">3</A><A href="http://www.apkbus.com/android-57452-4-1.html">4</A><A 
+href="http://www.apkbus.com/android-57452-5-1.html">5</A><A href="http://www.apkbus.com/android-57452-6-1.html">6</A><A 
+href="http://www.apkbus.com/android-57452-7-1.html">7</A><A href="http://www.apkbus.com/android-57452-8-1.html">8</A><A 
+href="http://www.apkbus.com/android-57452-9-1.html">9</A><A href="http://www.apkbus.com/android-57452-10-1.html">10</A><A 
+class="last" href="http://www.apkbus.com/android-57452-150-1.html">... 
+150</A><LABEL><INPUT name="custompage" title="输入页码，按回车快速跳转" class="px" onkeydown="if(event.keyCode==13) {window.location='forum.php?mod=viewthread&amp;tid=57452&amp;extra=page%3D1&amp;page='+this.value;; doane(event);}" type="text" size="2" value="1"><SPAN 
+title="共 150 页"> / 150 页</SPAN></LABEL><A class="nxt" href="http://www.apkbus.com/android-57452-2-1.html">下一页</A></DIV><SPAN 
+class="pgb y"><A href="http://www.apkbus.com/Android-43-1.html">返回列表</A></SPAN> 
+<A title="发新帖" id="newspecialtmp" onmouseover="$('newspecial').id = 'newspecialtmp';this.id = 'newspecial';showMenu({'ctrlid':this.id})" 
+onclick="showWindow('newthread', 'forum.php?mod=post&amp;action=newthread&amp;fid=43')" 
+href="javascript:;"><IMG alt="发新帖" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/pn_post.png"></A> 
+</DIV><!--[diy=diyfastposttop]-->
+<DIV class="area" id="diyfastposttop"></DIV><!--[/diy]--> 
+<SCRIPT type="text/javascript">
+var postminchars = parseInt('10');
+var postmaxchars = parseInt('1000000000000');
+var disablepostctrl = parseInt('0');
+</SCRIPT>
+ 
+<DIV class="pl bm bmw" id="f_pst">
+<FORM id="fastpostform" onsubmit="return fastpostvalidate(this)" action="forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;extra=page%3D1&amp;replysubmit=yes&amp;infloat=yes&amp;handlekey=fastpost" 
+method="post" autocomplete="off">
+<TABLE cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD class="pls"></TD>
+    <TD class="plc"><SPAN id="fastpostreturn"></SPAN> 
+      <DIV class="cl">
+      <DIV class="y" id="fastsmiliesdiv">
+      <DIV id="fastsmiliesdiv_data">
+      <DIV id="fastsmilies"></DIV></DIV></DIV>
+      <DIV class="hasfsl" id="fastposteditor">
+      <DIV class="tedt mtn">
+      <DIV class="bar"><SPAN class="y"><A onclick="return switchAdvanceMode(this.href)" 
+      href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452">高级模式</A> 
+      </SPAN>
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/seditor.js" type="text/javascript"></SCRIPT>
+       
+      <DIV class="fpd"><A title="文字加粗" class="fbld" href="javascript:;">B</A> <A 
+      title="设置文字颜色" class="fclr" id="fastpostforecolor" 
+      href="javascript:;">Color</A> <A title="图片" class="fmg" id="fastpostimg" 
+      href="javascript:;">Image</A> <A title="添加链接" class="flnk" id="fastposturl" 
+      href="javascript:;">Link</A> <A title="引用" class="fqt" id="fastpostquote" 
+      href="javascript:;">Quote</A> <A title="代码" class="fcd" id="fastpostcode" 
+      href="javascript:;">Code</A> <A class="fsml" id="fastpostsml" href="javascript:;">Smilies</A> 
+      </DIV></DIV>
+      <DIV class="area">
+      <DIV class="pt hm">您需要登录后才可以回帖 <A class="xi2" onclick="showWindow('login', this.href)" 
+      href="http://www.apkbus.com/member.php?mod=logging&amp;action=login">登录</A> 
+      | <A class="xi2" 
+      href="http://www.apkbus.com/member.php?mod=register">注册</A> <A href="http://www.apkbus.com/connect.php?mod=login&amp;op=init&amp;referer=forum.php%3Fmod%3Dviewthread%26tid%3D57452%26extra%3Dpage%253D1%26page%3D1&amp;statfrom=login" 
+      target="_top" rel="nofollow"><IMG class="vm" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/qq_login.gif"></A> 
+      </DIV></DIV></DIV></DIV></DIV>
+      <DIV 
+id="seccheck_fastpost"></DIV><INPUT name="formhash" type="hidden" value="90827a45"> 
+<INPUT name="usesig" type="hidden"> 
+<INPUT name="subject" type="hidden" value="  "> 
+      <P class="ptm pnpost"><A class="y" href="http://www.apkbus.com/home.php?mod=spacecp&amp;ac=credit&amp;op=rule&amp;fid=43" 
+      target="_blank">本版积分规则</A> <BUTTON name="replysubmit" tabindex="5" class="pn pnc vm" 
+      id="fastpostsubmit" onmouseover="checkpostrule('seccheck_fastpost', 'ac=reply');this.onmouseover=null" 
+      onclick="showWindow('login', 'member.php?mod=logging&amp;action=login&amp;guestmessage=yes')" 
+      type="button" value="replysubmit"><STRONG>发表回复</STRONG></BUTTON> <LABEL 
+      for="fastpostrefresh"><INPUT class="pc" id="fastpostrefresh" type="checkbox">回帖后跳转到最后一页</LABEL> 
+<SCRIPT type="text/javascript">if(getcookie('fastpostrefresh') == 1) {$('fastpostrefresh').checked=true;}</SCRIPT>
+       </P></TD></TR></TBODY></TABLE></FORM></DIV>
+<SCRIPT type="text/javascript">
+var connect_qzone_share_url = '';
+var connect_weibo_share_url = '';
+var connect_thread_info = {
+thread_url: 'http://www.apkbus.com/android-57452-1-1.html',
+thread_id: '57452',
+post_id: '',
+forum_id: '43',
+author_id: '',
+author: ''
+};
+
+connect_autoshare = '';
+connect_isbind = '';
+if(connect_autoshare == 1 && connect_isbind) {
+_attachEvent(window, 'load', function(){
+connect_share(connect_weibo_share_url, connect_openid);
+});
+}
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+new lazyload();
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">document.onkeyup = function(e){keyPageScroll(e, 0, 1, 'forum.php?mod=viewthread&tid=57452', 1);}</SCRIPT>
+ </DIV>
+<DIV class="wp mtn"><!--[diy=diy3]-->
+<DIV class="area" id="diy3"></DIV><!--[/diy]--> </DIV>
+<SCRIPT type="text/javascript">
+function succeedhandle_followmod(url, msg, values) {
+var fObj = $('followmod_'+values['fuid']);
+if(values['type'] == 'add') {
+fObj.innerHTML = '不收听';
+fObj.href = 'home.php?mod=spacecp&ac=follow&op=del&fuid='+values['fuid'];
+} else if(values['type'] == 'del') {
+fObj.innerHTML = '收听TA';
+fObj.href = 'home.php?mod=spacecp&ac=follow&op=add&hash=90827a45&fuid='+values['fuid'];
+}
+}
+fixed_avatar([284702,284707,284718,284746,284779,284827,284877,284938,284996,284997], 1);
+</SCRIPT>
+	</DIV>
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/qshare.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT type="text/javascript">_share_tencent_weibo(null, $C("t_f", null, "td"), "", "801077780 ", "Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户");</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+$('newspecial').onclick=function(){ajaxget('plugin.php?id=vfastpost:stat&subop=stat&ac=cl_v_t&hash=0fba8da6e364dae9d3eba459914fa80d');setTimeout(function(){showWindow('newthread', 'forum.php?mod=post&action=newthread&fid=43');},500);};
+$('newspecialtmp').onclick=function(){ajaxget('plugin.php?id=vfastpost:stat&subop=stat&ac=cl_v_t&hash=0fba8da6e364dae9d3eba459914fa80d');setTimeout(function(){showWindow('newthread', 'forum.php?mod=post&action=newthread&fid=43');},500);};
+$('post_reply').onclick=function(){ajaxget('plugin.php?id=vfastpost:stat&subop=stat&ac=cl_v_r&hash=0fba8da6e364dae9d3eba459914fa80d');setTimeout(function(){showWindow('reply', 'forum.php?mod=post&action=reply&fid=43&tid=57452');},500);};
+$('post_replytmp').onclick=function(){ajaxget('plugin.php?id=vfastpost:stat&subop=stat&ac=cl_v_r&hash=0fba8da6e364dae9d3eba459914fa80d');setTimeout(function(){showWindow('reply', 'forum.php?mod=post&action=reply&fid=43&tid=57452');},500);};
+</SCRIPT>
+
+<DIV class="wp cl" id="ft"> 
+<DIV class="y" id="flk">
+<P><A title="QQ" href="http://wpa.qq.com/msgrd?V=3&amp;Uin=1523509460&amp;Site=Android开发论坛 - 安卓开发论坛 - Android开发 - 安卓论坛 - 移动互联网门户&amp;Menu=yes&amp;from=discuz" 
+target="_blank"><IMG alt="QQ" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/site_qq.jpg"></A><SPAN 
+class="pipe">|</SPAN><A href="http://www.apkbus.com/forum.php?mod=misc&amp;action=showdarkroom">小黑屋</A><SPAN 
+class="pipe">|</SPAN><A 
+href="http://www.apkbus.com/forum.php?mobile=yes">手机版</A><SPAN 
+class="pipe">|</SPAN><A href="http://www.apkbus.com/archiver/">Archiver</A><SPAN 
+class="pipe">|</SPAN><A href="http://www.apkbus.com/" 
+target="_blank">广告投放guoang@jjmatch.com</A><SPAN class="pipe">|</SPAN><STRONG><A 
+href="http://www.apkbus.com/" target="_blank">安卓巴士</A></STRONG> ( <A href="http://www.miitbeian.gov.cn/" 
+target="_blank">京ICP备09016390号-8</A> )&nbsp;<A title="防水墙保卫网站远离侵害" href="http://discuz.qq.com/service/security" 
+target="_blank"><IMG src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/security.png"></A>&nbsp;&nbsp;<SPAN 
+id="tcss"></SPAN>
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/ping.js" type="text/javascript" charset="utf-8"></SCRIPT>
+
+<SCRIPT type="text/javascript" reload="1">pgvMain({"discuzParams":{"r2":"5578702","ui":0,"rt":"forum","md":"viewthread","fi":"43","ti":"57452","pn":1,"qq":"000","logo":12},"extraParams":""});</SCRIPT>
+
+<SCRIPT language="JavaScript" src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/stat.js"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc6f55658260e114bf8e08aa745318251' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+ </P>
+<P class="xs0">GMT+8, 2014-8-28 16:17<SPAN id="debuginfo">, Processed in 
+0.272581 second(s), 33 queries . </SPAN> </P></DIV>
+<DIV id="frt">
+<P>Powered by <STRONG><A title="Weekend" href="http://www.haoweek.com/" target="_blank"> 
+Weekend </A><!--周末设计商业版支持，建议保留，已免影响技术支持，谢谢！--><A title="Design" href="http://haoweek.com/" 
+target="_blank">Design </A><!--周末设计商业版支持，建议保留，已免影响技术支持，谢谢！--><A href="http://www.discuz.net/" 
+target="_blank">Discuz!</A></STRONG> <EM>X3.1</EM></P>
+<P class="xs0">© 2001-2013 <A href="http://www.comsenz.com/" 
+target="_blank">Comsenz Inc.</A></P></DIV></DIV>
+<DIV id="scrolltop"><SPAN><A title="快速回复" class="replyfast" onclick="showWindow('reply', this.href)" 
+href="http://www.apkbus.com/forum.php?mod=post&amp;action=reply&amp;fid=43&amp;tid=57452&amp;extra=page%3D1&amp;page=1"><B>快速回复</B></A></SPAN> 
+<SPAN hidefocus="true"><A title="返回顶部" class="scrolltopa" onclick="window.scrollTo('0','0')"><B>返回顶部</B></A></SPAN> 
+<SPAN><A title="返回列表" class="returnlist" hidefocus="true" href="http://www.apkbus.com/Android-43-1.html"><B>返回列表</B></A></SPAN> 
+</DIV>
+<SCRIPT type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</SCRIPT>
+			 
+<DIV id="discuz_tips" style="display: none;"></DIV>
+<SCRIPT type="text/javascript">
+				var tipsinfo = '5578702|X3.1|0.6||0||0|7|1409213864|85987543c438bb46a331190bdbdff0be|2';
+			</SCRIPT>
+			 
+<SCRIPT src="%23Testin杯%23基于android的远程视频监控系统（已开放源码，希望多多支持）%20-%20Android实例教程%20-%20Android开发论坛%20-%20安卓开发论坛%20-%20Android开发%20-%20安卓论坛%20-%20移动互联网门户_files/discuz_tips.js" type="text/javascript" charset="UTF-8"></SCRIPT>
+ </BODY></HTML>

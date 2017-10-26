@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainlayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayout07" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">       
+        <com.google.ads.AdView android:layout_gravity="center" android:id="@id/adView" android:background="#ff000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" ads:adSize="BANNER" ads:adUnitId="8895357a04684bb8" ads:loadAdOnCreate="false" ads:primaryTextColor="#FFFFFF" ads:refreshInterval="30" ads:secondaryTextColor="#CCCCCC" />    
+    </LinearLayout>
+    -->
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayout777" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TableLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal">
+                <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/ID" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="Id" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/NAME" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="Name" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/STATUS" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Function" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/EVENTS" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Events" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+                <View android:id="@id/View01" android:layout_width="8.0dip" android:layout_height="fill_parent" />
+            </TableRow>
+            <View android:background="#ff00a0b0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayout77" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/LinearLayout07" android:layout_below="@id/LinearLayout777" android:layout_centerHorizontal="true">
+        <ExpandableListView android:id="@id/listView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@drawable/group_indicator_icon" android:childDivider="@null" android:divider="@null" android:choiceMode="singleChoice" />
+    </LinearLayout>
+</RelativeLayout>

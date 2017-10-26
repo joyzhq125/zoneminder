@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="zm_name_0">Unknown</string>
+<string name="zm_host">http://192.168.0.153/zm</string>
+<string name="zm_host_0">http://192.168.0.153/zm</string>
+<string name="zm_user_0"></string>
+<null name="zm_auth" />
+<boolean name="config" value="true" />
+<string name="zm_pass_0"></string>
+<int name="nr_servers" value="1" />
+<string name="zm_pass"></string>
+<null name="zm_bin_path" />
+<string name="zm_name">Unknown</string>
+<string name="zm_user"></string>
+</map>

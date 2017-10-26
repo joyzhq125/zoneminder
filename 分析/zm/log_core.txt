@@ -1,0 +1,164 @@
+09-12 04:07:00.878: I/System.out(812): ZmView noi continuam fara settings
+09-12 04:07:05.817: D/dalvikvm(812): GC_CONCURRENT freed 158K, 3% free 10405K/10695K, paused 14ms+16ms
+09-12 04:07:41.347: D/dalvikvm(812): GC_CONCURRENT freed 421K, 6% free 10393K/10951K, paused 4ms+32ms
+09-12 04:07:41.427: W/IInputConnectionWrapper(812): finishComposingText on inactive InputConnection
+09-12 04:07:51.777: W/TextLayoutCache(812): computeValuesWithHarfbuzz -- need to force to single run
+09-12 04:08:39.677: D/dalvikvm(812): GC_CONCURRENT freed 331K, 5% free 10537K/11015K, paused 15ms+8ms
+09-12 04:08:40.437: I/Ads(812): To get test ads on this device, call adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+09-12 04:08:40.447: I/makemachine(812): onPreExecute()
+09-12 04:08:40.707: I/Ads(812): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_getSdkConstants();AFMA_buildAdURL({"preqs":0,"session_id":"12163740423715823391","u_sd":1.5,"seq_num":"1","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":0,"u_audio":4});</script></head><body></body></html>
+09-12 04:08:40.817: D/dalvikvm(812): GC_CONCURRENT freed 227K, 3% free 10765K/11079K, paused 5ms+20ms
+09-12 04:08:44.937: E/ActivityThread(812): Failed to find provider info for com.google.android.gms.ads.adinfo
+09-12 04:08:44.937: E/webkit(812): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+09-12 04:08:46.387: I/Ads(812): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=0&session_id=12163740423715823391&u_sd=1.5&seq_num=1&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=0&u_audio=4&aims=f&aimr=nogms&aimt=665&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLFCLK_gscL3WWnESh4vRbyi7JrEdfHAMKjQ84wGmOYRE-GM43wg0QmxUYG2wRvRbfR_2Cu0ioZk1e1RPT5JlKpcGSfBbt9lSIgQLKG04b4VvMvjkdei4iBQ3x7kvMzz3Ila-KKORjW44q5cVBvDXjJBY6VQoBaUoD1noOa0G_1b3gDci1F7X3Nm_LnR9oNzPyI1vOHfHVCxcxOF24jDRxeegffwNEAlUChoy4ins-nKGSkAAlWmIPs_nV_ebJtWay-r-ddrQaPvumGOVCA1bCchXBhVaNC29UWB&et=604&jsv=118&urll=863" type: "gwhirl" afmaNotifyDt: "null">
+09-12 04:08:46.567: W/Ads(812): No AdResponse found, <message: /log>
+09-12 04:08:46.647: W/Ads(812): No AdResponse found, <message: /jsLoaded>
+09-12 04:08:50.387: D/webviewglue(812): nativeDestroy view: 0x3301a8
+09-12 04:08:50.387: I/Ads(812): onReceiveAd()
+09-12 04:08:50.667: D/dalvikvm(812): GC_CONCURRENT freed 250K, 4% free 10972K/11399K, paused 9ms+17ms
+09-12 04:08:50.677: D/webviewglue(812): nativeDestroy view: 0x328bd8
+09-12 04:09:16.888: I/System.out(812): ZmView : we selected server 0
+09-12 04:09:17.398: I/Ads(812): Refreshing ad.
+09-12 04:09:17.578: I/Ads(812): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":1,"session_id":"12163740423715823391","u_sd":1.5,"seq_num":"2","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":6889,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":37085,"u_audio":4,"prl":9953});</script></head><body></body></html>
+09-12 04:09:18.308: E/ActivityThread(812): Failed to find provider info for com.google.android.gms.ads.adinfo
+09-12 04:09:18.308: E/webkit(812): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+09-12 04:09:19.337: I/Ads(812): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=1&session_id=12163740423715823391&u_sd=1.5&seq_num=2&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=6889&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=37085&u_audio=4&prl=9953&aims=f&aimr=nogms&aimt=249&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLGOCZ9Q0p8iP3Xzb-5QRBlZLwZJi-Ca6x8G1AXVpO5gQZnFgv6HGl14Qfy8qssEsVpB8WSFfMC-EKeIxkdTRXwi23vPYGkVttD0bT22Oeiuok0GfXHqCl00yiU6crZW8j9-jNcMO4ZEI-zZ235Ygg60J-Rss5PNNb9NBTENFZ4wVgB43zS3BKt6ErTLWkNYG0itSRBicWMxn-o-8HeubT29wzqKOUxYOnS6Y8_F0W58-tL2GUTKUqhgJ8n5y0KB2XxQ2nkkGhiGz_aRZVDEace3eQWRuwGm5z1r&et=504&jsv=118&urll=886" type: "gwhirl" afmaNotifyDt: "null">
+09-12 04:09:19.558: W/Ads(812): No AdResponse found, <message: /jsLoaded>
+09-12 04:09:22.297: D/webviewglue(812): nativeDestroy view: 0x31c058
+09-12 04:09:22.328: I/Ads(812): onReceiveAd()
+09-12 04:09:22.627: D/dalvikvm(812): GC_CONCURRENT freed 449K, 6% free 10979K/11591K, paused 8ms+9ms
+09-12 04:09:26.427: D/dalvikvm(812): GC_CONCURRENT freed 186K, 3% free 11264K/11591K, paused 8ms+23ms
+09-12 04:09:33.237: D/dalvikvm(812): GC_CONCURRENT freed 372K, 5% free 11326K/11847K, paused 5ms+10ms
+09-12 04:09:34.907: D/dalvikvm(812): GC_CONCURRENT freed 212K, 3% free 11569K/11911K, paused 5ms+11ms
+09-12 04:09:37.707: D/dalvikvm(812): GC_CONCURRENT freed 267K, 4% free 11837K/12231K, paused 13ms+36ms
+09-12 04:09:45.638: D/dalvikvm(812): GC_CONCURRENT freed 358K, 4% free 12057K/12551K, paused 7ms+15ms
+09-12 04:09:47.517: I/Ads(812): Refreshing ad.
+09-12 04:09:47.647: I/Ads(812): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":2,"session_id":"12163740423715823391","u_sd":1.5,"seq_num":"3","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":2677,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":67163,"u_audio":4,"prl":4805});</script></head><body></body></html>
+09-12 04:09:48.347: E/ActivityThread(812): Failed to find provider info for com.google.android.gms.ads.adinfo
+09-12 04:09:48.347: E/webkit(812): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+09-12 04:09:48.437: W/Ads(812): No AdResponse found, <message: /jsLoaded>
+09-12 04:09:49.408: I/Ads(812): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=2&session_id=12163740423715823391&u_sd=1.5&seq_num=3&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=2677&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=67163&u_audio=4&prl=4805&aims=f&aimr=nogms&aimt=240&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLEOg9U9jUarUVb6JjFeqvF9O7to-5ih8tTIrITCGbPs98Azk6KU1EiDQwcfKHPOqZrpBBLPWW5qIGvRpm-ibf3_wdXCrRObMnGKeutJut0LB-0i88HwZxa2jFDrkR5BrMIaB3iiektU8VQ5pQckm9Qx8HvICsB47SMGe2Qlc5x7cQCqKcmCsl_-lOVYgjhQlJUCmIGhnJbihg5zabAIbOQWT9uL31cqIRHG9LfoHReaMuLKnf_uPKzxiAZoIH6zqH0m4c3JHshMFUTFZ-2zjMUKqjxRO_ErPV70&et=487&jsv=118&urll=886" type: "gwhirl" afmaNotifyDt: "null">
+09-12 04:09:51.808: D/webviewglue(812): nativeDestroy view: 0x402478
+09-12 04:09:51.808: I/Ads(812): onReceiveAd()
+09-12 04:10:06.049: D/dalvikvm(812): GC_CONCURRENT freed 631K, 7% free 12091K/12871K, paused 14ms+12ms
+09-12 04:10:17.641: I/Ads(812): Refreshing ad.
+09-12 04:10:17.737: I/Ads(812): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":3,"session_id":"12163740423715823391","u_sd":1.5,"seq_num":"4","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":2576,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":97257,"u_audio":4,"prl":4207});</script></head><body></body></html>
+09-12 04:10:18.257: E/ActivityThread(812): Failed to find provider info for com.google.android.gms.ads.adinfo
+09-12 04:10:18.257: E/webkit(812): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+09-12 04:10:19.087: I/Ads(812): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=3&session_id=12163740423715823391&u_sd=1.5&seq_num=4&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=2576&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=97257&u_audio=4&prl=4207&aims=f&aimr=nogms&aimt=226&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLEn2DXtfds4mF68BLqyS-i56xx4K7pxDecDBc5WmNw12TYlPhv2lGfhvBFGODeIdoM5ymZB1hEKfmxfSP3rQjXcDgcWEDwQeGVSVb4oKOqhHI3QFpwoYGPkfGueqBrefsm97VYLqiavOOnMkZNKao2cx7sAB-bb9OMtID8DuFZzxQCpzL0wtH6C9VMXRlfPQONLbiN2CyW6nwg6ZzY6PPc_kpeP_CaFeLCtNnV2ZRMbpeISx7cyYslHEj9Jg-FtAwRF_3RH1mkHw15yhHAi19mKGWbVDB_R5F8z&et=414&jsv=118&urll=886" type: "gwhirl" afmaNotifyDt: "null">
+09-12 04:10:19.389: W/Ads(812): No AdResponse found, <message: /jsLoaded>
+09-12 04:10:20.897: D/webviewglue(812): nativeDestroy view: 0x3301a8
+09-12 04:10:20.897: I/Ads(812): onReceiveAd()
+09-12 04:10:45.927: D/dalvikvm(812): GC_CONCURRENT freed 617K, 6% free 12197K/12935K, paused 5ms+37ms
+09-12 04:10:47.719: I/Ads(812): Refreshing ad.
+09-12 04:10:47.848: I/Ads(812): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":4,"session_id":"12163740423715823391","u_sd":1.5,"seq_num":"5","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"prnl":2207,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":127370,"u_audio":4,"prl":3203});</script></head><body></body></html>
+09-12 04:10:48.608: D/LiveMonitor(812): 1. Sending http request
+09-12 04:10:48.688: E/ActivityThread(812): Failed to find provider info for com.google.android.gms.ads.adinfo
+09-12 04:10:48.688: E/webkit(812): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+09-12 04:10:48.877: I/Ads(812): To get test ads on this device, call adRequest.addTestDevice(AdRequest.TEST_EMULATOR);
+09-12 04:10:48.908: I/Ads(812): adRequestUrlHtml: <html><head><script src="http://media.admob.com/sdk-core-v40.js"></script><script>AFMA_buildAdURL({"preqs":5,"session_id":"12163740423715823391","u_sd":1.5,"seq_num":"6","slotname":"8895357a04684bb8","u_w":320,"msid":"com.html5clouds.zmview","simulator":1,"cap":"m,a","js":"afma-sdk-a-v6.1.0","toar":0,"isu":"B3EEABB8EE11C2BE770B684D95219ECB","cipa":0,"format":"320x50_mb","net":"ed","app_name":"9.android.com.html5clouds.zmview","hl":"en","u_h":533,"carrier":"310260","ptime":128440,"u_audio":4});</script></head><body></body></html>
+09-12 04:10:48.908: I/makemachine(812): onPreExecute()
+09-12 04:10:48.948: W/Ads(812): No AdResponse found, <message: /jsLoaded>
+09-12 04:10:50.379: D/dalvikvm(812): GC_CONCURRENT freed 711K, 7% free 12227K/13063K, paused 5ms+9ms
+09-12 04:10:50.908: D/LiveMonitor(812): 1. Sending http request
+09-12 04:10:51.348: I/Ads(812): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=4&session_id=12163740423715823391&u_sd=1.5&seq_num=5&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&prnl=2207&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=127370&u_audio=4&prl=3203&aims=f&aimr=nogms&aimt=667&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLE8R9qPwNwv546CgPAbB3F14VdyEeLCFMWPTXKYdaUEpu_1tX0AR_B016zxxB_Dn-iLnoyQ3vGn4-llSDUgO5AigRhf8jl1KUaHEwM81c3Q1pVW3Ez-NjZAyC5NFpRuhuFeeUDcZTYLkzb-u1POGTqUbDnz0_TuV7xnwcKW1gc2MgAD4Mb6aT9Enp_VbBKJqLElhPSgzSNkHzUjFLdFiEZ7Zz8n26yHidoqrmG3nstRm7Wl_wI3J4zaNKdo3KfcS7_k48ywH1qpLqVPlEB7C4AA62OjOL9bWdMD&et=1456&jsv=118&urll=888" type: "gwhirl" afmaNotifyDt: "null">
+09-12 04:10:52.008: I/dalvikvm(812): Jit: resizing JitTable from 4096 to 8192
+09-12 04:10:52.318: E/ActivityThread(812): Failed to find provider info for com.google.android.gms.ads.adinfo
+09-12 04:10:52.318: E/webkit(812): Exception: content://com.google.android.gms.ads.adinfo/any.gif
+09-12 04:10:53.488: I/Ads(812): Received ad url: <url: "http://googleads.g.doubleclick.net:80/mads/mediate?preqs=5&session_id=12163740423715823391&u_sd=1.5&seq_num=6&slotname=8895357a04684bb8&u_w=320&msid=com.html5clouds.zmview&cap=m%2Ca&js=afma-sdk-a-v6.1.0&toar=0&cipa=0&format=320x50_mb&net=ed&app_name=9.android.com.html5clouds.zmview&hl=en&u_h=533&carrier=310260&ptime=128440&u_audio=4&aims=f&aimr=nogms&aimt=298&an=9.android.com.html5clouds.zmview&u_so=p&output=html&region=mobile_app&u_tz=0&client_sdk=1&ex=1&caps=inlineVideo_interactiveVideo_mraid1_th_autoplay_mediation_sdkAdmobApiForAds_di&isul=32&blob=ABPQqLHASLhtyGKb1Y1sKFE1ETXPtT5UCKBIbf1g7jKD2a8dCnq_Wdio9Cgj4RANgWmJnXaua-yenDKE-rqPpY2IDG7CnDGwMMAFEOlfviFbR4CFUShBAXRvNqFysGV5hzbm4vJesLw8sn9SgpCYcvwU-rF7sEJQ_39GUxFJTpNtJO2uJwAgtF1VM-5aZqhO-BTzDJ2MuRkM6fBbtLXveuDTyZwfXOKYuqBkh73wZO63jW5WuoWUBq9xEF8UpGz4b3lZNS-NDsZxveEbjFT-2eSegWImVL--ntlYr-Su&et=749&jsv=118&urll=868" type: "gwhirl" afmaNotifyDt: "null">
+09-12 04:10:53.878: D/LiveMonitor(812): 2. Request finished, status = 200
+09-12 04:10:54.167: D/dalvikvm(812): GC_FOR_ALLOC freed 291K, 5% free 12410K/13063K, paused 137ms
+09-12 04:10:54.258: D/LiveMonitor(812): 2. Request finished, status = 200
+09-12 04:10:54.517: D/dalvikvm(812): GC_FOR_ALLOC freed 114K, 5% free 12715K/13383K, paused 121ms
+09-12 04:10:54.967: D/dalvikvm(812): GC_FOR_ALLOC freed 328K, 8% free 12740K/13703K, paused 87ms
+09-12 04:10:55.098: D/webviewglue(812): nativeDestroy view: 0x3c0e18
+09-12 04:10:55.117: I/Ads(812): onReceiveAd()
+09-12 04:10:55.168: W/Ads(812): No AdResponse found, <message: /jsLoaded>
+09-12 04:10:55.498: D/dalvikvm(812): GC_FOR_ALLOC freed 523K, 9% free 12585K/13767K, paused 144ms
+09-12 04:10:55.928: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12585K/13767K, paused 76ms
+09-12 04:10:56.258: D/dalvikvm(812): GC_FOR_ALLOC freed 386K, 9% free 12551K/13767K, paused 125ms
+09-12 04:10:56.578: D/dalvikvm(812): GC_FOR_ALLOC freed 402K, 10% free 12502K/13767K, paused 95ms
+09-12 04:10:56.847: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 10% free 12502K/13767K, paused 103ms
+09-12 04:10:57.117: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 10% free 12502K/13767K, paused 85ms
+09-12 04:10:57.167: D/webviewglue(812): nativeDestroy view: 0x42d288
+09-12 04:10:57.177: I/Ads(812): onReceiveAd()
+09-12 04:10:57.487: D/dalvikvm(812): GC_FOR_ALLOC freed 378K, 9% free 12627K/13767K, paused 134ms
+09-12 04:10:57.768: D/dalvikvm(812): GC_FOR_ALLOC freed 358K, 9% free 12621K/13767K, paused 128ms
+09-12 04:10:58.067: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12621K/13767K, paused 140ms
+09-12 04:10:58.337: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12621K/13767K, paused 112ms
+09-12 04:10:58.787: D/dalvikvm(812): GC_FOR_ALLOC freed 354K, 9% free 12621K/13767K, paused 69ms
+09-12 04:10:59.017: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12621K/13767K, paused 68ms
+09-12 04:10:59.177: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12621K/13767K, paused 73ms
+09-12 04:10:59.417: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 72ms
+09-12 04:10:59.587: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 76ms
+09-12 04:10:59.737: D/dalvikvm(812): GC_FOR_ALLOC freed 353K, 9% free 12623K/13767K, paused 65ms
+09-12 04:10:59.877: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 78ms
+09-12 04:11:00.107: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 136ms
+09-12 04:11:00.267: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 81ms
+09-12 04:11:00.417: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 70ms
+09-12 04:11:00.557: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 69ms
+09-12 04:11:00.697: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 76ms
+09-12 04:11:00.827: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12623K/13767K, paused 71ms
+09-12 04:11:00.977: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 78ms
+09-12 04:11:01.107: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 76ms
+09-12 04:11:01.247: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 72ms
+09-12 04:11:01.377: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 64ms
+09-12 04:11:01.517: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 67ms
+09-12 04:11:01.657: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 71ms
+09-12 04:11:01.787: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 70ms
+09-12 04:11:01.947: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12623K/13767K, paused 94ms
+09-12 04:11:02.087: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 74ms
+09-12 04:11:02.227: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 80ms
+09-12 04:11:02.358: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 74ms
+09-12 04:11:02.497: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 76ms
+09-12 04:11:02.647: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 85ms
+09-12 04:11:02.787: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 76ms
+09-12 04:11:02.927: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12623K/13767K, paused 67ms
+09-12 04:11:03.077: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 73ms
+09-12 04:11:03.217: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 73ms
+09-12 04:11:03.367: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 76ms
+09-12 04:11:03.498: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 78ms
+09-12 04:11:03.647: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 84ms
+09-12 04:11:03.777: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 67ms
+09-12 04:11:03.907: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 66ms
+09-12 04:11:04.057: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12623K/13767K, paused 69ms
+09-12 04:11:04.187: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 64ms
+09-12 04:11:04.377: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 82ms
+09-12 04:11:04.508: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 69ms
+09-12 04:11:04.637: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 72ms
+09-12 04:11:04.767: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 72ms
+09-12 04:11:04.907: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 72ms
+09-12 04:11:05.077: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 97ms
+09-12 04:11:05.207: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12623K/13767K, paused 73ms
+09-12 04:11:05.357: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 75ms
+09-12 04:11:05.507: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 73ms
+09-12 04:11:05.637: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 64ms
+09-12 04:11:05.757: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12624K/13767K, paused 68ms
+09-12 04:11:05.887: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12624K/13767K, paused 65ms
+09-12 04:11:06.017: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 70ms
+09-12 04:11:06.137: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12624K/13767K, paused 65ms
+09-12 04:11:06.257: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12624K/13767K, paused 67ms
+09-12 04:11:06.387: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 67ms
+09-12 04:11:06.527: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 75ms
+09-12 04:11:06.668: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 75ms
+09-12 04:11:06.797: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 73ms
+09-12 04:11:06.937: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 71ms
+09-12 04:11:07.078: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 67ms
+09-12 04:11:07.217: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 74ms
+09-12 04:11:07.348: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12624K/13767K, paused 75ms
+09-12 04:11:07.477: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 75ms
+09-12 04:11:07.638: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 86ms
+09-12 04:11:07.767: D/dalvikvm(812): GC_FOR_ALLOC freed 350K, 9% free 12623K/13767K, paused 75ms
+09-12 04:11:07.907: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 68ms
+09-12 04:11:08.047: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 77ms
+09-12 04:11:08.187: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12624K/13767K, paused 75ms
+09-12 04:11:08.327: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 70ms
+09-12 04:11:08.457: D/dalvikvm(812): GC_FOR_ALLOC freed 352K, 9% free 12624K/13767K, paused 66ms
+09-12 04:11:08.587: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12624K/13767K, paused 74ms
+09-12 04:11:08.737: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 74ms
+09-12 04:11:08.867: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 65ms
+09-12 04:11:09.008: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 82ms
+09-12 04:11:09.177: D/dalvikvm(812): GC_FOR_ALLOC freed 351K, 9% free 12623K/13767K, paused 69ms
+09-12 04:11:09.308: I/makemachine(812): onPreExecute()
+09-12 04:11:09.687: D/dalvikvm(812): GC_FOR_ALLOC freed 482K, 10% free 12446K/13767K, paused 71ms
+09-12 04:11:15.268: D/KEYCODE_BACK(812): KEYCODE_BACK

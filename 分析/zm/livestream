@@ -1,0 +1,269 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>ZM - Monitor-1 - Feed</title>
+  <link rel="icon" type="image/ico" href="graphics/favicon.ico"/>
+  <link rel="shortcut icon" href="graphics/favicon.ico"/>
+  <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="css/overlay.css" type="text/css"/>
+  <link rel="stylesheet" href="skins/classic/css/skin.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="skins/classic/views/css/watch.css" type="text/css" media="screen"/>
+  <script type="text/javascript" src="tools/mootools/mootools-core.js"></script>
+  <script type="text/javascript" src="tools/mootools/mootools-more.js"></script>
+  <script type="text/javascript" src="js/mootools.ext.js"></script>
+  <script type="text/javascript" src="js/logger.js"></script>
+  <script type="text/javascript" src="js/overlay.js"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+  <!--
+var AJAX_TIMEOUT = 5000;
+
+var currentView = 'watch';
+var thisUrl = "http://192.168.0.153/zm/index.php";
+var skinPath = "skins/classic";
+
+var canEditSystem = true;
+var canViewSystem = true;
+
+var refreshParent = false;
+
+var focusWindow = false;
+
+var imagePrefix = "events/";
+  //-->
+  //]]>
+  </script>
+  <script type="text/javascript">
+  //<![CDATA[
+  <!--
+//
+// Import constants
+//
+var STATE_IDLE = 0;
+var STATE_PREALARM = 1;
+var STATE_ALARM = 2;
+var STATE_ALERT = 3;
+var STATE_TAPE = 4;
+
+var stateStrings = new Array();
+stateStrings[STATE_IDLE] = "Idle";
+stateStrings[STATE_PREALARM] = "Idle";
+stateStrings[STATE_ALARM] = "Alarm";
+stateStrings[STATE_ALERT] = "Alert";
+stateStrings[STATE_TAPE] = "Record";
+
+var deleteString = "Delete";
+
+var CMD_NONE = 0;
+var CMD_PAUSE = 1;
+var CMD_PLAY = 2;
+var CMD_STOP = 3;
+var CMD_FASTFWD = 4;
+var CMD_SLOWFWD = 5;
+var CMD_SLOWREV = 6;
+var CMD_FASTREV = 7;
+var CMD_ZOOMIN = 8;
+var CMD_ZOOMOUT = 9;
+var CMD_PAN = 10;
+var CMD_SCALE = 11;
+var CMD_PREV = 12;
+var CMD_NEXT = 13;
+var CMD_SEEK = 14;
+var CMD_QUERY = 99;
+
+var SCALE_BASE = 100;
+
+var SOUND_ON_ALARM = 0;
+var POPUP_ON_ALARM = 1;
+
+var streamMode = "mpeg";
+var showMode = "events";
+
+var connKey = '883143';
+var maxDisplayEvents = 20;
+
+var monitorId = 1;
+var monitorWidth = 320;
+var monitorHeight = 240;
+
+var scale = 100;
+
+var streamSrc = "http://192.168.0.153/cgi-bin/nph-zms?mode=mpeg&monitor=1&scale=100&bitrate=75000&maxfps=10&format=swf&connkey=883143&rand=1410688076";
+
+var statusRefreshTimeout = 5000;
+var eventsRefreshTimeout = 60000;
+var imageRefreshTimeout = 10000;
+
+var canEditMonitors = true;
+var canStreamNative = false;
+
+var canPlayPauseAudio = Browser.ie;
+
+var imageControlMode = "moveConMap";
+
+var refreshApplet = false;
+var appletRefreshTime = 0;
+  //-->
+  //]]>
+  </script>
+  <script type="text/javascript" src="skins/classic/js/skin.js"></script>
+  <script type="text/javascript" src="skins/classic/views/js/watch.js"></script>
+</head>
+<body>
+  <div id="page">
+    <div id="content">
+      <div id="menuBar">
+        <div id="monitorName">Monitor-1</div>
+        <div id="closeControl"><a href="#" onclick="closeWindow(); return( false );">Close</a></div>
+        <div id="menuControls">
+          <div id="controlControl"><a id="controlLink" href="#" onclick="showPtzControls(); return( false );">Control</a></div>
+          <div id="eventsControl" class="hidden"><a id="eventsLink" href="#" onclick="showEvents(); return( false );">Events</a></div>
+          <div id="settingsControl"><a href="?view=settings&amp;mid=1" onclick="createPopup( '?view=settings&amp;mid=1', 'zmSettings1', 'settings' ); return( false );" id="settingsLink">Settings</a></div>
+          <div id="scaleControl">Scale: <select name="scale" id="scale" onchange="changeScale( this );">
+<option value="400">4x</option>
+<option value="300">3x</option>
+<option value="200">2x</option>
+<option value="150">1.5x</option>
+<option value="100" selected="selected">Actual</option>
+<option value="75">3/4x</option>
+<option value="50">1/2x</option>
+<option value="33">1/3x</option>
+<option value="25">1/4x</option>
+</select>
+</div>
+        </div>
+      </div>
+      <div id="imageFeed">
+<object id="liveStream" width="320" height="240"
+classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+type="application/x-shockwave-flash">
+<param name="movie" value="http://192.168.0.153/cgi-bin/nph-zms?mode=mpeg&amp;monitor=1&amp;scale=100&amp;bitrate=75000&amp;maxfps=10&amp;format=swf&amp;connkey=883143&amp;rand=1410688076">
+<param name=quality value="high">
+<param name=bgcolor value="#ffffff">
+<embed type="application/x-shockwave-flash"
+pluginspage="http://www.macromedia.com/go/getflashplayer"
+src="http://192.168.0.153/cgi-bin/nph-zms?mode=mpeg&amp;monitor=1&amp;scale=100&amp;bitrate=75000&amp;maxfps=10&amp;format=swf&amp;connkey=883143&amp;rand=1410688076"
+name="Monitor-1"
+width="320"
+height="240"
+quality="high"
+bgcolor="#ffffff"
+</embed>
+</object>
+      </div>
+      <div id="monitorStatus">
+        <div id="enableDisableAlarms"><a id="enableAlarmsLink" href="#" onclick="cmdEnableAlarms(); return( false );" class="hidden">Enable Alarms</a><a id="disableAlarmsLink" href="#" onclick="cmdDisableAlarms(); return( false );" class="hidden">Disable Alarms</a></div>
+        <div id="forceCancelAlarm"><a id="forceAlarmLink" href="#" onclick="cmdForceAlarm()" class="hidden">Force Alarm</a><a id="cancelAlarmLink" href="#" onclick="cmdCancelForcedAlarm()" class="hidden">Cancel Forced Alarm</a></div>
+        <div id="monitorState">State:&nbsp;<span id="stateValue"></span>&nbsp;-&nbsp;<span id="fpsValue"></span>&nbsp;fps</div>
+      </div>
+      <div id="dvrControls" class="hidden">
+        <input type="button" value="&lt;&lt;" id="fastRevBtn" title="Rewind" class="unavail" disabled="disabled" onclick="streamCmdFastRev( true )"/>
+        <input type="button" value="&lt;" id="slowRevBtn" title="Step Back" class="unavail" disabled="disabled" onclick="streamCmdSlowRev( true )"/>
+        <input type="button" value="||" id="pauseBtn" title="Pause" class="inactive" onclick="streamCmdPause( true )"/>
+        <input type="button" value="[]" id="stopBtn" title="Stop" class="unavail" disabled="disabled" onclick="streamCmdStop( true )"/>
+        <input type="button" value="|&gt;" id="playBtn" title="Play" class="active" disabled="disabled" onclick="streamCmdPlay( true )"/>
+        <input type="button" value="&gt;" id="slowFwdBtn" title="Step Forward" class="unavail" disabled="disabled" onclick="streamCmdSlowFwd( true )"/>
+        <input type="button" value="&gt;&gt;" id="fastFwdBtn" title="Fast Forward" class="unavail" disabled="disabled" onclick="streamCmdFastFwd( true )"/>
+        <input type="button" value="&ndash;" id="zoomOutBtn" title="Zoom Out" class="avail" onclick="streamCmdZoomOut()"/>
+      </div>
+      <div id="replayStatus">
+        <span id="mode">Mode: <span id="modeValue"></span></span>
+        <span id="rate">Rate: <span id="rateValue"></span>x</span>
+        <span id="delay">Delay: <span id="delayValue"></span>s</span>
+        <span id="level">Buffer: <span id="levelValue"></span>%</span>
+        <span id="zoom">Zoom: <span id="zoomValue"></span>x</span>
+      </div>
+      <div id="ptzControls" class="ptzControls hidden">
+        <div class="controlsPanel">
+<div class="arrowControl focusControls">
+  <div class="arrowLabel">Near</div>
+  <div class="longArrowBtn upBtn" onclick="controlCmd('focusConNear',event,0,-1)"></div>
+  <div class="arrowCenter" onclick="controlCmd('focusStop')">Focus</div>
+  <div class="longArrowBtn downBtn" onclick="controlCmd('focusConFar',event,0,1)"></div>
+  <div class="arrowLabel">Far</div>
+  <input type="button" class="ptzTextBtn" value="Auto" onclick="controlCmd('focusAuto')"/>
+  <input type="button" class="ptzTextBtn" value="Man" onclick="controlCmd('focusMan')"/>
+</div>
+<div class="arrowControl zoomControls">
+  <div class="arrowLabel">Tele</div>
+  <div class="longArrowBtn upBtn" onclick="controlCmd('zoomConTele',event,0,-1)"></div>
+  <div class="arrowCenter" onclick="controlCmd('zoomStop')">Zoom</div>
+  <div class="longArrowBtn downBtn" onclick="controlCmd('zoomConWide',event,0,1)"></div>
+  <div class="arrowLabel">Wide</div>
+  <input type="button" class="ptzTextBtn" value="Auto" onclick="controlCmd('zoomAuto')"/>
+  <input type="button" class="ptzTextBtn" value="Man" onclick="controlCmd('zoomMan')"/>
+</div><div class="arrowControl irisControls">
+  <div class="arrowLabel">Open</div>
+  <div class="longArrowBtn upBtn" onclick="controlCmd('irisRelOpen',event,0,-1)"></div>
+  <div class="arrowCenter">Iris</div>
+  <div class="longArrowBtn downBtn" onclick="controlCmd('irisRelClose',event,0,1)"></div>
+  <div class="arrowLabel">Close</div>
+  <input type="button" class="ptzTextBtn" value="Auto" onclick="controlCmd('irisAuto')"/>
+  <input type="button" class="ptzTextBtn" value="Man" onclick="controlCmd('irisMan')"/>
+</div>
+<div class="arrowControl whiteControls">
+  <div class="arrowLabel">In</div>
+  <div class="longArrowBtn upBtn" onclick="controlCmd('whiteRelIn',event,0,-1)"></div>
+  <div class="arrowCenter">White</div>
+  <div class="longArrowBtn downBtn" onclick="controlCmd('whiteRelOut',event,0,1)"></div>
+  <div class="arrowLabel">Out</div>
+  <input type="button" class="ptzTextBtn" value="Auto" onclick="controlCmd('whiteAuto')"/>
+  <input type="button" class="ptzTextBtn" value="Man" onclick="controlCmd('whiteMan')"/>
+</div>
+          <div class="pantiltPanel">
+<div class="pantiltControls">
+  <div class="pantilLabel">Pan/Tilt</div>
+  <div class="pantiltButtons">
+      <div class="arrowBtn upLeftBtn" onclick="controlCmd('moveConUpLeft',event,-1,-1)"></div>
+      <div class="arrowBtn upBtn" onclick="controlCmd('moveConUp',event,0,-1)"></div>
+      <div class="arrowBtn upRightBtn" onclick="controlCmd('moveConUpRight',event,1,-1)"></div>
+      <div class="arrowBtn leftBtn" onclick="controlCmd('moveConLeft',event,1,0)"></div>
+      <div class="arrowBtn centerBtn" onclick="controlCmd('moveStop')"></div>
+      <div class="arrowBtn rightBtn" onclick="controlCmd('moveConRight',event,1,0)"></div>
+      <div class="arrowBtn downLeftBtn" onclick="controlCmd('moveConDownLeft',event,-1,1)"></div>
+      <div class="arrowBtn downBtn" onclick="controlCmd('moveConDown',event,0,1)"></div>
+      <div class="arrowBtn downRightBtn" onclick="controlCmd('moveConDownRight',event,1,1)"></div>
+  </div>
+</div>
+<div class="powerControls">
+  <div class="powerLabel">Control</div>
+  <div>
+    <input type="button" class="ptzTextBtn" value="Wake" onclick="controlCmd('wake')"/>
+    <input type="button" class="ptzTextBtn" value="Sleep" onclick="controlCmd('sleep')"/>
+  </div>
+</div>
+          </div>
+        </div>
+<div class="presetControls">
+  <!--<div>Presets</div>-->
+  <div>
+<input type="button" class="ptzNumBtn" title="" value="1" onclick="controlCmd('presetGoto1');"/><input type="button" class="ptzNumBtn" title="" value="2" onclick="controlCmd('presetGoto2');"/><input type="button" class="ptzNumBtn" title="" value="3" onclick="controlCmd('presetGoto3');"/><input type="button" class="ptzNumBtn" title="" value="4" onclick="controlCmd('presetGoto4');"/><input type="button" class="ptzNumBtn" title="" value="5" onclick="controlCmd('presetGoto5');"/><input type="button" class="ptzNumBtn" title="" value="6" onclick="controlCmd('presetGoto6');"/><input type="button" class="ptzNumBtn" title="" value="7" onclick="controlCmd('presetGoto7');"/><input type="button" class="ptzNumBtn" title="" value="8" onclick="controlCmd('presetGoto8');"/><input type="button" class="ptzNumBtn" title="" value="9" onclick="controlCmd('presetGoto9');"/><input type="button" class="ptzNumBtn" title="" value="10" onclick="controlCmd('presetGoto10');"/><br/><input type="button" class="ptzNumBtn" title="" value="11" onclick="controlCmd('presetGoto11');"/><input type="button" class="ptzNumBtn" title="" value="12" onclick="controlCmd('presetGoto12');"/><input type="button" class="ptzNumBtn" title="" value="13" onclick="controlCmd('presetGoto13');"/><input type="button" class="ptzNumBtn" title="" value="14" onclick="controlCmd('presetGoto14');"/><input type="button" class="ptzNumBtn" title="" value="15" onclick="controlCmd('presetGoto15');"/><input type="button" class="ptzNumBtn" title="" value="16" onclick="controlCmd('presetGoto16');"/><input type="button" class="ptzNumBtn" title="" value="17" onclick="controlCmd('presetGoto17');"/><input type="button" class="ptzNumBtn" title="" value="18" onclick="controlCmd('presetGoto18');"/><input type="button" class="ptzNumBtn" title="" value="19" onclick="controlCmd('presetGoto19');"/><input type="button" class="ptzNumBtn" title="" value="20" onclick="controlCmd('presetGoto20');"/><br/>  </div>
+  <div>
+    <input type="button" class="ptzTextBtn" value="Home" onclick="controlCmd('presetHome');"/>
+    <input type="button" class="ptzTextBtn" value="Set" onclick="createPopup( '?view=controlpreset&amp;mid=1', 'zmPreset', 'preset' );"/>
+  </div>
+</div>
+      </div>
+      <div id="events">
+        <table id="eventList" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="colId">Id</th>
+              <th class="colName">Name</th>
+              <th class="colTime">Time</th>
+              <th class="colSecs">Secs</th>
+              <th class="colFrames">Frames</th>
+              <th class="colScore">Score</th>
+              <th class="colDelete">&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

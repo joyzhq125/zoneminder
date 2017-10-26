@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="ZoneMinder server settings">
+        <EditTextPreference android:title="Enter ZoneMinder Name" android:key="zm_name" android:summary="Name: Unknown" android:defaultValue="Unknown" android:dialogTitle="Enter ZoneMinder Name" />
+        <EditTextPreference android:title="Enter your ZoneMinder URL" android:key="zm_host" android:summary="URL: http://www.yourserver.com/zm" android:defaultValue="http://www.yourserver.com/zm" android:dialogTitle="Enter ZoneMinder URL" android:inputType="textUri" />
+        <EditTextPreference android:title="Enter ZoneMinder Username" android:key="zm_user" android:summary="Username: admin" android:defaultValue="admin" android:dialogTitle="Enter ZoneMinder Username" />
+        <EditTextPreference android:title="Enter ZoneMinder Password" android:key="zm_pass" android:summary="Password: ********" android:defaultValue="********" android:dialogTitle="Enter ZoneMinder Password" android:inputType="textPassword" />
+    </PreferenceCategory>
+</PreferenceScreen>
